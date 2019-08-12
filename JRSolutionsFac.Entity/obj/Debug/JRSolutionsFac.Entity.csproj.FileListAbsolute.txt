@@ -1,0 +1,6 @@
+D:\Dev\JRSolutionsFac\JRSolutionsFac\JRSolutionsFac.Entity\bin\Debug\JRSolutionsFac.Entity.dll
+D:\Dev\JRSolutionsFac\JRSolutionsFac\JRSolutionsFac.Entity\bin\Debug\JRSolutionsFac.Entity.pdb
+D:\Dev\JRSolutionsFac\JRSolutionsFac\JRSolutionsFac.Entity\obj\Debug\JRSolutionsFac.Entity.csproj.CoreCompileInputs.cache
+D:\Dev\JRSolutionsFac\JRSolutionsFac\JRSolutionsFac.Entity\obj\Debug\JRSolutionsFac.Entity.dll
+D:\Dev\JRSolutionsFac\JRSolutionsFac\JRSolutionsFac.Entity\obj\Debug\JRSolutionsFac.Entity.pdb
+D:\Dev\JRSolutionsFac\JRSolutionsFac\JRSolutionsFac.Entity\obj\Debug\JRSolutionsFac.Entity.csprojAssemblyReference.cache

@@ -1,0 +1,11 @@
+D:\Dev\JRSolutionsFac\JRSolutionsFac\JRSolutionsFac.Business\bin\Debug\JRSolutionsFac.Business.dll
+D:\Dev\JRSolutionsFac\JRSolutionsFac\JRSolutionsFac.Business\bin\Debug\JRSolutionsFac.Business.pdb
+D:\Dev\JRSolutionsFac\JRSolutionsFac\JRSolutionsFac.Business\obj\Debug\JRSolutionsFac.Business.csprojAssemblyReference.cache
+D:\Dev\JRSolutionsFac\JRSolutionsFac\JRSolutionsFac.Business\obj\Debug\JRSolutionsFac.Business.csproj.CoreCompileInputs.cache
+D:\Dev\JRSolutionsFac\JRSolutionsFac\JRSolutionsFac.Business\obj\Debug\JRSolutionsFac.Business.dll
+D:\Dev\JRSolutionsFac\JRSolutionsFac\JRSolutionsFac.Business\obj\Debug\JRSolutionsFac.Business.pdb
+D:\Dev\JRSolutionsFac\JRSolutionsFac\JRSolutionsFac.Business\bin\Debug\JRSolutionsFac.Entity.dll
+D:\Dev\JRSolutionsFac\JRSolutionsFac\JRSolutionsFac.Business\bin\Debug\JRSolutionsFac.Repository.dll
+D:\Dev\JRSolutionsFac\JRSolutionsFac\JRSolutionsFac.Business\bin\Debug\JRSolutionsFac.Entity.pdb
+D:\Dev\JRSolutionsFac\JRSolutionsFac\JRSolutionsFac.Business\bin\Debug\JRSolutionsFac.Repository.pdb
+D:\Dev\JRSolutionsFac\JRSolutionsFac\JRSolutionsFac.Business\obj\Debug\JRSolutionsFac.Business.csproj.CopyComplete
