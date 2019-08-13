@@ -17,7 +17,7 @@ namespace WindowsFac
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Success());
+            Application.Run(new Login());
         }
     }
 }

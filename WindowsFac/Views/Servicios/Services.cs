@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WindowsFac.Views.Menu
+namespace WindowsFac.Views.Servicios
 {
-    public partial class Menu : Form
+    public partial class Services : Form
     {
-        public Menu()
+        public Services()
         {
             InitializeComponent();
         }

@@ -41,7 +41,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Dtos\ListadoProductosDto.cs" />
     <Compile Include="Dtos\LoginDto.cs" />
+    <Compile Include="Mappers\ListadoProductosMapper.cs" />
     <Compile Include="Mappers\LoginMapper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

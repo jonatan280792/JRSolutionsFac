@@ -4,3 +4,9 @@ D:\Dev\JRSolutionsFac\JRSolutionsFac\JRSolutionsFac.Entity\obj\Debug\JRSolutions
 D:\Dev\JRSolutionsFac\JRSolutionsFac\JRSolutionsFac.Entity\obj\Debug\JRSolutionsFac.Entity.dll
 D:\Dev\JRSolutionsFac\JRSolutionsFac\JRSolutionsFac.Entity\obj\Debug\JRSolutionsFac.Entity.pdb
 D:\Dev\JRSolutionsFac\JRSolutionsFac\JRSolutionsFac.Entity\obj\Debug\JRSolutionsFac.Entity.csprojAssemblyReference.cache
+D:\GitHub\JRSolutionsFac\JRSolutionsFac.Entity\bin\Debug\JRSolutionsFac.Entity.dll
+D:\GitHub\JRSolutionsFac\JRSolutionsFac.Entity\bin\Debug\JRSolutionsFac.Entity.pdb
+D:\GitHub\JRSolutionsFac\JRSolutionsFac.Entity\obj\Debug\JRSolutionsFac.Entity.csproj.CoreCompileInputs.cache
+D:\GitHub\JRSolutionsFac\JRSolutionsFac.Entity\obj\Debug\JRSolutionsFac.Entity.dll
+D:\GitHub\JRSolutionsFac\JRSolutionsFac.Entity\obj\Debug\JRSolutionsFac.Entity.pdb
+D:\GitHub\JRSolutionsFac\JRSolutionsFac.Entity\obj\Debug\JRSolutionsFac.Entity.csprojAssemblyReference.cache

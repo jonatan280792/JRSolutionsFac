@@ -46,6 +46,7 @@
     <Compile Include="Helpers\PackageMapping.cs" />
     <Compile Include="Interfaces\ILoginRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\ListadoProductosRepository.cs" />
     <Compile Include="Repositories\LoginRepository.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

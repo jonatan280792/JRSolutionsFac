@@ -1,7 +1,5 @@
-﻿using JRSolutionsFac.Business.Interfaces;
-using JRSolutionsFac.Entity.Dtos;
+﻿using JRSolutionsFac.Entity.Dtos;
 using JRSolutionsFac.Entity.Mappers;
-using JRSolutionsFac.Repository.Interfaces;
 using JRSolutionsFac.Repository.Repositories;
 using System.Collections.Generic;
 

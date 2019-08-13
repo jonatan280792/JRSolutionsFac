@@ -1,18 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using JRSolutionsFac.Business.Interfaces;
 using JRSolutionsFac.Business.Services;
-using JRSolutionsFac.Entity.Dtos;
-using JRSolutionsFac.Repository.Repositories;
 using MaterialSkin;
 using MaterialSkin.Controls;
+using WindowsFac.Views.Menu;
 
 namespace WindowsFac
 {
@@ -58,22 +50,28 @@ namespace WindowsFac
         }
 
         public void BtnLogin_Click(object sender, EventArgs e)
-        {            
-            LoginService loginservice = new LoginService();
+        {
+            MaterialForm login = new MaterialForm();
+            MenuFac menu = new MenuFac();
+            MenuFacturacion menu2 = new MenuFacturacion();
+            LoginService _loginservice = new LoginService();
 
 
             string UserName = lblUserName.Text.Trim();
             string PassWord = lblPassWord.Text.Trim();
 
-            var result = loginservice.Find(UserName, PassWord);
+            var result = _loginservice.Find(UserName, PassWord);
 
             if (result.Count == 0)
             {
                 MessageBox.Show("Usuario y/o contraseña incorrecta");
+                menu.ShowDialog();
             }
             else
             {
                 MessageBox.Show("Ingreso exitoso al sistema");
+                menu.Show();
+                login.Close();
             }            
         }
     }
