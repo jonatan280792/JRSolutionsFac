@@ -18,6 +18,7 @@ namespace WindowsFac.Views.Menu
             parameters.BackColor = ColorTranslator.FromHtml("#42A5F5");
             clientsnew.BackColor = ColorTranslator.FromHtml("#42A5F5");
             services.BackColor = ColorTranslator.FromHtml("#42A5F5");
+            
             factura.BackColor = ColorTranslator.FromHtml("#42A5F5");
             historic.BackColor = ColorTranslator.FromHtml("#42A5F5");
             users.BackColor = ColorTranslator.FromHtml("#42A5F5");

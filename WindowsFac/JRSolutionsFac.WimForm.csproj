@@ -8,9 +8,10 @@
     <OutputType>WinExe</OutputType>
     <RootNamespace>WindowsFac</RootNamespace>
     <AssemblyName>WindowsFac</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -74,6 +75,14 @@
     <Reference Include="Bunifu_UI_v1.5.3">
       <HintPath>..\packages\Bunifu UI WinForms 1.11.4.0\Bunifu 1.11.4.0\Bunifu_UI_v1.5.3.dll</HintPath>
     </Reference>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="Dapper, Version=1.60.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Dapper.1.60.6\lib\net451\Dapper.dll</HintPath>
+    </Reference>
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
     <Reference Include="MaterialSkin, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\MaterialSkin.0.2.1\lib\MaterialSkin.dll</HintPath>
     </Reference>
@@ -84,6 +93,8 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Management" />
     <Reference Include="System.Security" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -95,6 +106,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="impresion.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>impresion.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -108,6 +125,18 @@
     </Compile>
     <Compile Include="Views\Facturacion\Facturation.Designer.cs">
       <DependentUpon>Facturation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Formatos\PrintPDF.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Formatos\PrintPDF.Designer.cs">
+      <DependentUpon>PrintPDF.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Formatos\ReportPrint.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ReportPrint.rpt</DependentUpon>
+      <SubType>Component</SubType>
     </Compile>
     <Compile Include="Views\Menu\MenuFac.cs">
       <SubType>Form</SubType>
@@ -151,6 +180,10 @@
     <Compile Include="Views\ShowsAlerts\Success.Designer.cs">
       <DependentUpon>Success.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="impresion.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>impresion.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
@@ -167,7 +200,16 @@
     <EmbeddedResource Include="Views\Facturacion\Facturation.resx">
       <DependentUpon>Facturation.cs</DependentUpon>
     </EmbeddedResource>
+    <Resource Include="Views\Facturacion\imprecion.rdlc" />
     <EmbeddedResource Include="Views\Formatos\FacturaAutoLife.rdlc" />
+    <EmbeddedResource Include="Views\Formatos\imprecion.rdlc" />
+    <EmbeddedResource Include="Views\Formatos\PrintPDF.resx">
+      <DependentUpon>PrintPDF.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Formatos\ReportPrint.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ReportPrint.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="Views\Menu\MenuFac.resx">
       <DependentUpon>MenuFac.cs</DependentUpon>
     </EmbeddedResource>
@@ -200,7 +242,9 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\JRSolutionsFac.Business\JRSolutionsFac.Business.csproj">
       <Project>{ED85EF89-6967-46D5-91B5-36D9F5255102}</Project>

@@ -11,6 +11,10 @@ namespace WindowsFac
     public partial class Login : MaterialForm
     {
         ILoginService _service;
+        LoginService _loginservice = new LoginService();
+
+        MaterialForm login = new MaterialForm();
+        MenuFac menu = new MenuFac();
 
         public Login(ILoginService service)
         {
@@ -51,10 +55,9 @@ namespace WindowsFac
 
         public void BtnLogin_Click(object sender, EventArgs e)
         {
-            MaterialForm login = new MaterialForm();
-            MenuFac menu = new MenuFac();
+            
             MenuFacturacion menu2 = new MenuFacturacion();
-            LoginService _loginservice = new LoginService();
+            
 
 
             string UserName = lblUserName.Text.Trim();
@@ -73,6 +76,26 @@ namespace WindowsFac
                 menu.Show();
                 login.Close();
             }            
+        }
+
+        private void enter_Login(object sender, EventArgs e)
+        {
+            string UserName = lblUserName.Text.Trim();
+            string PassWord = lblPassWord.Text.Trim();
+
+            var result = _loginservice.Find(UserName, PassWord);
+
+            if (result.Count == 0)
+            {
+                MessageBox.Show("Usuario y/o contraseña incorrecta");
+                
+            }
+            else
+            {
+                MessageBox.Show("Ingreso exitoso al sistema");
+                menu.Show();
+                login.Close();
+            }
         }
     }
 }

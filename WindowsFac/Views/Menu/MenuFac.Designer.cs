@@ -42,6 +42,7 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panelContainer = new System.Windows.Forms.Panel();
+            this.materialLabel1 = new MaterialSkin.Controls.MaterialLabel();
             this.panelsuperior.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.close)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -164,11 +165,12 @@
             // panelsuperior
             // 
             this.panelsuperior.Controls.Add(this.close);
+            this.panelsuperior.Controls.Add(this.materialLabel1);
             this.panelsuperior.Controls.Add(this.pictureBox1);
             this.panelsuperior.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelsuperior.Location = new System.Drawing.Point(269, 0);
             this.panelsuperior.Name = "panelsuperior";
-            this.panelsuperior.Size = new System.Drawing.Size(731, 39);
+            this.panelsuperior.Size = new System.Drawing.Size(931, 39);
             this.panelsuperior.TabIndex = 17;
             // 
             // close
@@ -178,7 +180,7 @@
             this.close.ErrorImage = ((System.Drawing.Image)(resources.GetObject("close.ErrorImage")));
             this.close.Image = global::WindowsFac.Properties.Resources.icon_cerrar2;
             this.close.InitialImage = ((System.Drawing.Image)(resources.GetObject("close.InitialImage")));
-            this.close.Location = new System.Drawing.Point(699, 12);
+            this.close.Location = new System.Drawing.Point(899, 12);
             this.close.Name = "close";
             this.close.Size = new System.Drawing.Size(20, 20);
             this.close.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -218,15 +220,28 @@
             this.panelContainer.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelContainer.Location = new System.Drawing.Point(269, 39);
             this.panelContainer.Name = "panelContainer";
-            this.panelContainer.Size = new System.Drawing.Size(731, 561);
+            this.panelContainer.Size = new System.Drawing.Size(931, 561);
             this.panelContainer.TabIndex = 20;
+            // 
+            // materialLabel1
+            // 
+            this.materialLabel1.AutoSize = true;
+            this.materialLabel1.Depth = 0;
+            this.materialLabel1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.materialLabel1.ForeColor = System.Drawing.Color.Transparent;
+            this.materialLabel1.Location = new System.Drawing.Point(279, 8);
+            this.materialLabel1.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel1.Name = "materialLabel1";
+            this.materialLabel1.Size = new System.Drawing.Size(338, 22);
+            this.materialLabel1.TabIndex = 0;
+            this.materialLabel1.Text = "JRSolutions - modulo de facturacion";
             // 
             // MenuFac
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.ClientSize = new System.Drawing.Size(1000, 600);
+            this.ClientSize = new System.Drawing.Size(1200, 600);
             this.Controls.Add(this.panelContainer);
             this.Controls.Add(this.panelsuperior);
             this.Controls.Add(this.users);
@@ -243,6 +258,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Menu";
             this.panelsuperior.ResumeLayout(false);
+            this.panelsuperior.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.close)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
@@ -266,5 +282,6 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox close;
         private System.Windows.Forms.Panel panelContainer;
+        private MaterialSkin.Controls.MaterialLabel materialLabel1;
     }
 }

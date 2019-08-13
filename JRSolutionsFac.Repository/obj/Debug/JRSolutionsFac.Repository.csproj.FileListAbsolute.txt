@@ -9,3 +9,7 @@ D:\GitHub\JRSolutionsFac\JRSolutionsFac.Repository\bin\Debug\JRSolutionsFac.Repo
 D:\GitHub\JRSolutionsFac\JRSolutionsFac.Repository\obj\Debug\JRSolutionsFac.Repository.csproj.CoreCompileInputs.cache
 D:\GitHub\JRSolutionsFac\JRSolutionsFac.Repository\obj\Debug\JRSolutionsFac.Repository.dll
 D:\GitHub\JRSolutionsFac\JRSolutionsFac.Repository\obj\Debug\JRSolutionsFac.Repository.pdb
+D:\GitHub\JRSolutionsFac\JRSolutionsFac.Repository\bin\Debug\JRSolutionsFac.Entity.dll
+D:\GitHub\JRSolutionsFac\JRSolutionsFac.Repository\bin\Debug\JRSolutionsFac.Entity.pdb
+D:\GitHub\JRSolutionsFac\JRSolutionsFac.Repository\obj\Debug\JRSolutionsFac.Repository.csprojAssemblyReference.cache
+D:\GitHub\JRSolutionsFac\JRSolutionsFac.Repository\obj\Debug\JRSolutionsFac.Repository.csproj.CopyComplete

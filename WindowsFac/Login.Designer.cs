@@ -57,6 +57,7 @@
             // 
             // btnLogin
             // 
+            this.btnLogin.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnLogin.Depth = 0;
             this.btnLogin.Location = new System.Drawing.Point(122, 374);
             this.btnLogin.MouseState = MaterialSkin.MouseState.HOVER;
@@ -113,6 +114,7 @@
             this.lblPassWord.Size = new System.Drawing.Size(261, 33);
             this.lblPassWord.TabIndex = 5;
             this.lblPassWord.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.lblPassWord.Enter += new System.EventHandler(this.enter_Login);
             // 
             // bunifuImageButton1
             // 

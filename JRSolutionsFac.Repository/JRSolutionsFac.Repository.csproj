@@ -46,8 +46,17 @@
     <Compile Include="Helpers\PackageMapping.cs" />
     <Compile Include="Interfaces\ILoginRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\ListadoFacturasRepository.cs" />
+    <Compile Include="Repositories\ListadoMarcasRepository.cs" />
     <Compile Include="Repositories\ListadoProductosRepository.cs" />
     <Compile Include="Repositories\LoginRepository.cs" />
+    <Compile Include="Repositories\RegistroFacturaRepository.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\JRSolutionsFac.Entity\JRSolutionsFac.Entity.csproj">
+      <Project>{E649E02F-001A-418B-BA0B-670F42DAB811}</Project>
+      <Name>JRSolutionsFac.Entity</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
