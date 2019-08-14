@@ -50,6 +50,7 @@
     <Compile Include="Repositories\ListadoMarcasRepository.cs" />
     <Compile Include="Repositories\ListadoProductosRepository.cs" />
     <Compile Include="Repositories\LoginRepository.cs" />
+    <Compile Include="Repositories\RegistroFacturaDetalleRepository.cs" />
     <Compile Include="Repositories\RegistroFacturaRepository.cs" />
   </ItemGroup>
   <ItemGroup>

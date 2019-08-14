@@ -70,20 +70,6 @@ namespace WindowsFac.Views.Facturacion
             
 
             result = _productservice.Find();
-
-            int conteo = 20;
-            //for (var i = 0; i < conteo; i++)
-            //{
-            //    e = "lvlvalor" + i.ToString() + ".Text = '0'";
-            //}
-            lvlvalor1.Text = "0"; lvlvalor2.Text = "0"; lvlvalor3.Text = "0"; lvlvalor4.Text = "0"; lvlvalor5.Text = "0"; lvlvalor6.Text = "0"; lvlvalor7.Text = "0";
-            lvlvalor8.Text = "0"; lvlvalor9.Text = "0"; lvlvalor10.Text = "0"; lvlvalor11.Text = "0"; lvlvalor12.Text = "0"; lvlvalor13.Text = "0";
-
-            lvlRecibido.Text = "0";
-            lvlCambio.Text = "$ 0";
-            lvlCambioEmpy.Text = "-1";
-            lvlTotal.Text = "$ 0";
-
             LoadCabecera();
             LoadCombos(result);
             
@@ -104,6 +90,20 @@ namespace WindowsFac.Views.Facturacion
             {
                 dropdownMarca.Items.Add(item.Marca);
             }
+
+
+            dropdowntipo_fac.selectedIndex = 0;
+            dropdownTipoDoc.selectedIndex = 0;
+            dropdwonCaja.selectedIndex = 0;
+            //Resetea valores TextBox
+            lvlvalor1.Text = "0"; lvlvalor2.Text = "0"; lvlvalor3.Text = "0"; lvlvalor4.Text = "0"; lvlvalor5.Text = "0"; lvlvalor6.Text = "0"; lvlvalor7.Text = "0";
+            lvlvalor8.Text = "0"; lvlvalor9.Text = "0"; lvlvalor10.Text = "0"; lvlvalor11.Text = "0"; lvlvalor12.Text = "0"; lvlvalor13.Text = "0";
+
+            lvlRecibido.Text = "0";
+            lvlCambio.Text = "$ 0";
+            lvlCambioEmpy.Text = "-1";
+            lvlTotal.Text = "$ 0";
+
         }
 
         public void LoadCombos(List<ListadoProductosDto> result)
@@ -268,123 +268,167 @@ namespace WindowsFac.Views.Facturacion
 
         private void BtnGuardarFactura_Click(object sender, EventArgs e)
         {
-            List<RegistroFacturaDto> servicios = new List<RegistroFacturaDto>();
+            List<RegistroFacturaDetalleDto> servicios = new List<RegistroFacturaDetalleDto>();
+            RegistroFacturaDto model = new RegistroFacturaDto();
             PrintPDF print = new PrintPDF();
-            if(Convert.ToInt32(lvlCambioEmpy.Text) < 0)
+            if (servicio_1.selectedIndex == -1)
             {
-                MessageBox.Show("Por favor agregue el valor recibido");
+                MessageBox.Show("No se puede guardar una factura sin ningun servicio, por facor verifique.");
+            }
+            else if(Convert.ToInt32(lvlCambioEmpy.Text) < 0)
+            {
+                MessageBox.Show("Por favor agregue el el dinero recibido.");
 
+            }
+            else if ((lvlplaca.Text == "") || (lblTipo.Text == "") || (dropdownMarca.selectedIndex == -1))
+            {
+                MessageBox.Show("Para guardar la factura debe diligencia minimo la Placa, El Tipo y la Marca.");
             }
             else
             {
-                if (servicio_1.selectedIndex != -1)
-                {
-                    servicios.Add(new RegistroFacturaDto()
-                    {
-                        NumFac = 2324,
-                        Producto = servicio_1.selectedValue,
-                        Cantidad = Convert.ToInt32(lblcantidad1.Text),
-                        Valor = Convert.ToInt32(lvlvalor1.Text)
-                    });
-                }
-                if (servicio_2.selectedIndex != -1)
-                {
-                    servicios.Add(new RegistroFacturaDto()
-                    {
-                        NumFac = 2324,
-                        Producto = servicio_2.selectedValue,
-                        Cantidad = Convert.ToInt32(lblcantidad2.Text),
-                        Valor = Convert.ToInt32(lvlvalor2.Text)
-                    });
-                }
-                if (servicio_3.selectedIndex != -1)
-                {
-                    servicios.Add(new RegistroFacturaDto()
-                    {
-                        NumFac = 2324,
-                        Producto = servicio_3.selectedValue,
-                        Cantidad = Convert.ToInt32(lblcantidad3.Text),
-                        Valor = Convert.ToInt32(lvlvalor3.Text)
-                    });
-                }
-                if (servicio_4.selectedIndex != -1)
-                {
-                    servicios.Add(new RegistroFacturaDto()
-                    {
-                        NumFac = 2324,
-                        Producto = servicio_4.selectedValue,
-                        Cantidad = Convert.ToInt32(lblcantidad4.Text),
-                        Valor = Convert.ToInt32(lvlvalor4.Text)
-                    });
-                }
-                if (servicio_5.selectedIndex != -1)
-                {
-                    servicios.Add(new RegistroFacturaDto()
-                    {
-                        NumFac = 2324,
-                        Producto = servicio_5.selectedValue,
-                        Cantidad = Convert.ToInt32(lblcantidad5.Text),
-                        Valor = Convert.ToInt32(lvlvalor5.Text)
-                    });
-                }
-                if (servicio_6.selectedIndex != -1)
-                {
-                    servicios.Add(new RegistroFacturaDto()
-                    {
-                        NumFac = 2324,
-                        Producto = servicio_6.selectedValue,
-                        Cantidad = Convert.ToInt32(lblcantidad6.Text),
-                        Valor = Convert.ToInt32(lvlvalor6.Text)
-                    });
-                }
-                if (servicio_7.selectedIndex != -1)
-                {
-                    servicios.Add(new RegistroFacturaDto()
-                    {
-                        NumFac = 2324,
-                        Producto = servicio_7.selectedValue,
-                        Cantidad = Convert.ToInt32(lblcantidad7.Text),
-                        Valor = Convert.ToInt32(lvlvalor7.Text)
-                    });
-                }
-                if (servicio_8.selectedIndex != -1)
-                {
-                    servicios.Add(new RegistroFacturaDto()
-                    {
-                        NumFac = 2324,
-                        Producto = servicio_8.selectedValue,
-                        Cantidad = Convert.ToInt32(lblcantidad8.Text),
-                        Valor = Convert.ToInt32(lvlvalor8.Text)
-                    });
-                }
-                if (servicio_9.selectedIndex != -1)
-                {
-                    servicios.Add(new RegistroFacturaDto()
-                    {
-                        NumFac = 2324,
-                        Producto = servicio_9.selectedValue,
-                        Cantidad = Convert.ToInt32(lblcantidad9.Text),
-                        Valor = Convert.ToInt32(lvlvalor9.Text)
-                    });
-                }
-                if (servicio_10.selectedIndex != -1)
-                {
-                    servicios.Add(new RegistroFacturaDto()
-                    {
-                        NumFac = 2324,
-                        Producto = servicio_10.selectedValue,
-                        Cantidad = Convert.ToInt32(lblcantidad10.Text),
-                        Valor = Convert.ToInt32(lvlvalor10.Text)
-                    });
-                }
+                model.nit = lblnit.Text;
+                model.numfac = Convert.ToInt32(lblFactura.Text);
+                model.detalle = dropdowntipo_fac.selectedValue;
+                model.cajero = dropdwonCaja.selectedValue;
+                model.placa = lvlplaca.Text;
+                model.marca = dropdownMarca.selectedValue;
+                model.tipo_doc = dropdownTipoDoc.selectedValue;
+                if (lblDocumento.Text == "") { model.numero_doc = "N/A";} else { model.numero_doc = lblDocumento.Text; }
+                model.nom_client = lvlCliente.Text.Trim();
+                if (lblModelo.Text == "") { model.modelo = 0; } else { model.modelo = Convert.ToInt32(lblModelo.Text); }
+                model.tipo = lblTipo.Text.Trim();
 
-                bool estado = _serviceFactura.Add(servicios);
+                model.total = Convert.ToInt32(lvlTotalEmpy.Text);
+                model.valorrecibido = Convert.ToInt32(lvlRecibido.Text);
+                model.cambio = Convert.ToInt32(lvlCambioEmpy.Text);
 
+                model.fecha = date_one.Value;
+                model.fechaentrega = date_two.Value;
+
+
+                llenarServicios(servicios);
+                bool estado = _serviceFactura.Add(model, servicios);
+                if (estado)
+                {
+                    MessageBox.Show("Factura Grabada exitosamente.");
+                    //print.ShowDialog();
+                    btnImprimir.Enabled = true;
+                    LoadCabecera();
+                    LoadCombos(result);
+                }
+                else
+                {
+                    MessageBox.Show("A ocurrido un error.");
+                }
             }
-            //print.ShowDialog();
-            btnImprimir.Enabled = true;
+            
         }
+        public List<RegistroFacturaDetalleDto> llenarServicios(List<RegistroFacturaDetalleDto> servicios)
+        {
+            
+            if (servicio_1.selectedIndex != -1)
+            {
+                servicios.Add(new RegistroFacturaDetalleDto()
+                {
+                    NumFac = Convert.ToInt32(lblFactura.Text),
+                    Producto = servicio_1.selectedValue,
+                    Cantidad = Convert.ToInt32(lblcantidad1.Text),
+                    Valor = Convert.ToInt32(lvlvalor1.Text)
+                });
+            }
+            if (servicio_2.selectedIndex != -1)
+            {
+                servicios.Add(new RegistroFacturaDetalleDto()
+                {
+                    NumFac = Convert.ToInt32(lblFactura.Text),
+                    Producto = servicio_2.selectedValue,
+                    Cantidad = Convert.ToInt32(lblcantidad2.Text),
+                    Valor = Convert.ToInt32(lvlvalor2.Text)
+                });
+            }
+            if (servicio_3.selectedIndex != -1)
+            {
+                servicios.Add(new RegistroFacturaDetalleDto()
+                {
+                    NumFac = Convert.ToInt32(lblFactura.Text),
+                    Producto = servicio_3.selectedValue,
+                    Cantidad = Convert.ToInt32(lblcantidad3.Text),
+                    Valor = Convert.ToInt32(lvlvalor3.Text)
+                });
+            }
+            if (servicio_4.selectedIndex != -1)
+            {
+                servicios.Add(new RegistroFacturaDetalleDto()
+                {
+                    NumFac = Convert.ToInt32(lblFactura.Text),
+                    Producto = servicio_4.selectedValue,
+                    Cantidad = Convert.ToInt32(lblcantidad4.Text),
+                    Valor = Convert.ToInt32(lvlvalor4.Text)
+                });
+            }
+            if (servicio_5.selectedIndex != -1)
+            {
+                servicios.Add(new RegistroFacturaDetalleDto()
+                {
+                    NumFac = Convert.ToInt32(lblFactura.Text),
+                    Producto = servicio_5.selectedValue,
+                    Cantidad = Convert.ToInt32(lblcantidad5.Text),
+                    Valor = Convert.ToInt32(lvlvalor5.Text)
+                });
+            }
+            if (servicio_6.selectedIndex != -1)
+            {
+                servicios.Add(new RegistroFacturaDetalleDto()
+                {
+                    NumFac = Convert.ToInt32(lblFactura.Text),
+                    Producto = servicio_6.selectedValue,
+                    Cantidad = Convert.ToInt32(lblcantidad6.Text),
+                    Valor = Convert.ToInt32(lvlvalor6.Text)
+                });
+            }
+            if (servicio_7.selectedIndex != -1)
+            {
+                servicios.Add(new RegistroFacturaDetalleDto()
+                {
+                    NumFac = Convert.ToInt32(lblFactura.Text),
+                    Producto = servicio_7.selectedValue,
+                    Cantidad = Convert.ToInt32(lblcantidad7.Text),
+                    Valor = Convert.ToInt32(lvlvalor7.Text)
+                });
+            }
+            if (servicio_8.selectedIndex != -1)
+            {
+                servicios.Add(new RegistroFacturaDetalleDto()
+                {
+                    NumFac = Convert.ToInt32(lblFactura.Text),
+                    Producto = servicio_8.selectedValue,
+                    Cantidad = Convert.ToInt32(lblcantidad8.Text),
+                    Valor = Convert.ToInt32(lvlvalor8.Text)
+                });
+            }
+            if (servicio_9.selectedIndex != -1)
+            {
+                servicios.Add(new RegistroFacturaDetalleDto()
+                {
+                    NumFac = Convert.ToInt32(lblFactura.Text),
+                    Producto = servicio_9.selectedValue,
+                    Cantidad = Convert.ToInt32(lblcantidad9.Text),
+                    Valor = Convert.ToInt32(lvlvalor9.Text)
+                });
+            }
+            if (servicio_10.selectedIndex != -1)
+            {
+                servicios.Add(new RegistroFacturaDetalleDto()
+                {
+                    NumFac = Convert.ToInt32(lblFactura.Text),
+                    Producto = servicio_10.selectedValue,
+                    Cantidad = Convert.ToInt32(lblcantidad10.Text),
+                    Valor = Convert.ToInt32(lvlvalor10.Text)
+                });
+            }
 
+            return servicios;
+        }
 
         private void BtnImprimir_Click(object sender, EventArgs e)
         {

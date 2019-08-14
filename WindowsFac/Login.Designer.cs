@@ -73,7 +73,7 @@
             // 
             this.lblUserName.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
             this.lblUserName.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
-            this.lblUserName.characterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.lblUserName.characterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.lblUserName.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.lblUserName.Font = new System.Drawing.Font("Century Gothic", 9.75F);
             this.lblUserName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
@@ -152,7 +152,7 @@
             this.bunifuiOSSwitch1.OnColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(202)))), ((int)(((byte)(94)))));
             this.bunifuiOSSwitch1.Size = new System.Drawing.Size(35, 20);
             this.bunifuiOSSwitch1.TabIndex = 8;
-            this.bunifuiOSSwitch1.Value = true;
+            this.bunifuiOSSwitch1.Value = false;
             // 
             // bunifuCustomLabel1
             // 

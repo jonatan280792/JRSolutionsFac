@@ -7,14 +7,19 @@ namespace JRSolutionsFac.Business.Services
 {
     public class RegistroFacturaService
     {
-        RegistroFacturaRepository _repository = new RegistroFacturaRepository();
-        public bool Add(List<RegistroFacturaDto> factura)
+        RegistroFacturaRepository _repositoryHead = new RegistroFacturaRepository();
+        RegistroFacturaDetalleRepository _repositoryDetail = new RegistroFacturaDetalleRepository();
+        
+        public bool Add(RegistroFacturaDto encabezado, List<RegistroFacturaDetalleDto> factura)
         {
+
+            var result = _repositoryHead.Add(encabezado);
+            bool resultDetail = new bool();
             foreach (var dto in factura)
             {
-                var result = _repository.Add(dto);
+                resultDetail = _repositoryDetail.Add(dto);
             }
-            return false;
+            return resultDetail;
         }
     }
 }

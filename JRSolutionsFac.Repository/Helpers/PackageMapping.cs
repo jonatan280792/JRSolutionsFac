@@ -7,6 +7,8 @@
         public static string PRC_GET_FACTURAS = "[dbo].[Get_facturas]";
         public static string PRC_GET_MARCAS = "[dbo].[Get_Marcas]";
         public static string PRC_SET_FACTURA = "[dbo].[Set_Factura]";
+        public static string PRC_SET_FACTURA_DETALLE = "[dbo].[Set_Factura_Detalle]";
+        
         public static string PRC_GET_ALL_FT = "PKG_OMS_CF_MAESTRO.PRC_GET_ALL_FT";
     }
 }

@@ -45,6 +45,7 @@
     <Compile Include="Dtos\ListadoMarcasDto.cs" />
     <Compile Include="Dtos\ListadoProductosDto.cs" />
     <Compile Include="Dtos\LoginDto.cs" />
+    <Compile Include="Dtos\RegistroFacturaDetalleDto.cs" />
     <Compile Include="Dtos\RegistroFacturaDto.cs" />
     <Compile Include="Dtos\ResultDto.cs" />
     <Compile Include="Mappers\ListadoFacturasMapper.cs" />

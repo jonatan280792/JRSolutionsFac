@@ -2,6 +2,7 @@
 using System.Windows.Forms;
 using WindowsFac.Views.Facturacion;
 using WindowsFac.Views.Parametros;
+using WindowsFac.Views.Report;
 using WindowsFac.Views.Servicios;
 
 namespace WindowsFac.Views.Menu
@@ -20,6 +21,7 @@ namespace WindowsFac.Views.Menu
             services.BackColor = ColorTranslator.FromHtml("#42A5F5");
             
             factura.BackColor = ColorTranslator.FromHtml("#42A5F5");
+            
             historic.BackColor = ColorTranslator.FromHtml("#42A5F5");
             users.BackColor = ColorTranslator.FromHtml("#42A5F5");
         }
@@ -52,12 +54,32 @@ namespace WindowsFac.Views.Menu
 
         private void Services_Click(object sender, System.EventArgs e)
         {
+            services.BackColor = ColorTranslator.FromHtml("#2196F3");
             AbrirFormInPanel(new Services());
         }
 
         private void Factura_Click(object sender, System.EventArgs e)
         {
+            parameters.BackColor = ColorTranslator.FromHtml("#42A5F5");
+            clientsnew.BackColor = ColorTranslator.FromHtml("#42A5F5");
+            services.BackColor = ColorTranslator.FromHtml("#42A5F5");
+            historic.BackColor = ColorTranslator.FromHtml("#42A5F5");
+            users.BackColor = ColorTranslator.FromHtml("#42A5F5");
+
+            factura.BackColor = ColorTranslator.FromHtml("#2196F3");
             AbrirFormInPanel(new Facturation());
+        }
+
+        private void historico_click(object sender, System.EventArgs e)
+        {
+            parameters.BackColor = ColorTranslator.FromHtml("#42A5F5");
+            clientsnew.BackColor = ColorTranslator.FromHtml("#42A5F5");
+            services.BackColor = ColorTranslator.FromHtml("#42A5F5");
+            factura.BackColor = ColorTranslator.FromHtml("#42A5F5");
+            users.BackColor = ColorTranslator.FromHtml("#42A5F5");
+
+            historic.BackColor = ColorTranslator.FromHtml("#2196F3");
+            AbrirFormInPanel(new Historic());
         }
     }
 }
