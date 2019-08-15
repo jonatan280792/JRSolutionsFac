@@ -15,7 +15,7 @@ namespace WindowsFac.Views.Facturacion
     public partial class Facturation : Form
     {
         #region DECLARACIONES GLOBALES
-        //Success dialog = new Success();
+        Success dialog = new Success();
 
 
         List<ListadoProductosDto> result;
@@ -238,6 +238,22 @@ namespace WindowsFac.Views.Facturacion
                 servicio_20.Items.Add(item.producto);
             }
         }
+        public void LoadCombos3()
+        {
+            foreach (var item in result)
+            {
+                servicio_21.Items.Add(item.producto);
+                servicio_22.Items.Add(item.producto);
+                servicio_23.Items.Add(item.producto);
+                servicio_24.Items.Add(item.producto);
+                servicio_25.Items.Add(item.producto);
+                servicio_26.Items.Add(item.producto);
+                servicio_27.Items.Add(item.producto);
+                servicio_28.Items.Add(item.producto);
+                servicio_29.Items.Add(item.producto);
+                servicio_30.Items.Add(item.producto);
+            }
+        }
 
         public void DisabledControls()
         {
@@ -411,7 +427,9 @@ namespace WindowsFac.Views.Facturacion
             total_factura();
             if (servicio_11.items.Length == 0)
             {
+                dialog.Show();
                 LoadCombos2();
+                dialog.Close();
             }
             
             servicio_11.Enabled = true;
@@ -952,6 +970,11 @@ namespace WindowsFac.Views.Facturacion
             lblcantidad20.Text = "1";
             lvlvalor20.Text = validador_precio(servicio_20.selectedValue).ToString();
             total_factura();
+            if (servicio_21.items.Length == 0)
+            {
+                LoadCombos3();
+            }
+            
             servicio_21.Enabled = true;
         }
 
