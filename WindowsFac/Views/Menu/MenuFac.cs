@@ -4,6 +4,7 @@ using WindowsFac.Views.Facturacion;
 using WindowsFac.Views.Parametros;
 using WindowsFac.Views.Report;
 using WindowsFac.Views.Servicios;
+using WindowsFac.Views.ShowsAlerts;
 
 namespace WindowsFac.Views.Menu
 {
@@ -67,7 +68,11 @@ namespace WindowsFac.Views.Menu
             users.BackColor = ColorTranslator.FromHtml("#42A5F5");
 
             factura.BackColor = ColorTranslator.FromHtml("#2196F3");
+            Success dialog = new Success();
+            dialog.Show();
             AbrirFormInPanel(new Facturation());
+            //dialog.Hide();
+            dialog.Close();
         }
 
         private void historico_click(object sender, System.EventArgs e)

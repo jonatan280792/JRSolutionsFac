@@ -52,6 +52,8 @@
     <Compile Include="Repositories\LoginRepository.cs" />
     <Compile Include="Repositories\RegistroFacturaDetalleRepository.cs" />
     <Compile Include="Repositories\RegistroFacturaRepository.cs" />
+    <Compile Include="Repositories\ReportFacturaDetallesRepository.cs" />
+    <Compile Include="Repositories\ReportFacturaEncabezadoRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\JRSolutionsFac.Entity\JRSolutionsFac.Entity.csproj">

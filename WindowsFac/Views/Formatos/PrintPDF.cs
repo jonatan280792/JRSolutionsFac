@@ -20,7 +20,7 @@ namespace WindowsFac.Views.Formatos
 
         private void load_PrintPDF(object sender, EventArgs e)
         {
-            ReportPrint fdsf = new ReportPrint();
+            //ReportPrint fdsf = new ReportPrint();
 
            //     fdsf.SetDataSource();
 

@@ -47,11 +47,15 @@
     <Compile Include="Dtos\LoginDto.cs" />
     <Compile Include="Dtos\RegistroFacturaDetalleDto.cs" />
     <Compile Include="Dtos\RegistroFacturaDto.cs" />
+    <Compile Include="Dtos\ReportFacturaDetallesDto.cs" />
+    <Compile Include="Dtos\ReportFacturaEncabezadoDto.cs" />
     <Compile Include="Dtos\ResultDto.cs" />
     <Compile Include="Mappers\ListadoFacturasMapper.cs" />
     <Compile Include="Mappers\ListadoMarcasMapper.cs" />
     <Compile Include="Mappers\ListadoProductosMapper.cs" />
     <Compile Include="Mappers\LoginMapper.cs" />
+    <Compile Include="Mappers\ReportFacturaDetallesMapper.cs" />
+    <Compile Include="Mappers\ReportFacturaEncabezadoMapper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />

@@ -41,6 +41,9 @@ namespace JRSolutionsFac.Repository.Repositories
                         cmd.SelectCommand.Parameters.Add("@total", SqlDbType.Int).Value = dto.total;
                         cmd.SelectCommand.Parameters.Add("@valrecibido", SqlDbType.Int).Value = dto.valorrecibido;
                         cmd.SelectCommand.Parameters.Add("@cambio", SqlDbType.Int).Value = dto.cambio;
+                        cmd.SelectCommand.Parameters.Add("@mecanica", SqlDbType.VarChar).Value = dto.mecanica;
+                        cmd.SelectCommand.Parameters.Add("@latoneria", SqlDbType.VarChar).Value = dto.latoneria;
+                        cmd.SelectCommand.Parameters.Add("@pintura", SqlDbType.VarChar).Value = dto.pintura;
                         cmd.SelectCommand.Parameters.Add("@fecha", SqlDbType.DateTime).Value = dto.fecha;
                         cmd.SelectCommand.Parameters.Add("@fechaentrega", SqlDbType.DateTime).Value = dto.fechaentrega;
 
