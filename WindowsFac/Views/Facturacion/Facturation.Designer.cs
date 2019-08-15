@@ -77,87 +77,6 @@
             this.bunifuCustomLabel5 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel4 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.panelservicios = new System.Windows.Forms.Panel();
-            this.bunifuCustomLabel51 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel50 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel49 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel48 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel47 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel46 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel45 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel44 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel43 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel42 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel41 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel40 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel39 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel38 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel37 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel36 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel35 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel34 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel33 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel32 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel31 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel30 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel29 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel28 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel27 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel26 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel25 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel24 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel23 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel22 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.lblcantidad29 = new Bunifu.Framework.UI.BunifuMetroTextbox();
-            this.lvlvalor29 = new Bunifu.Framework.UI.BunifuMetroTextbox();
-            this.servicio_29 = new Bunifu.Framework.UI.BunifuDropdown();
-            this.lblcantidad28 = new Bunifu.Framework.UI.BunifuMetroTextbox();
-            this.lvlvalor28 = new Bunifu.Framework.UI.BunifuMetroTextbox();
-            this.servicio_28 = new Bunifu.Framework.UI.BunifuDropdown();
-            this.lblcantidad27 = new Bunifu.Framework.UI.BunifuMetroTextbox();
-            this.lvlvalor27 = new Bunifu.Framework.UI.BunifuMetroTextbox();
-            this.servicio_27 = new Bunifu.Framework.UI.BunifuDropdown();
-            this.lblcantidad26 = new Bunifu.Framework.UI.BunifuMetroTextbox();
-            this.lvlvalor26 = new Bunifu.Framework.UI.BunifuMetroTextbox();
-            this.servicio_26 = new Bunifu.Framework.UI.BunifuDropdown();
-            this.lblcantidad25 = new Bunifu.Framework.UI.BunifuMetroTextbox();
-            this.lvlvalor25 = new Bunifu.Framework.UI.BunifuMetroTextbox();
-            this.servicio_25 = new Bunifu.Framework.UI.BunifuDropdown();
-            this.lblcantidad24 = new Bunifu.Framework.UI.BunifuMetroTextbox();
-            this.lvlvalor24 = new Bunifu.Framework.UI.BunifuMetroTextbox();
-            this.servicio_24 = new Bunifu.Framework.UI.BunifuDropdown();
-            this.lblcantidad23 = new Bunifu.Framework.UI.BunifuMetroTextbox();
-            this.lvlvalor23 = new Bunifu.Framework.UI.BunifuMetroTextbox();
-            this.servicio_23 = new Bunifu.Framework.UI.BunifuDropdown();
-            this.lblcantidad22 = new Bunifu.Framework.UI.BunifuMetroTextbox();
-            this.lvlvalor22 = new Bunifu.Framework.UI.BunifuMetroTextbox();
-            this.servicio_22 = new Bunifu.Framework.UI.BunifuDropdown();
-            this.lblcantidad21 = new Bunifu.Framework.UI.BunifuMetroTextbox();
-            this.lvlvalor21 = new Bunifu.Framework.UI.BunifuMetroTextbox();
-            this.servicio_21 = new Bunifu.Framework.UI.BunifuDropdown();
-            this.lblcantidad20 = new Bunifu.Framework.UI.BunifuMetroTextbox();
-            this.lvlvalor20 = new Bunifu.Framework.UI.BunifuMetroTextbox();
-            this.servicio_20 = new Bunifu.Framework.UI.BunifuDropdown();
-            this.lblcantidad19 = new Bunifu.Framework.UI.BunifuMetroTextbox();
-            this.lvlvalor19 = new Bunifu.Framework.UI.BunifuMetroTextbox();
-            this.servicio_19 = new Bunifu.Framework.UI.BunifuDropdown();
-            this.lblcantidad18 = new Bunifu.Framework.UI.BunifuMetroTextbox();
-            this.lvlvalor18 = new Bunifu.Framework.UI.BunifuMetroTextbox();
-            this.servicio_18 = new Bunifu.Framework.UI.BunifuDropdown();
-            this.lblcantidad17 = new Bunifu.Framework.UI.BunifuMetroTextbox();
-            this.lvlvalor17 = new Bunifu.Framework.UI.BunifuMetroTextbox();
-            this.servicio_17 = new Bunifu.Framework.UI.BunifuDropdown();
-            this.lblcantidad16 = new Bunifu.Framework.UI.BunifuMetroTextbox();
-            this.lvlvalor16 = new Bunifu.Framework.UI.BunifuMetroTextbox();
-            this.servicio_16 = new Bunifu.Framework.UI.BunifuDropdown();
-            this.lblcantidad30 = new Bunifu.Framework.UI.BunifuMetroTextbox();
-            this.lvlvalor30 = new Bunifu.Framework.UI.BunifuMetroTextbox();
-            this.servicio_30 = new Bunifu.Framework.UI.BunifuDropdown();
-            this.lblcantidad15 = new Bunifu.Framework.UI.BunifuMetroTextbox();
-            this.lvlvalor15 = new Bunifu.Framework.UI.BunifuMetroTextbox();
-            this.servicio_15 = new Bunifu.Framework.UI.BunifuDropdown();
-            this.lblcantidad14 = new Bunifu.Framework.UI.BunifuMetroTextbox();
-            this.lvlvalor14 = new Bunifu.Framework.UI.BunifuMetroTextbox();
-            this.servicio_14 = new Bunifu.Framework.UI.BunifuDropdown();
             this.lblcantidad5 = new Bunifu.Framework.UI.BunifuMetroTextbox();
             this.lvlvalor5 = new Bunifu.Framework.UI.BunifuMetroTextbox();
             this.servicio_5 = new Bunifu.Framework.UI.BunifuDropdown();
@@ -199,6 +118,87 @@
             this.servicio_1 = new Bunifu.Framework.UI.BunifuDropdown();
             this.printDocument1 = new System.Drawing.Printing.PrintDocument();
             this.printPreviewDialog1 = new System.Windows.Forms.PrintPreviewDialog();
+            this.lblcantidad14 = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.lvlvalor14 = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.servicio_14 = new Bunifu.Framework.UI.BunifuDropdown();
+            this.lblcantidad15 = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.lvlvalor15 = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.servicio_15 = new Bunifu.Framework.UI.BunifuDropdown();
+            this.lblcantidad30 = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.lvlvalor30 = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.servicio_30 = new Bunifu.Framework.UI.BunifuDropdown();
+            this.lblcantidad16 = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.lvlvalor16 = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.servicio_16 = new Bunifu.Framework.UI.BunifuDropdown();
+            this.lblcantidad17 = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.lvlvalor17 = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.servicio_17 = new Bunifu.Framework.UI.BunifuDropdown();
+            this.lblcantidad18 = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.lvlvalor18 = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.servicio_18 = new Bunifu.Framework.UI.BunifuDropdown();
+            this.lblcantidad19 = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.lvlvalor19 = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.servicio_19 = new Bunifu.Framework.UI.BunifuDropdown();
+            this.lblcantidad20 = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.lvlvalor20 = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.servicio_20 = new Bunifu.Framework.UI.BunifuDropdown();
+            this.lblcantidad21 = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.lvlvalor21 = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.servicio_21 = new Bunifu.Framework.UI.BunifuDropdown();
+            this.lblcantidad22 = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.lvlvalor22 = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.servicio_22 = new Bunifu.Framework.UI.BunifuDropdown();
+            this.lblcantidad23 = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.lvlvalor23 = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.servicio_23 = new Bunifu.Framework.UI.BunifuDropdown();
+            this.lblcantidad24 = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.lvlvalor24 = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.servicio_24 = new Bunifu.Framework.UI.BunifuDropdown();
+            this.lblcantidad25 = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.lvlvalor25 = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.servicio_25 = new Bunifu.Framework.UI.BunifuDropdown();
+            this.lblcantidad26 = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.lvlvalor26 = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.servicio_26 = new Bunifu.Framework.UI.BunifuDropdown();
+            this.lblcantidad27 = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.lvlvalor27 = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.servicio_27 = new Bunifu.Framework.UI.BunifuDropdown();
+            this.lblcantidad28 = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.lvlvalor28 = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.servicio_28 = new Bunifu.Framework.UI.BunifuDropdown();
+            this.lblcantidad29 = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.lvlvalor29 = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.servicio_29 = new Bunifu.Framework.UI.BunifuDropdown();
+            this.bunifuCustomLabel22 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuCustomLabel23 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuCustomLabel24 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuCustomLabel25 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuCustomLabel26 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuCustomLabel27 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuCustomLabel28 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuCustomLabel29 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuCustomLabel30 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuCustomLabel31 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuCustomLabel32 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuCustomLabel33 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuCustomLabel34 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuCustomLabel35 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuCustomLabel36 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuCustomLabel37 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuCustomLabel38 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuCustomLabel39 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuCustomLabel40 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuCustomLabel41 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuCustomLabel42 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuCustomLabel43 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuCustomLabel44 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuCustomLabel45 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuCustomLabel46 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuCustomLabel47 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuCustomLabel48 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuCustomLabel49 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuCustomLabel50 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuCustomLabel51 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.panel2.SuspendLayout();
             this.lblPlaca.SuspendLayout();
             this.panelservicios.SuspendLayout();
@@ -993,1291 +993,6 @@
             this.panelservicios.Size = new System.Drawing.Size(700, 281);
             this.panelservicios.TabIndex = 14;
             // 
-            // bunifuCustomLabel51
-            // 
-            this.bunifuCustomLabel51.AutoSize = true;
-            this.bunifuCustomLabel51.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuCustomLabel51.Location = new System.Drawing.Point(7, 813);
-            this.bunifuCustomLabel51.Name = "bunifuCustomLabel51";
-            this.bunifuCustomLabel51.Size = new System.Drawing.Size(24, 16);
-            this.bunifuCustomLabel51.TabIndex = 134;
-            this.bunifuCustomLabel51.Text = "30";
-            // 
-            // bunifuCustomLabel50
-            // 
-            this.bunifuCustomLabel50.AutoSize = true;
-            this.bunifuCustomLabel50.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuCustomLabel50.Location = new System.Drawing.Point(7, 785);
-            this.bunifuCustomLabel50.Name = "bunifuCustomLabel50";
-            this.bunifuCustomLabel50.Size = new System.Drawing.Size(24, 16);
-            this.bunifuCustomLabel50.TabIndex = 133;
-            this.bunifuCustomLabel50.Text = "29";
-            // 
-            // bunifuCustomLabel49
-            // 
-            this.bunifuCustomLabel49.AutoSize = true;
-            this.bunifuCustomLabel49.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuCustomLabel49.Location = new System.Drawing.Point(7, 758);
-            this.bunifuCustomLabel49.Name = "bunifuCustomLabel49";
-            this.bunifuCustomLabel49.Size = new System.Drawing.Size(24, 16);
-            this.bunifuCustomLabel49.TabIndex = 132;
-            this.bunifuCustomLabel49.Text = "28";
-            // 
-            // bunifuCustomLabel48
-            // 
-            this.bunifuCustomLabel48.AutoSize = true;
-            this.bunifuCustomLabel48.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuCustomLabel48.Location = new System.Drawing.Point(7, 730);
-            this.bunifuCustomLabel48.Name = "bunifuCustomLabel48";
-            this.bunifuCustomLabel48.Size = new System.Drawing.Size(24, 16);
-            this.bunifuCustomLabel48.TabIndex = 131;
-            this.bunifuCustomLabel48.Text = "27";
-            // 
-            // bunifuCustomLabel47
-            // 
-            this.bunifuCustomLabel47.AutoSize = true;
-            this.bunifuCustomLabel47.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuCustomLabel47.Location = new System.Drawing.Point(7, 702);
-            this.bunifuCustomLabel47.Name = "bunifuCustomLabel47";
-            this.bunifuCustomLabel47.Size = new System.Drawing.Size(24, 16);
-            this.bunifuCustomLabel47.TabIndex = 130;
-            this.bunifuCustomLabel47.Text = "26";
-            // 
-            // bunifuCustomLabel46
-            // 
-            this.bunifuCustomLabel46.AutoSize = true;
-            this.bunifuCustomLabel46.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuCustomLabel46.Location = new System.Drawing.Point(7, 673);
-            this.bunifuCustomLabel46.Name = "bunifuCustomLabel46";
-            this.bunifuCustomLabel46.Size = new System.Drawing.Size(24, 16);
-            this.bunifuCustomLabel46.TabIndex = 129;
-            this.bunifuCustomLabel46.Text = "25";
-            // 
-            // bunifuCustomLabel45
-            // 
-            this.bunifuCustomLabel45.AutoSize = true;
-            this.bunifuCustomLabel45.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuCustomLabel45.Location = new System.Drawing.Point(7, 646);
-            this.bunifuCustomLabel45.Name = "bunifuCustomLabel45";
-            this.bunifuCustomLabel45.Size = new System.Drawing.Size(24, 16);
-            this.bunifuCustomLabel45.TabIndex = 128;
-            this.bunifuCustomLabel45.Text = "24";
-            // 
-            // bunifuCustomLabel44
-            // 
-            this.bunifuCustomLabel44.AutoSize = true;
-            this.bunifuCustomLabel44.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuCustomLabel44.Location = new System.Drawing.Point(7, 618);
-            this.bunifuCustomLabel44.Name = "bunifuCustomLabel44";
-            this.bunifuCustomLabel44.Size = new System.Drawing.Size(24, 16);
-            this.bunifuCustomLabel44.TabIndex = 127;
-            this.bunifuCustomLabel44.Text = "23";
-            // 
-            // bunifuCustomLabel43
-            // 
-            this.bunifuCustomLabel43.AutoSize = true;
-            this.bunifuCustomLabel43.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuCustomLabel43.Location = new System.Drawing.Point(7, 589);
-            this.bunifuCustomLabel43.Name = "bunifuCustomLabel43";
-            this.bunifuCustomLabel43.Size = new System.Drawing.Size(24, 16);
-            this.bunifuCustomLabel43.TabIndex = 126;
-            this.bunifuCustomLabel43.Text = "22";
-            // 
-            // bunifuCustomLabel42
-            // 
-            this.bunifuCustomLabel42.AutoSize = true;
-            this.bunifuCustomLabel42.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuCustomLabel42.Location = new System.Drawing.Point(7, 561);
-            this.bunifuCustomLabel42.Name = "bunifuCustomLabel42";
-            this.bunifuCustomLabel42.Size = new System.Drawing.Size(24, 16);
-            this.bunifuCustomLabel42.TabIndex = 125;
-            this.bunifuCustomLabel42.Text = "21";
-            // 
-            // bunifuCustomLabel41
-            // 
-            this.bunifuCustomLabel41.AutoSize = true;
-            this.bunifuCustomLabel41.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuCustomLabel41.Location = new System.Drawing.Point(7, 533);
-            this.bunifuCustomLabel41.Name = "bunifuCustomLabel41";
-            this.bunifuCustomLabel41.Size = new System.Drawing.Size(24, 16);
-            this.bunifuCustomLabel41.TabIndex = 124;
-            this.bunifuCustomLabel41.Text = "20";
-            // 
-            // bunifuCustomLabel40
-            // 
-            this.bunifuCustomLabel40.AutoSize = true;
-            this.bunifuCustomLabel40.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuCustomLabel40.Location = new System.Drawing.Point(6, 506);
-            this.bunifuCustomLabel40.Name = "bunifuCustomLabel40";
-            this.bunifuCustomLabel40.Size = new System.Drawing.Size(24, 16);
-            this.bunifuCustomLabel40.TabIndex = 123;
-            this.bunifuCustomLabel40.Text = "19";
-            // 
-            // bunifuCustomLabel39
-            // 
-            this.bunifuCustomLabel39.AutoSize = true;
-            this.bunifuCustomLabel39.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuCustomLabel39.Location = new System.Drawing.Point(6, 479);
-            this.bunifuCustomLabel39.Name = "bunifuCustomLabel39";
-            this.bunifuCustomLabel39.Size = new System.Drawing.Size(24, 16);
-            this.bunifuCustomLabel39.TabIndex = 122;
-            this.bunifuCustomLabel39.Text = "18";
-            // 
-            // bunifuCustomLabel38
-            // 
-            this.bunifuCustomLabel38.AutoSize = true;
-            this.bunifuCustomLabel38.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuCustomLabel38.Location = new System.Drawing.Point(6, 452);
-            this.bunifuCustomLabel38.Name = "bunifuCustomLabel38";
-            this.bunifuCustomLabel38.Size = new System.Drawing.Size(24, 16);
-            this.bunifuCustomLabel38.TabIndex = 121;
-            this.bunifuCustomLabel38.Text = "17";
-            // 
-            // bunifuCustomLabel37
-            // 
-            this.bunifuCustomLabel37.AutoSize = true;
-            this.bunifuCustomLabel37.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuCustomLabel37.Location = new System.Drawing.Point(5, 423);
-            this.bunifuCustomLabel37.Name = "bunifuCustomLabel37";
-            this.bunifuCustomLabel37.Size = new System.Drawing.Size(24, 16);
-            this.bunifuCustomLabel37.TabIndex = 120;
-            this.bunifuCustomLabel37.Text = "16";
-            // 
-            // bunifuCustomLabel36
-            // 
-            this.bunifuCustomLabel36.AutoSize = true;
-            this.bunifuCustomLabel36.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuCustomLabel36.Location = new System.Drawing.Point(5, 396);
-            this.bunifuCustomLabel36.Name = "bunifuCustomLabel36";
-            this.bunifuCustomLabel36.Size = new System.Drawing.Size(24, 16);
-            this.bunifuCustomLabel36.TabIndex = 119;
-            this.bunifuCustomLabel36.Text = "15";
-            // 
-            // bunifuCustomLabel35
-            // 
-            this.bunifuCustomLabel35.AutoSize = true;
-            this.bunifuCustomLabel35.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuCustomLabel35.Location = new System.Drawing.Point(5, 369);
-            this.bunifuCustomLabel35.Name = "bunifuCustomLabel35";
-            this.bunifuCustomLabel35.Size = new System.Drawing.Size(24, 16);
-            this.bunifuCustomLabel35.TabIndex = 118;
-            this.bunifuCustomLabel35.Text = "14";
-            // 
-            // bunifuCustomLabel34
-            // 
-            this.bunifuCustomLabel34.AutoSize = true;
-            this.bunifuCustomLabel34.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuCustomLabel34.Location = new System.Drawing.Point(5, 341);
-            this.bunifuCustomLabel34.Name = "bunifuCustomLabel34";
-            this.bunifuCustomLabel34.Size = new System.Drawing.Size(24, 16);
-            this.bunifuCustomLabel34.TabIndex = 117;
-            this.bunifuCustomLabel34.Text = "13";
-            // 
-            // bunifuCustomLabel33
-            // 
-            this.bunifuCustomLabel33.AutoSize = true;
-            this.bunifuCustomLabel33.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuCustomLabel33.Location = new System.Drawing.Point(6, 314);
-            this.bunifuCustomLabel33.Name = "bunifuCustomLabel33";
-            this.bunifuCustomLabel33.Size = new System.Drawing.Size(24, 16);
-            this.bunifuCustomLabel33.TabIndex = 116;
-            this.bunifuCustomLabel33.Text = "12";
-            // 
-            // bunifuCustomLabel32
-            // 
-            this.bunifuCustomLabel32.AutoSize = true;
-            this.bunifuCustomLabel32.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuCustomLabel32.Location = new System.Drawing.Point(6, 285);
-            this.bunifuCustomLabel32.Name = "bunifuCustomLabel32";
-            this.bunifuCustomLabel32.Size = new System.Drawing.Size(24, 16);
-            this.bunifuCustomLabel32.TabIndex = 115;
-            this.bunifuCustomLabel32.Text = "11";
-            // 
-            // bunifuCustomLabel31
-            // 
-            this.bunifuCustomLabel31.AutoSize = true;
-            this.bunifuCustomLabel31.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuCustomLabel31.Location = new System.Drawing.Point(5, 256);
-            this.bunifuCustomLabel31.Name = "bunifuCustomLabel31";
-            this.bunifuCustomLabel31.Size = new System.Drawing.Size(24, 16);
-            this.bunifuCustomLabel31.TabIndex = 114;
-            this.bunifuCustomLabel31.Text = "10";
-            // 
-            // bunifuCustomLabel30
-            // 
-            this.bunifuCustomLabel30.AutoSize = true;
-            this.bunifuCustomLabel30.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuCustomLabel30.Location = new System.Drawing.Point(9, 227);
-            this.bunifuCustomLabel30.Name = "bunifuCustomLabel30";
-            this.bunifuCustomLabel30.Size = new System.Drawing.Size(16, 16);
-            this.bunifuCustomLabel30.TabIndex = 113;
-            this.bunifuCustomLabel30.Text = "9";
-            // 
-            // bunifuCustomLabel29
-            // 
-            this.bunifuCustomLabel29.AutoSize = true;
-            this.bunifuCustomLabel29.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuCustomLabel29.Location = new System.Drawing.Point(9, 201);
-            this.bunifuCustomLabel29.Name = "bunifuCustomLabel29";
-            this.bunifuCustomLabel29.Size = new System.Drawing.Size(16, 16);
-            this.bunifuCustomLabel29.TabIndex = 112;
-            this.bunifuCustomLabel29.Text = "8";
-            // 
-            // bunifuCustomLabel28
-            // 
-            this.bunifuCustomLabel28.AutoSize = true;
-            this.bunifuCustomLabel28.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuCustomLabel28.Location = new System.Drawing.Point(10, 171);
-            this.bunifuCustomLabel28.Name = "bunifuCustomLabel28";
-            this.bunifuCustomLabel28.Size = new System.Drawing.Size(16, 16);
-            this.bunifuCustomLabel28.TabIndex = 111;
-            this.bunifuCustomLabel28.Text = "7";
-            // 
-            // bunifuCustomLabel27
-            // 
-            this.bunifuCustomLabel27.AutoSize = true;
-            this.bunifuCustomLabel27.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuCustomLabel27.Location = new System.Drawing.Point(9, 146);
-            this.bunifuCustomLabel27.Name = "bunifuCustomLabel27";
-            this.bunifuCustomLabel27.Size = new System.Drawing.Size(16, 16);
-            this.bunifuCustomLabel27.TabIndex = 110;
-            this.bunifuCustomLabel27.Text = "6";
-            // 
-            // bunifuCustomLabel26
-            // 
-            this.bunifuCustomLabel26.AutoSize = true;
-            this.bunifuCustomLabel26.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuCustomLabel26.Location = new System.Drawing.Point(9, 118);
-            this.bunifuCustomLabel26.Name = "bunifuCustomLabel26";
-            this.bunifuCustomLabel26.Size = new System.Drawing.Size(16, 16);
-            this.bunifuCustomLabel26.TabIndex = 109;
-            this.bunifuCustomLabel26.Text = "5";
-            // 
-            // bunifuCustomLabel25
-            // 
-            this.bunifuCustomLabel25.AutoSize = true;
-            this.bunifuCustomLabel25.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuCustomLabel25.Location = new System.Drawing.Point(9, 89);
-            this.bunifuCustomLabel25.Name = "bunifuCustomLabel25";
-            this.bunifuCustomLabel25.Size = new System.Drawing.Size(16, 16);
-            this.bunifuCustomLabel25.TabIndex = 108;
-            this.bunifuCustomLabel25.Text = "4";
-            // 
-            // bunifuCustomLabel24
-            // 
-            this.bunifuCustomLabel24.AutoSize = true;
-            this.bunifuCustomLabel24.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuCustomLabel24.Location = new System.Drawing.Point(9, 63);
-            this.bunifuCustomLabel24.Name = "bunifuCustomLabel24";
-            this.bunifuCustomLabel24.Size = new System.Drawing.Size(16, 16);
-            this.bunifuCustomLabel24.TabIndex = 107;
-            this.bunifuCustomLabel24.Text = "3";
-            // 
-            // bunifuCustomLabel23
-            // 
-            this.bunifuCustomLabel23.AutoSize = true;
-            this.bunifuCustomLabel23.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuCustomLabel23.Location = new System.Drawing.Point(9, 35);
-            this.bunifuCustomLabel23.Name = "bunifuCustomLabel23";
-            this.bunifuCustomLabel23.Size = new System.Drawing.Size(16, 16);
-            this.bunifuCustomLabel23.TabIndex = 106;
-            this.bunifuCustomLabel23.Text = "2";
-            // 
-            // bunifuCustomLabel22
-            // 
-            this.bunifuCustomLabel22.AutoSize = true;
-            this.bunifuCustomLabel22.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuCustomLabel22.Location = new System.Drawing.Point(9, 9);
-            this.bunifuCustomLabel22.Name = "bunifuCustomLabel22";
-            this.bunifuCustomLabel22.Size = new System.Drawing.Size(16, 16);
-            this.bunifuCustomLabel22.TabIndex = 105;
-            this.bunifuCustomLabel22.Text = "1";
-            // 
-            // lblcantidad29
-            // 
-            this.lblcantidad29.BorderColorFocused = System.Drawing.Color.Blue;
-            this.lblcantidad29.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblcantidad29.BorderColorMouseHover = System.Drawing.Color.Blue;
-            this.lblcantidad29.BorderThickness = 1;
-            this.lblcantidad29.characterCasing = System.Windows.Forms.CharacterCasing.Normal;
-            this.lblcantidad29.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.lblcantidad29.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-            this.lblcantidad29.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblcantidad29.isPassword = false;
-            this.lblcantidad29.Location = new System.Drawing.Point(34, 781);
-            this.lblcantidad29.Margin = new System.Windows.Forms.Padding(4);
-            this.lblcantidad29.MaxLength = 2;
-            this.lblcantidad29.Name = "lblcantidad29";
-            this.lblcantidad29.Size = new System.Drawing.Size(45, 25);
-            this.lblcantidad29.TabIndex = 102;
-            this.lblcantidad29.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.lblcantidad29.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.lvlvalor_KeyPress);
-            // 
-            // lvlvalor29
-            // 
-            this.lvlvalor29.BorderColorFocused = System.Drawing.Color.Blue;
-            this.lvlvalor29.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lvlvalor29.BorderColorMouseHover = System.Drawing.Color.Blue;
-            this.lvlvalor29.BorderThickness = 1;
-            this.lvlvalor29.characterCasing = System.Windows.Forms.CharacterCasing.Normal;
-            this.lvlvalor29.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.lvlvalor29.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-            this.lvlvalor29.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lvlvalor29.isPassword = false;
-            this.lvlvalor29.Location = new System.Drawing.Point(562, 781);
-            this.lvlvalor29.Margin = new System.Windows.Forms.Padding(4);
-            this.lvlvalor29.MaxLength = 7;
-            this.lvlvalor29.Name = "lvlvalor29";
-            this.lvlvalor29.Size = new System.Drawing.Size(114, 25);
-            this.lvlvalor29.TabIndex = 104;
-            this.lvlvalor29.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.lvlvalor29.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.lvlvalor_KeyPress);
-            this.lvlvalor29.KeyUp += new System.Windows.Forms.KeyEventHandler(this.calculate);
-            // 
-            // servicio_29
-            // 
-            this.servicio_29.BackColor = System.Drawing.Color.Transparent;
-            this.servicio_29.BorderRadius = 3;
-            this.servicio_29.DisabledColor = System.Drawing.Color.Gray;
-            this.servicio_29.Enabled = false;
-            this.servicio_29.ForeColor = System.Drawing.Color.White;
-            this.servicio_29.items = new string[0];
-            this.servicio_29.Location = new System.Drawing.Point(95, 781);
-            this.servicio_29.Name = "servicio_29";
-            this.servicio_29.NomalColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
-            this.servicio_29.onHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
-            this.servicio_29.selectedIndex = -1;
-            this.servicio_29.Size = new System.Drawing.Size(453, 26);
-            this.servicio_29.TabIndex = 103;
-            this.servicio_29.onItemSelected += new System.EventHandler(this.servicio_29_change);
-            // 
-            // lblcantidad28
-            // 
-            this.lblcantidad28.BorderColorFocused = System.Drawing.Color.Blue;
-            this.lblcantidad28.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblcantidad28.BorderColorMouseHover = System.Drawing.Color.Blue;
-            this.lblcantidad28.BorderThickness = 1;
-            this.lblcantidad28.characterCasing = System.Windows.Forms.CharacterCasing.Normal;
-            this.lblcantidad28.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.lblcantidad28.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-            this.lblcantidad28.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblcantidad28.isPassword = false;
-            this.lblcantidad28.Location = new System.Drawing.Point(34, 753);
-            this.lblcantidad28.Margin = new System.Windows.Forms.Padding(4);
-            this.lblcantidad28.MaxLength = 2;
-            this.lblcantidad28.Name = "lblcantidad28";
-            this.lblcantidad28.Size = new System.Drawing.Size(45, 25);
-            this.lblcantidad28.TabIndex = 99;
-            this.lblcantidad28.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.lblcantidad28.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.lvlvalor_KeyPress);
-            // 
-            // lvlvalor28
-            // 
-            this.lvlvalor28.BorderColorFocused = System.Drawing.Color.Blue;
-            this.lvlvalor28.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lvlvalor28.BorderColorMouseHover = System.Drawing.Color.Blue;
-            this.lvlvalor28.BorderThickness = 1;
-            this.lvlvalor28.characterCasing = System.Windows.Forms.CharacterCasing.Normal;
-            this.lvlvalor28.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.lvlvalor28.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-            this.lvlvalor28.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lvlvalor28.isPassword = false;
-            this.lvlvalor28.Location = new System.Drawing.Point(562, 753);
-            this.lvlvalor28.Margin = new System.Windows.Forms.Padding(4);
-            this.lvlvalor28.MaxLength = 7;
-            this.lvlvalor28.Name = "lvlvalor28";
-            this.lvlvalor28.Size = new System.Drawing.Size(114, 25);
-            this.lvlvalor28.TabIndex = 101;
-            this.lvlvalor28.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.lvlvalor28.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.lvlvalor_KeyPress);
-            this.lvlvalor28.KeyUp += new System.Windows.Forms.KeyEventHandler(this.calculate);
-            // 
-            // servicio_28
-            // 
-            this.servicio_28.BackColor = System.Drawing.Color.Transparent;
-            this.servicio_28.BorderRadius = 3;
-            this.servicio_28.DisabledColor = System.Drawing.Color.Gray;
-            this.servicio_28.Enabled = false;
-            this.servicio_28.ForeColor = System.Drawing.Color.White;
-            this.servicio_28.items = new string[0];
-            this.servicio_28.Location = new System.Drawing.Point(95, 753);
-            this.servicio_28.Name = "servicio_28";
-            this.servicio_28.NomalColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
-            this.servicio_28.onHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
-            this.servicio_28.selectedIndex = -1;
-            this.servicio_28.Size = new System.Drawing.Size(453, 26);
-            this.servicio_28.TabIndex = 100;
-            this.servicio_28.onItemSelected += new System.EventHandler(this.servicio_28_change);
-            // 
-            // lblcantidad27
-            // 
-            this.lblcantidad27.BorderColorFocused = System.Drawing.Color.Blue;
-            this.lblcantidad27.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblcantidad27.BorderColorMouseHover = System.Drawing.Color.Blue;
-            this.lblcantidad27.BorderThickness = 1;
-            this.lblcantidad27.characterCasing = System.Windows.Forms.CharacterCasing.Normal;
-            this.lblcantidad27.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.lblcantidad27.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-            this.lblcantidad27.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblcantidad27.isPassword = false;
-            this.lblcantidad27.Location = new System.Drawing.Point(34, 725);
-            this.lblcantidad27.Margin = new System.Windows.Forms.Padding(4);
-            this.lblcantidad27.MaxLength = 2;
-            this.lblcantidad27.Name = "lblcantidad27";
-            this.lblcantidad27.Size = new System.Drawing.Size(45, 25);
-            this.lblcantidad27.TabIndex = 96;
-            this.lblcantidad27.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.lblcantidad27.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.lvlvalor_KeyPress);
-            // 
-            // lvlvalor27
-            // 
-            this.lvlvalor27.BorderColorFocused = System.Drawing.Color.Blue;
-            this.lvlvalor27.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lvlvalor27.BorderColorMouseHover = System.Drawing.Color.Blue;
-            this.lvlvalor27.BorderThickness = 1;
-            this.lvlvalor27.characterCasing = System.Windows.Forms.CharacterCasing.Normal;
-            this.lvlvalor27.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.lvlvalor27.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-            this.lvlvalor27.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lvlvalor27.isPassword = false;
-            this.lvlvalor27.Location = new System.Drawing.Point(562, 725);
-            this.lvlvalor27.Margin = new System.Windows.Forms.Padding(4);
-            this.lvlvalor27.MaxLength = 7;
-            this.lvlvalor27.Name = "lvlvalor27";
-            this.lvlvalor27.Size = new System.Drawing.Size(114, 25);
-            this.lvlvalor27.TabIndex = 98;
-            this.lvlvalor27.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.lvlvalor27.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.lvlvalor_KeyPress);
-            this.lvlvalor27.KeyUp += new System.Windows.Forms.KeyEventHandler(this.calculate);
-            // 
-            // servicio_27
-            // 
-            this.servicio_27.BackColor = System.Drawing.Color.Transparent;
-            this.servicio_27.BorderRadius = 3;
-            this.servicio_27.DisabledColor = System.Drawing.Color.Gray;
-            this.servicio_27.Enabled = false;
-            this.servicio_27.ForeColor = System.Drawing.Color.White;
-            this.servicio_27.items = new string[0];
-            this.servicio_27.Location = new System.Drawing.Point(95, 725);
-            this.servicio_27.Name = "servicio_27";
-            this.servicio_27.NomalColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
-            this.servicio_27.onHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
-            this.servicio_27.selectedIndex = -1;
-            this.servicio_27.Size = new System.Drawing.Size(453, 26);
-            this.servicio_27.TabIndex = 97;
-            this.servicio_27.onItemSelected += new System.EventHandler(this.servicio_27_change);
-            // 
-            // lblcantidad26
-            // 
-            this.lblcantidad26.BorderColorFocused = System.Drawing.Color.Blue;
-            this.lblcantidad26.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblcantidad26.BorderColorMouseHover = System.Drawing.Color.Blue;
-            this.lblcantidad26.BorderThickness = 1;
-            this.lblcantidad26.characterCasing = System.Windows.Forms.CharacterCasing.Normal;
-            this.lblcantidad26.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.lblcantidad26.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-            this.lblcantidad26.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblcantidad26.isPassword = false;
-            this.lblcantidad26.Location = new System.Drawing.Point(34, 697);
-            this.lblcantidad26.Margin = new System.Windows.Forms.Padding(4);
-            this.lblcantidad26.MaxLength = 2;
-            this.lblcantidad26.Name = "lblcantidad26";
-            this.lblcantidad26.Size = new System.Drawing.Size(45, 25);
-            this.lblcantidad26.TabIndex = 93;
-            this.lblcantidad26.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.lblcantidad26.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.lvlvalor_KeyPress);
-            // 
-            // lvlvalor26
-            // 
-            this.lvlvalor26.BorderColorFocused = System.Drawing.Color.Blue;
-            this.lvlvalor26.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lvlvalor26.BorderColorMouseHover = System.Drawing.Color.Blue;
-            this.lvlvalor26.BorderThickness = 1;
-            this.lvlvalor26.characterCasing = System.Windows.Forms.CharacterCasing.Normal;
-            this.lvlvalor26.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.lvlvalor26.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-            this.lvlvalor26.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lvlvalor26.isPassword = false;
-            this.lvlvalor26.Location = new System.Drawing.Point(562, 697);
-            this.lvlvalor26.Margin = new System.Windows.Forms.Padding(4);
-            this.lvlvalor26.MaxLength = 7;
-            this.lvlvalor26.Name = "lvlvalor26";
-            this.lvlvalor26.Size = new System.Drawing.Size(114, 25);
-            this.lvlvalor26.TabIndex = 95;
-            this.lvlvalor26.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.lvlvalor26.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.lvlvalor_KeyPress);
-            this.lvlvalor26.KeyUp += new System.Windows.Forms.KeyEventHandler(this.calculate);
-            // 
-            // servicio_26
-            // 
-            this.servicio_26.BackColor = System.Drawing.Color.Transparent;
-            this.servicio_26.BorderRadius = 3;
-            this.servicio_26.DisabledColor = System.Drawing.Color.Gray;
-            this.servicio_26.Enabled = false;
-            this.servicio_26.ForeColor = System.Drawing.Color.White;
-            this.servicio_26.items = new string[0];
-            this.servicio_26.Location = new System.Drawing.Point(95, 697);
-            this.servicio_26.Name = "servicio_26";
-            this.servicio_26.NomalColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
-            this.servicio_26.onHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
-            this.servicio_26.selectedIndex = -1;
-            this.servicio_26.Size = new System.Drawing.Size(453, 26);
-            this.servicio_26.TabIndex = 94;
-            this.servicio_26.onItemSelected += new System.EventHandler(this.servicio_26_change);
-            // 
-            // lblcantidad25
-            // 
-            this.lblcantidad25.BorderColorFocused = System.Drawing.Color.Blue;
-            this.lblcantidad25.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblcantidad25.BorderColorMouseHover = System.Drawing.Color.Blue;
-            this.lblcantidad25.BorderThickness = 1;
-            this.lblcantidad25.characterCasing = System.Windows.Forms.CharacterCasing.Normal;
-            this.lblcantidad25.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.lblcantidad25.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-            this.lblcantidad25.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblcantidad25.isPassword = false;
-            this.lblcantidad25.Location = new System.Drawing.Point(34, 669);
-            this.lblcantidad25.Margin = new System.Windows.Forms.Padding(4);
-            this.lblcantidad25.MaxLength = 2;
-            this.lblcantidad25.Name = "lblcantidad25";
-            this.lblcantidad25.Size = new System.Drawing.Size(45, 25);
-            this.lblcantidad25.TabIndex = 90;
-            this.lblcantidad25.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.lblcantidad25.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.lvlvalor_KeyPress);
-            // 
-            // lvlvalor25
-            // 
-            this.lvlvalor25.BorderColorFocused = System.Drawing.Color.Blue;
-            this.lvlvalor25.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lvlvalor25.BorderColorMouseHover = System.Drawing.Color.Blue;
-            this.lvlvalor25.BorderThickness = 1;
-            this.lvlvalor25.characterCasing = System.Windows.Forms.CharacterCasing.Normal;
-            this.lvlvalor25.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.lvlvalor25.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-            this.lvlvalor25.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lvlvalor25.isPassword = false;
-            this.lvlvalor25.Location = new System.Drawing.Point(562, 669);
-            this.lvlvalor25.Margin = new System.Windows.Forms.Padding(4);
-            this.lvlvalor25.MaxLength = 7;
-            this.lvlvalor25.Name = "lvlvalor25";
-            this.lvlvalor25.Size = new System.Drawing.Size(114, 25);
-            this.lvlvalor25.TabIndex = 92;
-            this.lvlvalor25.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.lvlvalor25.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.lvlvalor_KeyPress);
-            this.lvlvalor25.KeyUp += new System.Windows.Forms.KeyEventHandler(this.calculate);
-            // 
-            // servicio_25
-            // 
-            this.servicio_25.BackColor = System.Drawing.Color.Transparent;
-            this.servicio_25.BorderRadius = 3;
-            this.servicio_25.DisabledColor = System.Drawing.Color.Gray;
-            this.servicio_25.Enabled = false;
-            this.servicio_25.ForeColor = System.Drawing.Color.White;
-            this.servicio_25.items = new string[0];
-            this.servicio_25.Location = new System.Drawing.Point(95, 669);
-            this.servicio_25.Name = "servicio_25";
-            this.servicio_25.NomalColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
-            this.servicio_25.onHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
-            this.servicio_25.selectedIndex = -1;
-            this.servicio_25.Size = new System.Drawing.Size(453, 26);
-            this.servicio_25.TabIndex = 91;
-            this.servicio_25.onItemSelected += new System.EventHandler(this.servicio_25_change);
-            // 
-            // lblcantidad24
-            // 
-            this.lblcantidad24.BorderColorFocused = System.Drawing.Color.Blue;
-            this.lblcantidad24.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblcantidad24.BorderColorMouseHover = System.Drawing.Color.Blue;
-            this.lblcantidad24.BorderThickness = 1;
-            this.lblcantidad24.characterCasing = System.Windows.Forms.CharacterCasing.Normal;
-            this.lblcantidad24.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.lblcantidad24.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-            this.lblcantidad24.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblcantidad24.isPassword = false;
-            this.lblcantidad24.Location = new System.Drawing.Point(34, 641);
-            this.lblcantidad24.Margin = new System.Windows.Forms.Padding(4);
-            this.lblcantidad24.MaxLength = 2;
-            this.lblcantidad24.Name = "lblcantidad24";
-            this.lblcantidad24.Size = new System.Drawing.Size(45, 25);
-            this.lblcantidad24.TabIndex = 87;
-            this.lblcantidad24.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.lblcantidad24.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.lvlvalor_KeyPress);
-            // 
-            // lvlvalor24
-            // 
-            this.lvlvalor24.BorderColorFocused = System.Drawing.Color.Blue;
-            this.lvlvalor24.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lvlvalor24.BorderColorMouseHover = System.Drawing.Color.Blue;
-            this.lvlvalor24.BorderThickness = 1;
-            this.lvlvalor24.characterCasing = System.Windows.Forms.CharacterCasing.Normal;
-            this.lvlvalor24.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.lvlvalor24.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-            this.lvlvalor24.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lvlvalor24.isPassword = false;
-            this.lvlvalor24.Location = new System.Drawing.Point(562, 641);
-            this.lvlvalor24.Margin = new System.Windows.Forms.Padding(4);
-            this.lvlvalor24.MaxLength = 7;
-            this.lvlvalor24.Name = "lvlvalor24";
-            this.lvlvalor24.Size = new System.Drawing.Size(114, 25);
-            this.lvlvalor24.TabIndex = 89;
-            this.lvlvalor24.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.lvlvalor24.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.lvlvalor_KeyPress);
-            this.lvlvalor24.KeyUp += new System.Windows.Forms.KeyEventHandler(this.calculate);
-            // 
-            // servicio_24
-            // 
-            this.servicio_24.BackColor = System.Drawing.Color.Transparent;
-            this.servicio_24.BorderRadius = 3;
-            this.servicio_24.DisabledColor = System.Drawing.Color.Gray;
-            this.servicio_24.ForeColor = System.Drawing.Color.White;
-            this.servicio_24.items = new string[0];
-            this.servicio_24.Location = new System.Drawing.Point(95, 641);
-            this.servicio_24.Name = "servicio_24";
-            this.servicio_24.NomalColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
-            this.servicio_24.onHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
-            this.servicio_24.selectedIndex = -1;
-            this.servicio_24.Size = new System.Drawing.Size(453, 26);
-            this.servicio_24.TabIndex = 88;
-            this.servicio_24.onItemSelected += new System.EventHandler(this.servicio_24_change);
-            // 
-            // lblcantidad23
-            // 
-            this.lblcantidad23.BorderColorFocused = System.Drawing.Color.Blue;
-            this.lblcantidad23.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblcantidad23.BorderColorMouseHover = System.Drawing.Color.Blue;
-            this.lblcantidad23.BorderThickness = 1;
-            this.lblcantidad23.characterCasing = System.Windows.Forms.CharacterCasing.Normal;
-            this.lblcantidad23.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.lblcantidad23.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-            this.lblcantidad23.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblcantidad23.isPassword = false;
-            this.lblcantidad23.Location = new System.Drawing.Point(34, 613);
-            this.lblcantidad23.Margin = new System.Windows.Forms.Padding(4);
-            this.lblcantidad23.MaxLength = 2;
-            this.lblcantidad23.Name = "lblcantidad23";
-            this.lblcantidad23.Size = new System.Drawing.Size(45, 25);
-            this.lblcantidad23.TabIndex = 84;
-            this.lblcantidad23.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.lblcantidad23.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.lvlvalor_KeyPress);
-            // 
-            // lvlvalor23
-            // 
-            this.lvlvalor23.BorderColorFocused = System.Drawing.Color.Blue;
-            this.lvlvalor23.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lvlvalor23.BorderColorMouseHover = System.Drawing.Color.Blue;
-            this.lvlvalor23.BorderThickness = 1;
-            this.lvlvalor23.characterCasing = System.Windows.Forms.CharacterCasing.Normal;
-            this.lvlvalor23.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.lvlvalor23.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-            this.lvlvalor23.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lvlvalor23.isPassword = false;
-            this.lvlvalor23.Location = new System.Drawing.Point(562, 613);
-            this.lvlvalor23.Margin = new System.Windows.Forms.Padding(4);
-            this.lvlvalor23.MaxLength = 7;
-            this.lvlvalor23.Name = "lvlvalor23";
-            this.lvlvalor23.Size = new System.Drawing.Size(114, 25);
-            this.lvlvalor23.TabIndex = 86;
-            this.lvlvalor23.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.lvlvalor23.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.lvlvalor_KeyPress);
-            this.lvlvalor23.KeyUp += new System.Windows.Forms.KeyEventHandler(this.calculate);
-            // 
-            // servicio_23
-            // 
-            this.servicio_23.BackColor = System.Drawing.Color.Transparent;
-            this.servicio_23.BorderRadius = 3;
-            this.servicio_23.DisabledColor = System.Drawing.Color.Gray;
-            this.servicio_23.Enabled = false;
-            this.servicio_23.ForeColor = System.Drawing.Color.White;
-            this.servicio_23.items = new string[0];
-            this.servicio_23.Location = new System.Drawing.Point(95, 613);
-            this.servicio_23.Name = "servicio_23";
-            this.servicio_23.NomalColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
-            this.servicio_23.onHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
-            this.servicio_23.selectedIndex = -1;
-            this.servicio_23.Size = new System.Drawing.Size(453, 26);
-            this.servicio_23.TabIndex = 85;
-            this.servicio_23.onItemSelected += new System.EventHandler(this.servicio_23_change);
-            // 
-            // lblcantidad22
-            // 
-            this.lblcantidad22.BorderColorFocused = System.Drawing.Color.Blue;
-            this.lblcantidad22.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblcantidad22.BorderColorMouseHover = System.Drawing.Color.Blue;
-            this.lblcantidad22.BorderThickness = 1;
-            this.lblcantidad22.characterCasing = System.Windows.Forms.CharacterCasing.Normal;
-            this.lblcantidad22.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.lblcantidad22.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-            this.lblcantidad22.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblcantidad22.isPassword = false;
-            this.lblcantidad22.Location = new System.Drawing.Point(34, 585);
-            this.lblcantidad22.Margin = new System.Windows.Forms.Padding(4);
-            this.lblcantidad22.MaxLength = 2;
-            this.lblcantidad22.Name = "lblcantidad22";
-            this.lblcantidad22.Size = new System.Drawing.Size(45, 25);
-            this.lblcantidad22.TabIndex = 81;
-            this.lblcantidad22.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.lblcantidad22.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.lvlvalor_KeyPress);
-            // 
-            // lvlvalor22
-            // 
-            this.lvlvalor22.BorderColorFocused = System.Drawing.Color.Blue;
-            this.lvlvalor22.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lvlvalor22.BorderColorMouseHover = System.Drawing.Color.Blue;
-            this.lvlvalor22.BorderThickness = 1;
-            this.lvlvalor22.characterCasing = System.Windows.Forms.CharacterCasing.Normal;
-            this.lvlvalor22.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.lvlvalor22.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-            this.lvlvalor22.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lvlvalor22.isPassword = false;
-            this.lvlvalor22.Location = new System.Drawing.Point(562, 585);
-            this.lvlvalor22.Margin = new System.Windows.Forms.Padding(4);
-            this.lvlvalor22.MaxLength = 7;
-            this.lvlvalor22.Name = "lvlvalor22";
-            this.lvlvalor22.Size = new System.Drawing.Size(114, 25);
-            this.lvlvalor22.TabIndex = 83;
-            this.lvlvalor22.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.lvlvalor22.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.lvlvalor_KeyPress);
-            this.lvlvalor22.KeyUp += new System.Windows.Forms.KeyEventHandler(this.calculate);
-            // 
-            // servicio_22
-            // 
-            this.servicio_22.BackColor = System.Drawing.Color.Transparent;
-            this.servicio_22.BorderRadius = 3;
-            this.servicio_22.DisabledColor = System.Drawing.Color.Gray;
-            this.servicio_22.Enabled = false;
-            this.servicio_22.ForeColor = System.Drawing.Color.White;
-            this.servicio_22.items = new string[0];
-            this.servicio_22.Location = new System.Drawing.Point(95, 585);
-            this.servicio_22.Name = "servicio_22";
-            this.servicio_22.NomalColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
-            this.servicio_22.onHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
-            this.servicio_22.selectedIndex = -1;
-            this.servicio_22.Size = new System.Drawing.Size(453, 26);
-            this.servicio_22.TabIndex = 82;
-            this.servicio_22.onItemSelected += new System.EventHandler(this.servicio_22_change);
-            // 
-            // lblcantidad21
-            // 
-            this.lblcantidad21.BorderColorFocused = System.Drawing.Color.Blue;
-            this.lblcantidad21.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblcantidad21.BorderColorMouseHover = System.Drawing.Color.Blue;
-            this.lblcantidad21.BorderThickness = 1;
-            this.lblcantidad21.characterCasing = System.Windows.Forms.CharacterCasing.Normal;
-            this.lblcantidad21.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.lblcantidad21.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-            this.lblcantidad21.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblcantidad21.isPassword = false;
-            this.lblcantidad21.Location = new System.Drawing.Point(34, 557);
-            this.lblcantidad21.Margin = new System.Windows.Forms.Padding(4);
-            this.lblcantidad21.MaxLength = 2;
-            this.lblcantidad21.Name = "lblcantidad21";
-            this.lblcantidad21.Size = new System.Drawing.Size(45, 25);
-            this.lblcantidad21.TabIndex = 78;
-            this.lblcantidad21.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.lblcantidad21.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.lvlvalor_KeyPress);
-            // 
-            // lvlvalor21
-            // 
-            this.lvlvalor21.BorderColorFocused = System.Drawing.Color.Blue;
-            this.lvlvalor21.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lvlvalor21.BorderColorMouseHover = System.Drawing.Color.Blue;
-            this.lvlvalor21.BorderThickness = 1;
-            this.lvlvalor21.characterCasing = System.Windows.Forms.CharacterCasing.Normal;
-            this.lvlvalor21.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.lvlvalor21.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-            this.lvlvalor21.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lvlvalor21.isPassword = false;
-            this.lvlvalor21.Location = new System.Drawing.Point(562, 557);
-            this.lvlvalor21.Margin = new System.Windows.Forms.Padding(4);
-            this.lvlvalor21.MaxLength = 7;
-            this.lvlvalor21.Name = "lvlvalor21";
-            this.lvlvalor21.Size = new System.Drawing.Size(114, 25);
-            this.lvlvalor21.TabIndex = 80;
-            this.lvlvalor21.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.lvlvalor21.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.lvlvalor_KeyPress);
-            this.lvlvalor21.KeyUp += new System.Windows.Forms.KeyEventHandler(this.calculate);
-            // 
-            // servicio_21
-            // 
-            this.servicio_21.BackColor = System.Drawing.Color.Transparent;
-            this.servicio_21.BorderRadius = 3;
-            this.servicio_21.DisabledColor = System.Drawing.Color.Gray;
-            this.servicio_21.Enabled = false;
-            this.servicio_21.ForeColor = System.Drawing.Color.White;
-            this.servicio_21.items = new string[0];
-            this.servicio_21.Location = new System.Drawing.Point(95, 557);
-            this.servicio_21.Name = "servicio_21";
-            this.servicio_21.NomalColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
-            this.servicio_21.onHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
-            this.servicio_21.selectedIndex = -1;
-            this.servicio_21.Size = new System.Drawing.Size(453, 26);
-            this.servicio_21.TabIndex = 79;
-            this.servicio_21.onItemSelected += new System.EventHandler(this.servicio_21_change);
-            // 
-            // lblcantidad20
-            // 
-            this.lblcantidad20.BorderColorFocused = System.Drawing.Color.Blue;
-            this.lblcantidad20.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblcantidad20.BorderColorMouseHover = System.Drawing.Color.Blue;
-            this.lblcantidad20.BorderThickness = 1;
-            this.lblcantidad20.characterCasing = System.Windows.Forms.CharacterCasing.Normal;
-            this.lblcantidad20.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.lblcantidad20.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-            this.lblcantidad20.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblcantidad20.isPassword = false;
-            this.lblcantidad20.Location = new System.Drawing.Point(34, 529);
-            this.lblcantidad20.Margin = new System.Windows.Forms.Padding(4);
-            this.lblcantidad20.MaxLength = 2;
-            this.lblcantidad20.Name = "lblcantidad20";
-            this.lblcantidad20.Size = new System.Drawing.Size(45, 25);
-            this.lblcantidad20.TabIndex = 75;
-            this.lblcantidad20.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.lblcantidad20.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.lvlvalor_KeyPress);
-            // 
-            // lvlvalor20
-            // 
-            this.lvlvalor20.BorderColorFocused = System.Drawing.Color.Blue;
-            this.lvlvalor20.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lvlvalor20.BorderColorMouseHover = System.Drawing.Color.Blue;
-            this.lvlvalor20.BorderThickness = 1;
-            this.lvlvalor20.characterCasing = System.Windows.Forms.CharacterCasing.Normal;
-            this.lvlvalor20.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.lvlvalor20.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-            this.lvlvalor20.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lvlvalor20.isPassword = false;
-            this.lvlvalor20.Location = new System.Drawing.Point(562, 529);
-            this.lvlvalor20.Margin = new System.Windows.Forms.Padding(4);
-            this.lvlvalor20.MaxLength = 7;
-            this.lvlvalor20.Name = "lvlvalor20";
-            this.lvlvalor20.Size = new System.Drawing.Size(114, 25);
-            this.lvlvalor20.TabIndex = 77;
-            this.lvlvalor20.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.lvlvalor20.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.lvlvalor_KeyPress);
-            this.lvlvalor20.KeyUp += new System.Windows.Forms.KeyEventHandler(this.calculate);
-            // 
-            // servicio_20
-            // 
-            this.servicio_20.BackColor = System.Drawing.Color.Transparent;
-            this.servicio_20.BorderRadius = 3;
-            this.servicio_20.DisabledColor = System.Drawing.Color.Gray;
-            this.servicio_20.Enabled = false;
-            this.servicio_20.ForeColor = System.Drawing.Color.White;
-            this.servicio_20.items = new string[0];
-            this.servicio_20.Location = new System.Drawing.Point(95, 529);
-            this.servicio_20.Name = "servicio_20";
-            this.servicio_20.NomalColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
-            this.servicio_20.onHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
-            this.servicio_20.selectedIndex = -1;
-            this.servicio_20.Size = new System.Drawing.Size(453, 26);
-            this.servicio_20.TabIndex = 76;
-            this.servicio_20.onItemSelected += new System.EventHandler(this.servicio_20_change);
-            // 
-            // lblcantidad19
-            // 
-            this.lblcantidad19.BorderColorFocused = System.Drawing.Color.Blue;
-            this.lblcantidad19.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblcantidad19.BorderColorMouseHover = System.Drawing.Color.Blue;
-            this.lblcantidad19.BorderThickness = 1;
-            this.lblcantidad19.characterCasing = System.Windows.Forms.CharacterCasing.Normal;
-            this.lblcantidad19.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.lblcantidad19.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-            this.lblcantidad19.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblcantidad19.isPassword = false;
-            this.lblcantidad19.Location = new System.Drawing.Point(34, 501);
-            this.lblcantidad19.Margin = new System.Windows.Forms.Padding(4);
-            this.lblcantidad19.MaxLength = 2;
-            this.lblcantidad19.Name = "lblcantidad19";
-            this.lblcantidad19.Size = new System.Drawing.Size(45, 25);
-            this.lblcantidad19.TabIndex = 72;
-            this.lblcantidad19.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.lblcantidad19.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.lvlvalor_KeyPress);
-            // 
-            // lvlvalor19
-            // 
-            this.lvlvalor19.BorderColorFocused = System.Drawing.Color.Blue;
-            this.lvlvalor19.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lvlvalor19.BorderColorMouseHover = System.Drawing.Color.Blue;
-            this.lvlvalor19.BorderThickness = 1;
-            this.lvlvalor19.characterCasing = System.Windows.Forms.CharacterCasing.Normal;
-            this.lvlvalor19.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.lvlvalor19.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-            this.lvlvalor19.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lvlvalor19.isPassword = false;
-            this.lvlvalor19.Location = new System.Drawing.Point(562, 501);
-            this.lvlvalor19.Margin = new System.Windows.Forms.Padding(4);
-            this.lvlvalor19.MaxLength = 7;
-            this.lvlvalor19.Name = "lvlvalor19";
-            this.lvlvalor19.Size = new System.Drawing.Size(114, 25);
-            this.lvlvalor19.TabIndex = 74;
-            this.lvlvalor19.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.lvlvalor19.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.lvlvalor_KeyPress);
-            this.lvlvalor19.KeyUp += new System.Windows.Forms.KeyEventHandler(this.calculate);
-            // 
-            // servicio_19
-            // 
-            this.servicio_19.BackColor = System.Drawing.Color.Transparent;
-            this.servicio_19.BorderRadius = 3;
-            this.servicio_19.DisabledColor = System.Drawing.Color.Gray;
-            this.servicio_19.Enabled = false;
-            this.servicio_19.ForeColor = System.Drawing.Color.White;
-            this.servicio_19.items = new string[0];
-            this.servicio_19.Location = new System.Drawing.Point(95, 501);
-            this.servicio_19.Name = "servicio_19";
-            this.servicio_19.NomalColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
-            this.servicio_19.onHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
-            this.servicio_19.selectedIndex = -1;
-            this.servicio_19.Size = new System.Drawing.Size(453, 26);
-            this.servicio_19.TabIndex = 73;
-            this.servicio_19.onItemSelected += new System.EventHandler(this.servicio_19_change);
-            // 
-            // lblcantidad18
-            // 
-            this.lblcantidad18.BorderColorFocused = System.Drawing.Color.Blue;
-            this.lblcantidad18.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblcantidad18.BorderColorMouseHover = System.Drawing.Color.Blue;
-            this.lblcantidad18.BorderThickness = 1;
-            this.lblcantidad18.characterCasing = System.Windows.Forms.CharacterCasing.Normal;
-            this.lblcantidad18.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.lblcantidad18.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-            this.lblcantidad18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblcantidad18.isPassword = false;
-            this.lblcantidad18.Location = new System.Drawing.Point(34, 474);
-            this.lblcantidad18.Margin = new System.Windows.Forms.Padding(4);
-            this.lblcantidad18.MaxLength = 2;
-            this.lblcantidad18.Name = "lblcantidad18";
-            this.lblcantidad18.Size = new System.Drawing.Size(45, 25);
-            this.lblcantidad18.TabIndex = 69;
-            this.lblcantidad18.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.lblcantidad18.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.lvlvalor_KeyPress);
-            // 
-            // lvlvalor18
-            // 
-            this.lvlvalor18.BorderColorFocused = System.Drawing.Color.Blue;
-            this.lvlvalor18.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lvlvalor18.BorderColorMouseHover = System.Drawing.Color.Blue;
-            this.lvlvalor18.BorderThickness = 1;
-            this.lvlvalor18.characterCasing = System.Windows.Forms.CharacterCasing.Normal;
-            this.lvlvalor18.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.lvlvalor18.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-            this.lvlvalor18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lvlvalor18.isPassword = false;
-            this.lvlvalor18.Location = new System.Drawing.Point(562, 474);
-            this.lvlvalor18.Margin = new System.Windows.Forms.Padding(4);
-            this.lvlvalor18.MaxLength = 7;
-            this.lvlvalor18.Name = "lvlvalor18";
-            this.lvlvalor18.Size = new System.Drawing.Size(114, 25);
-            this.lvlvalor18.TabIndex = 71;
-            this.lvlvalor18.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.lvlvalor18.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.lvlvalor_KeyPress);
-            this.lvlvalor18.KeyUp += new System.Windows.Forms.KeyEventHandler(this.calculate);
-            // 
-            // servicio_18
-            // 
-            this.servicio_18.BackColor = System.Drawing.Color.Transparent;
-            this.servicio_18.BorderRadius = 3;
-            this.servicio_18.DisabledColor = System.Drawing.Color.Gray;
-            this.servicio_18.Enabled = false;
-            this.servicio_18.ForeColor = System.Drawing.Color.White;
-            this.servicio_18.items = new string[0];
-            this.servicio_18.Location = new System.Drawing.Point(95, 474);
-            this.servicio_18.Name = "servicio_18";
-            this.servicio_18.NomalColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
-            this.servicio_18.onHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
-            this.servicio_18.selectedIndex = -1;
-            this.servicio_18.Size = new System.Drawing.Size(453, 26);
-            this.servicio_18.TabIndex = 70;
-            this.servicio_18.onItemSelected += new System.EventHandler(this.servicio_18_change);
-            // 
-            // lblcantidad17
-            // 
-            this.lblcantidad17.BorderColorFocused = System.Drawing.Color.Blue;
-            this.lblcantidad17.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblcantidad17.BorderColorMouseHover = System.Drawing.Color.Blue;
-            this.lblcantidad17.BorderThickness = 1;
-            this.lblcantidad17.characterCasing = System.Windows.Forms.CharacterCasing.Normal;
-            this.lblcantidad17.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.lblcantidad17.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-            this.lblcantidad17.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblcantidad17.isPassword = false;
-            this.lblcantidad17.Location = new System.Drawing.Point(34, 446);
-            this.lblcantidad17.Margin = new System.Windows.Forms.Padding(4);
-            this.lblcantidad17.MaxLength = 2;
-            this.lblcantidad17.Name = "lblcantidad17";
-            this.lblcantidad17.Size = new System.Drawing.Size(45, 25);
-            this.lblcantidad17.TabIndex = 66;
-            this.lblcantidad17.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.lblcantidad17.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.lvlvalor_KeyPress);
-            // 
-            // lvlvalor17
-            // 
-            this.lvlvalor17.BorderColorFocused = System.Drawing.Color.Blue;
-            this.lvlvalor17.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lvlvalor17.BorderColorMouseHover = System.Drawing.Color.Blue;
-            this.lvlvalor17.BorderThickness = 1;
-            this.lvlvalor17.characterCasing = System.Windows.Forms.CharacterCasing.Normal;
-            this.lvlvalor17.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.lvlvalor17.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-            this.lvlvalor17.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lvlvalor17.isPassword = false;
-            this.lvlvalor17.Location = new System.Drawing.Point(562, 446);
-            this.lvlvalor17.Margin = new System.Windows.Forms.Padding(4);
-            this.lvlvalor17.MaxLength = 7;
-            this.lvlvalor17.Name = "lvlvalor17";
-            this.lvlvalor17.Size = new System.Drawing.Size(114, 25);
-            this.lvlvalor17.TabIndex = 68;
-            this.lvlvalor17.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.lvlvalor17.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.lvlvalor_KeyPress);
-            this.lvlvalor17.KeyUp += new System.Windows.Forms.KeyEventHandler(this.calculate);
-            // 
-            // servicio_17
-            // 
-            this.servicio_17.BackColor = System.Drawing.Color.Transparent;
-            this.servicio_17.BorderRadius = 3;
-            this.servicio_17.DisabledColor = System.Drawing.Color.Gray;
-            this.servicio_17.Enabled = false;
-            this.servicio_17.ForeColor = System.Drawing.Color.White;
-            this.servicio_17.items = new string[0];
-            this.servicio_17.Location = new System.Drawing.Point(95, 446);
-            this.servicio_17.Name = "servicio_17";
-            this.servicio_17.NomalColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
-            this.servicio_17.onHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
-            this.servicio_17.selectedIndex = -1;
-            this.servicio_17.Size = new System.Drawing.Size(453, 26);
-            this.servicio_17.TabIndex = 67;
-            this.servicio_17.onItemSelected += new System.EventHandler(this.servicio_17_change);
-            // 
-            // lblcantidad16
-            // 
-            this.lblcantidad16.BorderColorFocused = System.Drawing.Color.Blue;
-            this.lblcantidad16.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblcantidad16.BorderColorMouseHover = System.Drawing.Color.Blue;
-            this.lblcantidad16.BorderThickness = 1;
-            this.lblcantidad16.characterCasing = System.Windows.Forms.CharacterCasing.Normal;
-            this.lblcantidad16.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.lblcantidad16.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-            this.lblcantidad16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblcantidad16.isPassword = false;
-            this.lblcantidad16.Location = new System.Drawing.Point(34, 418);
-            this.lblcantidad16.Margin = new System.Windows.Forms.Padding(4);
-            this.lblcantidad16.MaxLength = 2;
-            this.lblcantidad16.Name = "lblcantidad16";
-            this.lblcantidad16.Size = new System.Drawing.Size(45, 25);
-            this.lblcantidad16.TabIndex = 63;
-            this.lblcantidad16.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.lblcantidad16.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.lvlvalor_KeyPress);
-            // 
-            // lvlvalor16
-            // 
-            this.lvlvalor16.BorderColorFocused = System.Drawing.Color.Blue;
-            this.lvlvalor16.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lvlvalor16.BorderColorMouseHover = System.Drawing.Color.Blue;
-            this.lvlvalor16.BorderThickness = 1;
-            this.lvlvalor16.characterCasing = System.Windows.Forms.CharacterCasing.Normal;
-            this.lvlvalor16.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.lvlvalor16.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-            this.lvlvalor16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lvlvalor16.isPassword = false;
-            this.lvlvalor16.Location = new System.Drawing.Point(562, 418);
-            this.lvlvalor16.Margin = new System.Windows.Forms.Padding(4);
-            this.lvlvalor16.MaxLength = 7;
-            this.lvlvalor16.Name = "lvlvalor16";
-            this.lvlvalor16.Size = new System.Drawing.Size(114, 25);
-            this.lvlvalor16.TabIndex = 65;
-            this.lvlvalor16.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.lvlvalor16.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.lvlvalor_KeyPress);
-            this.lvlvalor16.KeyUp += new System.Windows.Forms.KeyEventHandler(this.calculate);
-            // 
-            // servicio_16
-            // 
-            this.servicio_16.BackColor = System.Drawing.Color.Transparent;
-            this.servicio_16.BorderRadius = 3;
-            this.servicio_16.DisabledColor = System.Drawing.Color.Gray;
-            this.servicio_16.Enabled = false;
-            this.servicio_16.ForeColor = System.Drawing.Color.White;
-            this.servicio_16.items = new string[0];
-            this.servicio_16.Location = new System.Drawing.Point(95, 418);
-            this.servicio_16.Name = "servicio_16";
-            this.servicio_16.NomalColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
-            this.servicio_16.onHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
-            this.servicio_16.selectedIndex = -1;
-            this.servicio_16.Size = new System.Drawing.Size(453, 26);
-            this.servicio_16.TabIndex = 64;
-            this.servicio_16.onItemSelected += new System.EventHandler(this.servicio_16_change);
-            // 
-            // lblcantidad30
-            // 
-            this.lblcantidad30.BorderColorFocused = System.Drawing.Color.Blue;
-            this.lblcantidad30.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblcantidad30.BorderColorMouseHover = System.Drawing.Color.Blue;
-            this.lblcantidad30.BorderThickness = 1;
-            this.lblcantidad30.characterCasing = System.Windows.Forms.CharacterCasing.Normal;
-            this.lblcantidad30.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.lblcantidad30.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-            this.lblcantidad30.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblcantidad30.isPassword = false;
-            this.lblcantidad30.Location = new System.Drawing.Point(34, 809);
-            this.lblcantidad30.Margin = new System.Windows.Forms.Padding(4);
-            this.lblcantidad30.MaxLength = 2;
-            this.lblcantidad30.Name = "lblcantidad30";
-            this.lblcantidad30.Size = new System.Drawing.Size(45, 25);
-            this.lblcantidad30.TabIndex = 60;
-            this.lblcantidad30.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.lblcantidad30.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.lvlvalor_KeyPress);
-            // 
-            // lvlvalor30
-            // 
-            this.lvlvalor30.BorderColorFocused = System.Drawing.Color.Blue;
-            this.lvlvalor30.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lvlvalor30.BorderColorMouseHover = System.Drawing.Color.Blue;
-            this.lvlvalor30.BorderThickness = 1;
-            this.lvlvalor30.characterCasing = System.Windows.Forms.CharacterCasing.Normal;
-            this.lvlvalor30.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.lvlvalor30.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-            this.lvlvalor30.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lvlvalor30.isPassword = false;
-            this.lvlvalor30.Location = new System.Drawing.Point(562, 809);
-            this.lvlvalor30.Margin = new System.Windows.Forms.Padding(4);
-            this.lvlvalor30.MaxLength = 7;
-            this.lvlvalor30.Name = "lvlvalor30";
-            this.lvlvalor30.Size = new System.Drawing.Size(114, 25);
-            this.lvlvalor30.TabIndex = 62;
-            this.lvlvalor30.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.lvlvalor30.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.lvlvalor_KeyPress);
-            this.lvlvalor30.KeyUp += new System.Windows.Forms.KeyEventHandler(this.calculate);
-            // 
-            // servicio_30
-            // 
-            this.servicio_30.BackColor = System.Drawing.Color.Transparent;
-            this.servicio_30.BorderRadius = 3;
-            this.servicio_30.DisabledColor = System.Drawing.Color.Gray;
-            this.servicio_30.Enabled = false;
-            this.servicio_30.ForeColor = System.Drawing.Color.White;
-            this.servicio_30.items = new string[0];
-            this.servicio_30.Location = new System.Drawing.Point(95, 809);
-            this.servicio_30.Name = "servicio_30";
-            this.servicio_30.NomalColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
-            this.servicio_30.onHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
-            this.servicio_30.selectedIndex = -1;
-            this.servicio_30.Size = new System.Drawing.Size(453, 26);
-            this.servicio_30.TabIndex = 61;
-            this.servicio_30.onItemSelected += new System.EventHandler(this.servicio_30_change);
-            // 
-            // lblcantidad15
-            // 
-            this.lblcantidad15.BorderColorFocused = System.Drawing.Color.Blue;
-            this.lblcantidad15.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblcantidad15.BorderColorMouseHover = System.Drawing.Color.Blue;
-            this.lblcantidad15.BorderThickness = 1;
-            this.lblcantidad15.characterCasing = System.Windows.Forms.CharacterCasing.Normal;
-            this.lblcantidad15.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.lblcantidad15.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-            this.lblcantidad15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblcantidad15.isPassword = false;
-            this.lblcantidad15.Location = new System.Drawing.Point(34, 391);
-            this.lblcantidad15.Margin = new System.Windows.Forms.Padding(4);
-            this.lblcantidad15.MaxLength = 2;
-            this.lblcantidad15.Name = "lblcantidad15";
-            this.lblcantidad15.Size = new System.Drawing.Size(45, 25);
-            this.lblcantidad15.TabIndex = 57;
-            this.lblcantidad15.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.lblcantidad15.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.lvlvalor_KeyPress);
-            // 
-            // lvlvalor15
-            // 
-            this.lvlvalor15.BorderColorFocused = System.Drawing.Color.Blue;
-            this.lvlvalor15.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lvlvalor15.BorderColorMouseHover = System.Drawing.Color.Blue;
-            this.lvlvalor15.BorderThickness = 1;
-            this.lvlvalor15.characterCasing = System.Windows.Forms.CharacterCasing.Normal;
-            this.lvlvalor15.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.lvlvalor15.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-            this.lvlvalor15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lvlvalor15.isPassword = false;
-            this.lvlvalor15.Location = new System.Drawing.Point(562, 391);
-            this.lvlvalor15.Margin = new System.Windows.Forms.Padding(4);
-            this.lvlvalor15.MaxLength = 7;
-            this.lvlvalor15.Name = "lvlvalor15";
-            this.lvlvalor15.Size = new System.Drawing.Size(114, 25);
-            this.lvlvalor15.TabIndex = 59;
-            this.lvlvalor15.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.lvlvalor15.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.lvlvalor_KeyPress);
-            this.lvlvalor15.KeyUp += new System.Windows.Forms.KeyEventHandler(this.calculate);
-            // 
-            // servicio_15
-            // 
-            this.servicio_15.BackColor = System.Drawing.Color.Transparent;
-            this.servicio_15.BorderRadius = 3;
-            this.servicio_15.DisabledColor = System.Drawing.Color.Gray;
-            this.servicio_15.Enabled = false;
-            this.servicio_15.ForeColor = System.Drawing.Color.White;
-            this.servicio_15.items = new string[0];
-            this.servicio_15.Location = new System.Drawing.Point(95, 391);
-            this.servicio_15.Name = "servicio_15";
-            this.servicio_15.NomalColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
-            this.servicio_15.onHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
-            this.servicio_15.selectedIndex = -1;
-            this.servicio_15.Size = new System.Drawing.Size(453, 26);
-            this.servicio_15.TabIndex = 58;
-            this.servicio_15.onItemSelected += new System.EventHandler(this.servicio_15_change);
-            // 
-            // lblcantidad14
-            // 
-            this.lblcantidad14.BorderColorFocused = System.Drawing.Color.Blue;
-            this.lblcantidad14.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblcantidad14.BorderColorMouseHover = System.Drawing.Color.Blue;
-            this.lblcantidad14.BorderThickness = 1;
-            this.lblcantidad14.characterCasing = System.Windows.Forms.CharacterCasing.Normal;
-            this.lblcantidad14.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.lblcantidad14.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-            this.lblcantidad14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblcantidad14.isPassword = false;
-            this.lblcantidad14.Location = new System.Drawing.Point(34, 364);
-            this.lblcantidad14.Margin = new System.Windows.Forms.Padding(4);
-            this.lblcantidad14.MaxLength = 2;
-            this.lblcantidad14.Name = "lblcantidad14";
-            this.lblcantidad14.Size = new System.Drawing.Size(45, 25);
-            this.lblcantidad14.TabIndex = 54;
-            this.lblcantidad14.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.lblcantidad14.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.lvlvalor_KeyPress);
-            // 
-            // lvlvalor14
-            // 
-            this.lvlvalor14.BorderColorFocused = System.Drawing.Color.Blue;
-            this.lvlvalor14.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lvlvalor14.BorderColorMouseHover = System.Drawing.Color.Blue;
-            this.lvlvalor14.BorderThickness = 1;
-            this.lvlvalor14.characterCasing = System.Windows.Forms.CharacterCasing.Normal;
-            this.lvlvalor14.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.lvlvalor14.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-            this.lvlvalor14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lvlvalor14.isPassword = false;
-            this.lvlvalor14.Location = new System.Drawing.Point(562, 364);
-            this.lvlvalor14.Margin = new System.Windows.Forms.Padding(4);
-            this.lvlvalor14.MaxLength = 7;
-            this.lvlvalor14.Name = "lvlvalor14";
-            this.lvlvalor14.Size = new System.Drawing.Size(114, 25);
-            this.lvlvalor14.TabIndex = 56;
-            this.lvlvalor14.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.lvlvalor14.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.lvlvalor_KeyPress);
-            this.lvlvalor14.KeyUp += new System.Windows.Forms.KeyEventHandler(this.calculate);
-            // 
-            // servicio_14
-            // 
-            this.servicio_14.BackColor = System.Drawing.Color.Transparent;
-            this.servicio_14.BorderRadius = 3;
-            this.servicio_14.DisabledColor = System.Drawing.Color.Gray;
-            this.servicio_14.Enabled = false;
-            this.servicio_14.ForeColor = System.Drawing.Color.White;
-            this.servicio_14.items = new string[0];
-            this.servicio_14.Location = new System.Drawing.Point(95, 364);
-            this.servicio_14.Name = "servicio_14";
-            this.servicio_14.NomalColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
-            this.servicio_14.onHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
-            this.servicio_14.selectedIndex = -1;
-            this.servicio_14.Size = new System.Drawing.Size(453, 26);
-            this.servicio_14.TabIndex = 55;
-            this.servicio_14.onItemSelected += new System.EventHandler(this.servicio_14_change);
-            // 
             // lblcantidad5
             // 
             this.lblcantidad5.BorderColorFocused = System.Drawing.Color.Blue;
@@ -3046,6 +1761,1291 @@
             this.printPreviewDialog1.Icon = ((System.Drawing.Icon)(resources.GetObject("printPreviewDialog1.Icon")));
             this.printPreviewDialog1.Name = "printPreviewDialog1";
             this.printPreviewDialog1.Visible = false;
+            // 
+            // lblcantidad14
+            // 
+            this.lblcantidad14.BorderColorFocused = System.Drawing.Color.Blue;
+            this.lblcantidad14.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lblcantidad14.BorderColorMouseHover = System.Drawing.Color.Blue;
+            this.lblcantidad14.BorderThickness = 1;
+            this.lblcantidad14.characterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.lblcantidad14.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.lblcantidad14.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.lblcantidad14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lblcantidad14.isPassword = false;
+            this.lblcantidad14.Location = new System.Drawing.Point(34, 364);
+            this.lblcantidad14.Margin = new System.Windows.Forms.Padding(4);
+            this.lblcantidad14.MaxLength = 2;
+            this.lblcantidad14.Name = "lblcantidad14";
+            this.lblcantidad14.Size = new System.Drawing.Size(45, 25);
+            this.lblcantidad14.TabIndex = 54;
+            this.lblcantidad14.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.lblcantidad14.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.lvlvalor_KeyPress);
+            // 
+            // lvlvalor14
+            // 
+            this.lvlvalor14.BorderColorFocused = System.Drawing.Color.Blue;
+            this.lvlvalor14.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lvlvalor14.BorderColorMouseHover = System.Drawing.Color.Blue;
+            this.lvlvalor14.BorderThickness = 1;
+            this.lvlvalor14.characterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.lvlvalor14.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.lvlvalor14.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.lvlvalor14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lvlvalor14.isPassword = false;
+            this.lvlvalor14.Location = new System.Drawing.Point(562, 364);
+            this.lvlvalor14.Margin = new System.Windows.Forms.Padding(4);
+            this.lvlvalor14.MaxLength = 7;
+            this.lvlvalor14.Name = "lvlvalor14";
+            this.lvlvalor14.Size = new System.Drawing.Size(114, 25);
+            this.lvlvalor14.TabIndex = 56;
+            this.lvlvalor14.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.lvlvalor14.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.lvlvalor_KeyPress);
+            this.lvlvalor14.KeyUp += new System.Windows.Forms.KeyEventHandler(this.calculate);
+            // 
+            // servicio_14
+            // 
+            this.servicio_14.BackColor = System.Drawing.Color.Transparent;
+            this.servicio_14.BorderRadius = 3;
+            this.servicio_14.DisabledColor = System.Drawing.Color.Gray;
+            this.servicio_14.Enabled = false;
+            this.servicio_14.ForeColor = System.Drawing.Color.White;
+            this.servicio_14.items = new string[0];
+            this.servicio_14.Location = new System.Drawing.Point(95, 364);
+            this.servicio_14.Name = "servicio_14";
+            this.servicio_14.NomalColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
+            this.servicio_14.onHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
+            this.servicio_14.selectedIndex = -1;
+            this.servicio_14.Size = new System.Drawing.Size(453, 26);
+            this.servicio_14.TabIndex = 55;
+            this.servicio_14.onItemSelected += new System.EventHandler(this.servicio_14_change);
+            // 
+            // lblcantidad15
+            // 
+            this.lblcantidad15.BorderColorFocused = System.Drawing.Color.Blue;
+            this.lblcantidad15.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lblcantidad15.BorderColorMouseHover = System.Drawing.Color.Blue;
+            this.lblcantidad15.BorderThickness = 1;
+            this.lblcantidad15.characterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.lblcantidad15.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.lblcantidad15.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.lblcantidad15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lblcantidad15.isPassword = false;
+            this.lblcantidad15.Location = new System.Drawing.Point(34, 391);
+            this.lblcantidad15.Margin = new System.Windows.Forms.Padding(4);
+            this.lblcantidad15.MaxLength = 2;
+            this.lblcantidad15.Name = "lblcantidad15";
+            this.lblcantidad15.Size = new System.Drawing.Size(45, 25);
+            this.lblcantidad15.TabIndex = 57;
+            this.lblcantidad15.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.lblcantidad15.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.lvlvalor_KeyPress);
+            // 
+            // lvlvalor15
+            // 
+            this.lvlvalor15.BorderColorFocused = System.Drawing.Color.Blue;
+            this.lvlvalor15.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lvlvalor15.BorderColorMouseHover = System.Drawing.Color.Blue;
+            this.lvlvalor15.BorderThickness = 1;
+            this.lvlvalor15.characterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.lvlvalor15.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.lvlvalor15.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.lvlvalor15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lvlvalor15.isPassword = false;
+            this.lvlvalor15.Location = new System.Drawing.Point(562, 391);
+            this.lvlvalor15.Margin = new System.Windows.Forms.Padding(4);
+            this.lvlvalor15.MaxLength = 7;
+            this.lvlvalor15.Name = "lvlvalor15";
+            this.lvlvalor15.Size = new System.Drawing.Size(114, 25);
+            this.lvlvalor15.TabIndex = 59;
+            this.lvlvalor15.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.lvlvalor15.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.lvlvalor_KeyPress);
+            this.lvlvalor15.KeyUp += new System.Windows.Forms.KeyEventHandler(this.calculate);
+            // 
+            // servicio_15
+            // 
+            this.servicio_15.BackColor = System.Drawing.Color.Transparent;
+            this.servicio_15.BorderRadius = 3;
+            this.servicio_15.DisabledColor = System.Drawing.Color.Gray;
+            this.servicio_15.Enabled = false;
+            this.servicio_15.ForeColor = System.Drawing.Color.White;
+            this.servicio_15.items = new string[0];
+            this.servicio_15.Location = new System.Drawing.Point(95, 391);
+            this.servicio_15.Name = "servicio_15";
+            this.servicio_15.NomalColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
+            this.servicio_15.onHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
+            this.servicio_15.selectedIndex = -1;
+            this.servicio_15.Size = new System.Drawing.Size(453, 26);
+            this.servicio_15.TabIndex = 58;
+            this.servicio_15.onItemSelected += new System.EventHandler(this.servicio_15_change);
+            // 
+            // lblcantidad30
+            // 
+            this.lblcantidad30.BorderColorFocused = System.Drawing.Color.Blue;
+            this.lblcantidad30.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lblcantidad30.BorderColorMouseHover = System.Drawing.Color.Blue;
+            this.lblcantidad30.BorderThickness = 1;
+            this.lblcantidad30.characterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.lblcantidad30.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.lblcantidad30.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.lblcantidad30.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lblcantidad30.isPassword = false;
+            this.lblcantidad30.Location = new System.Drawing.Point(34, 809);
+            this.lblcantidad30.Margin = new System.Windows.Forms.Padding(4);
+            this.lblcantidad30.MaxLength = 2;
+            this.lblcantidad30.Name = "lblcantidad30";
+            this.lblcantidad30.Size = new System.Drawing.Size(45, 25);
+            this.lblcantidad30.TabIndex = 60;
+            this.lblcantidad30.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.lblcantidad30.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.lvlvalor_KeyPress);
+            // 
+            // lvlvalor30
+            // 
+            this.lvlvalor30.BorderColorFocused = System.Drawing.Color.Blue;
+            this.lvlvalor30.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lvlvalor30.BorderColorMouseHover = System.Drawing.Color.Blue;
+            this.lvlvalor30.BorderThickness = 1;
+            this.lvlvalor30.characterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.lvlvalor30.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.lvlvalor30.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.lvlvalor30.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lvlvalor30.isPassword = false;
+            this.lvlvalor30.Location = new System.Drawing.Point(562, 809);
+            this.lvlvalor30.Margin = new System.Windows.Forms.Padding(4);
+            this.lvlvalor30.MaxLength = 7;
+            this.lvlvalor30.Name = "lvlvalor30";
+            this.lvlvalor30.Size = new System.Drawing.Size(114, 25);
+            this.lvlvalor30.TabIndex = 62;
+            this.lvlvalor30.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.lvlvalor30.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.lvlvalor_KeyPress);
+            this.lvlvalor30.KeyUp += new System.Windows.Forms.KeyEventHandler(this.calculate);
+            // 
+            // servicio_30
+            // 
+            this.servicio_30.BackColor = System.Drawing.Color.Transparent;
+            this.servicio_30.BorderRadius = 3;
+            this.servicio_30.DisabledColor = System.Drawing.Color.Gray;
+            this.servicio_30.Enabled = false;
+            this.servicio_30.ForeColor = System.Drawing.Color.White;
+            this.servicio_30.items = new string[0];
+            this.servicio_30.Location = new System.Drawing.Point(95, 809);
+            this.servicio_30.Name = "servicio_30";
+            this.servicio_30.NomalColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
+            this.servicio_30.onHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
+            this.servicio_30.selectedIndex = -1;
+            this.servicio_30.Size = new System.Drawing.Size(453, 26);
+            this.servicio_30.TabIndex = 61;
+            this.servicio_30.onItemSelected += new System.EventHandler(this.servicio_30_change);
+            // 
+            // lblcantidad16
+            // 
+            this.lblcantidad16.BorderColorFocused = System.Drawing.Color.Blue;
+            this.lblcantidad16.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lblcantidad16.BorderColorMouseHover = System.Drawing.Color.Blue;
+            this.lblcantidad16.BorderThickness = 1;
+            this.lblcantidad16.characterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.lblcantidad16.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.lblcantidad16.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.lblcantidad16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lblcantidad16.isPassword = false;
+            this.lblcantidad16.Location = new System.Drawing.Point(34, 418);
+            this.lblcantidad16.Margin = new System.Windows.Forms.Padding(4);
+            this.lblcantidad16.MaxLength = 2;
+            this.lblcantidad16.Name = "lblcantidad16";
+            this.lblcantidad16.Size = new System.Drawing.Size(45, 25);
+            this.lblcantidad16.TabIndex = 63;
+            this.lblcantidad16.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.lblcantidad16.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.lvlvalor_KeyPress);
+            // 
+            // lvlvalor16
+            // 
+            this.lvlvalor16.BorderColorFocused = System.Drawing.Color.Blue;
+            this.lvlvalor16.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lvlvalor16.BorderColorMouseHover = System.Drawing.Color.Blue;
+            this.lvlvalor16.BorderThickness = 1;
+            this.lvlvalor16.characterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.lvlvalor16.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.lvlvalor16.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.lvlvalor16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lvlvalor16.isPassword = false;
+            this.lvlvalor16.Location = new System.Drawing.Point(562, 418);
+            this.lvlvalor16.Margin = new System.Windows.Forms.Padding(4);
+            this.lvlvalor16.MaxLength = 7;
+            this.lvlvalor16.Name = "lvlvalor16";
+            this.lvlvalor16.Size = new System.Drawing.Size(114, 25);
+            this.lvlvalor16.TabIndex = 65;
+            this.lvlvalor16.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.lvlvalor16.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.lvlvalor_KeyPress);
+            this.lvlvalor16.KeyUp += new System.Windows.Forms.KeyEventHandler(this.calculate);
+            // 
+            // servicio_16
+            // 
+            this.servicio_16.BackColor = System.Drawing.Color.Transparent;
+            this.servicio_16.BorderRadius = 3;
+            this.servicio_16.DisabledColor = System.Drawing.Color.Gray;
+            this.servicio_16.Enabled = false;
+            this.servicio_16.ForeColor = System.Drawing.Color.White;
+            this.servicio_16.items = new string[0];
+            this.servicio_16.Location = new System.Drawing.Point(95, 418);
+            this.servicio_16.Name = "servicio_16";
+            this.servicio_16.NomalColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
+            this.servicio_16.onHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
+            this.servicio_16.selectedIndex = -1;
+            this.servicio_16.Size = new System.Drawing.Size(453, 26);
+            this.servicio_16.TabIndex = 64;
+            this.servicio_16.onItemSelected += new System.EventHandler(this.servicio_16_change);
+            // 
+            // lblcantidad17
+            // 
+            this.lblcantidad17.BorderColorFocused = System.Drawing.Color.Blue;
+            this.lblcantidad17.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lblcantidad17.BorderColorMouseHover = System.Drawing.Color.Blue;
+            this.lblcantidad17.BorderThickness = 1;
+            this.lblcantidad17.characterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.lblcantidad17.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.lblcantidad17.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.lblcantidad17.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lblcantidad17.isPassword = false;
+            this.lblcantidad17.Location = new System.Drawing.Point(34, 446);
+            this.lblcantidad17.Margin = new System.Windows.Forms.Padding(4);
+            this.lblcantidad17.MaxLength = 2;
+            this.lblcantidad17.Name = "lblcantidad17";
+            this.lblcantidad17.Size = new System.Drawing.Size(45, 25);
+            this.lblcantidad17.TabIndex = 66;
+            this.lblcantidad17.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.lblcantidad17.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.lvlvalor_KeyPress);
+            // 
+            // lvlvalor17
+            // 
+            this.lvlvalor17.BorderColorFocused = System.Drawing.Color.Blue;
+            this.lvlvalor17.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lvlvalor17.BorderColorMouseHover = System.Drawing.Color.Blue;
+            this.lvlvalor17.BorderThickness = 1;
+            this.lvlvalor17.characterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.lvlvalor17.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.lvlvalor17.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.lvlvalor17.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lvlvalor17.isPassword = false;
+            this.lvlvalor17.Location = new System.Drawing.Point(562, 446);
+            this.lvlvalor17.Margin = new System.Windows.Forms.Padding(4);
+            this.lvlvalor17.MaxLength = 7;
+            this.lvlvalor17.Name = "lvlvalor17";
+            this.lvlvalor17.Size = new System.Drawing.Size(114, 25);
+            this.lvlvalor17.TabIndex = 68;
+            this.lvlvalor17.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.lvlvalor17.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.lvlvalor_KeyPress);
+            this.lvlvalor17.KeyUp += new System.Windows.Forms.KeyEventHandler(this.calculate);
+            // 
+            // servicio_17
+            // 
+            this.servicio_17.BackColor = System.Drawing.Color.Transparent;
+            this.servicio_17.BorderRadius = 3;
+            this.servicio_17.DisabledColor = System.Drawing.Color.Gray;
+            this.servicio_17.Enabled = false;
+            this.servicio_17.ForeColor = System.Drawing.Color.White;
+            this.servicio_17.items = new string[0];
+            this.servicio_17.Location = new System.Drawing.Point(95, 446);
+            this.servicio_17.Name = "servicio_17";
+            this.servicio_17.NomalColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
+            this.servicio_17.onHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
+            this.servicio_17.selectedIndex = -1;
+            this.servicio_17.Size = new System.Drawing.Size(453, 26);
+            this.servicio_17.TabIndex = 67;
+            this.servicio_17.onItemSelected += new System.EventHandler(this.servicio_17_change);
+            // 
+            // lblcantidad18
+            // 
+            this.lblcantidad18.BorderColorFocused = System.Drawing.Color.Blue;
+            this.lblcantidad18.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lblcantidad18.BorderColorMouseHover = System.Drawing.Color.Blue;
+            this.lblcantidad18.BorderThickness = 1;
+            this.lblcantidad18.characterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.lblcantidad18.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.lblcantidad18.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.lblcantidad18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lblcantidad18.isPassword = false;
+            this.lblcantidad18.Location = new System.Drawing.Point(34, 474);
+            this.lblcantidad18.Margin = new System.Windows.Forms.Padding(4);
+            this.lblcantidad18.MaxLength = 2;
+            this.lblcantidad18.Name = "lblcantidad18";
+            this.lblcantidad18.Size = new System.Drawing.Size(45, 25);
+            this.lblcantidad18.TabIndex = 69;
+            this.lblcantidad18.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.lblcantidad18.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.lvlvalor_KeyPress);
+            // 
+            // lvlvalor18
+            // 
+            this.lvlvalor18.BorderColorFocused = System.Drawing.Color.Blue;
+            this.lvlvalor18.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lvlvalor18.BorderColorMouseHover = System.Drawing.Color.Blue;
+            this.lvlvalor18.BorderThickness = 1;
+            this.lvlvalor18.characterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.lvlvalor18.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.lvlvalor18.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.lvlvalor18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lvlvalor18.isPassword = false;
+            this.lvlvalor18.Location = new System.Drawing.Point(562, 474);
+            this.lvlvalor18.Margin = new System.Windows.Forms.Padding(4);
+            this.lvlvalor18.MaxLength = 7;
+            this.lvlvalor18.Name = "lvlvalor18";
+            this.lvlvalor18.Size = new System.Drawing.Size(114, 25);
+            this.lvlvalor18.TabIndex = 71;
+            this.lvlvalor18.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.lvlvalor18.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.lvlvalor_KeyPress);
+            this.lvlvalor18.KeyUp += new System.Windows.Forms.KeyEventHandler(this.calculate);
+            // 
+            // servicio_18
+            // 
+            this.servicio_18.BackColor = System.Drawing.Color.Transparent;
+            this.servicio_18.BorderRadius = 3;
+            this.servicio_18.DisabledColor = System.Drawing.Color.Gray;
+            this.servicio_18.Enabled = false;
+            this.servicio_18.ForeColor = System.Drawing.Color.White;
+            this.servicio_18.items = new string[0];
+            this.servicio_18.Location = new System.Drawing.Point(95, 474);
+            this.servicio_18.Name = "servicio_18";
+            this.servicio_18.NomalColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
+            this.servicio_18.onHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
+            this.servicio_18.selectedIndex = -1;
+            this.servicio_18.Size = new System.Drawing.Size(453, 26);
+            this.servicio_18.TabIndex = 70;
+            this.servicio_18.onItemSelected += new System.EventHandler(this.servicio_18_change);
+            // 
+            // lblcantidad19
+            // 
+            this.lblcantidad19.BorderColorFocused = System.Drawing.Color.Blue;
+            this.lblcantidad19.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lblcantidad19.BorderColorMouseHover = System.Drawing.Color.Blue;
+            this.lblcantidad19.BorderThickness = 1;
+            this.lblcantidad19.characterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.lblcantidad19.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.lblcantidad19.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.lblcantidad19.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lblcantidad19.isPassword = false;
+            this.lblcantidad19.Location = new System.Drawing.Point(34, 501);
+            this.lblcantidad19.Margin = new System.Windows.Forms.Padding(4);
+            this.lblcantidad19.MaxLength = 2;
+            this.lblcantidad19.Name = "lblcantidad19";
+            this.lblcantidad19.Size = new System.Drawing.Size(45, 25);
+            this.lblcantidad19.TabIndex = 72;
+            this.lblcantidad19.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.lblcantidad19.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.lvlvalor_KeyPress);
+            // 
+            // lvlvalor19
+            // 
+            this.lvlvalor19.BorderColorFocused = System.Drawing.Color.Blue;
+            this.lvlvalor19.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lvlvalor19.BorderColorMouseHover = System.Drawing.Color.Blue;
+            this.lvlvalor19.BorderThickness = 1;
+            this.lvlvalor19.characterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.lvlvalor19.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.lvlvalor19.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.lvlvalor19.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lvlvalor19.isPassword = false;
+            this.lvlvalor19.Location = new System.Drawing.Point(562, 501);
+            this.lvlvalor19.Margin = new System.Windows.Forms.Padding(4);
+            this.lvlvalor19.MaxLength = 7;
+            this.lvlvalor19.Name = "lvlvalor19";
+            this.lvlvalor19.Size = new System.Drawing.Size(114, 25);
+            this.lvlvalor19.TabIndex = 74;
+            this.lvlvalor19.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.lvlvalor19.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.lvlvalor_KeyPress);
+            this.lvlvalor19.KeyUp += new System.Windows.Forms.KeyEventHandler(this.calculate);
+            // 
+            // servicio_19
+            // 
+            this.servicio_19.BackColor = System.Drawing.Color.Transparent;
+            this.servicio_19.BorderRadius = 3;
+            this.servicio_19.DisabledColor = System.Drawing.Color.Gray;
+            this.servicio_19.Enabled = false;
+            this.servicio_19.ForeColor = System.Drawing.Color.White;
+            this.servicio_19.items = new string[0];
+            this.servicio_19.Location = new System.Drawing.Point(95, 501);
+            this.servicio_19.Name = "servicio_19";
+            this.servicio_19.NomalColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
+            this.servicio_19.onHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
+            this.servicio_19.selectedIndex = -1;
+            this.servicio_19.Size = new System.Drawing.Size(453, 26);
+            this.servicio_19.TabIndex = 73;
+            this.servicio_19.onItemSelected += new System.EventHandler(this.servicio_19_change);
+            // 
+            // lblcantidad20
+            // 
+            this.lblcantidad20.BorderColorFocused = System.Drawing.Color.Blue;
+            this.lblcantidad20.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lblcantidad20.BorderColorMouseHover = System.Drawing.Color.Blue;
+            this.lblcantidad20.BorderThickness = 1;
+            this.lblcantidad20.characterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.lblcantidad20.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.lblcantidad20.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.lblcantidad20.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lblcantidad20.isPassword = false;
+            this.lblcantidad20.Location = new System.Drawing.Point(34, 529);
+            this.lblcantidad20.Margin = new System.Windows.Forms.Padding(4);
+            this.lblcantidad20.MaxLength = 2;
+            this.lblcantidad20.Name = "lblcantidad20";
+            this.lblcantidad20.Size = new System.Drawing.Size(45, 25);
+            this.lblcantidad20.TabIndex = 75;
+            this.lblcantidad20.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.lblcantidad20.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.lvlvalor_KeyPress);
+            // 
+            // lvlvalor20
+            // 
+            this.lvlvalor20.BorderColorFocused = System.Drawing.Color.Blue;
+            this.lvlvalor20.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lvlvalor20.BorderColorMouseHover = System.Drawing.Color.Blue;
+            this.lvlvalor20.BorderThickness = 1;
+            this.lvlvalor20.characterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.lvlvalor20.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.lvlvalor20.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.lvlvalor20.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lvlvalor20.isPassword = false;
+            this.lvlvalor20.Location = new System.Drawing.Point(562, 529);
+            this.lvlvalor20.Margin = new System.Windows.Forms.Padding(4);
+            this.lvlvalor20.MaxLength = 7;
+            this.lvlvalor20.Name = "lvlvalor20";
+            this.lvlvalor20.Size = new System.Drawing.Size(114, 25);
+            this.lvlvalor20.TabIndex = 77;
+            this.lvlvalor20.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.lvlvalor20.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.lvlvalor_KeyPress);
+            this.lvlvalor20.KeyUp += new System.Windows.Forms.KeyEventHandler(this.calculate);
+            // 
+            // servicio_20
+            // 
+            this.servicio_20.BackColor = System.Drawing.Color.Transparent;
+            this.servicio_20.BorderRadius = 3;
+            this.servicio_20.DisabledColor = System.Drawing.Color.Gray;
+            this.servicio_20.Enabled = false;
+            this.servicio_20.ForeColor = System.Drawing.Color.White;
+            this.servicio_20.items = new string[0];
+            this.servicio_20.Location = new System.Drawing.Point(95, 529);
+            this.servicio_20.Name = "servicio_20";
+            this.servicio_20.NomalColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
+            this.servicio_20.onHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
+            this.servicio_20.selectedIndex = -1;
+            this.servicio_20.Size = new System.Drawing.Size(453, 26);
+            this.servicio_20.TabIndex = 76;
+            this.servicio_20.onItemSelected += new System.EventHandler(this.servicio_20_change);
+            // 
+            // lblcantidad21
+            // 
+            this.lblcantidad21.BorderColorFocused = System.Drawing.Color.Blue;
+            this.lblcantidad21.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lblcantidad21.BorderColorMouseHover = System.Drawing.Color.Blue;
+            this.lblcantidad21.BorderThickness = 1;
+            this.lblcantidad21.characterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.lblcantidad21.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.lblcantidad21.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.lblcantidad21.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lblcantidad21.isPassword = false;
+            this.lblcantidad21.Location = new System.Drawing.Point(34, 557);
+            this.lblcantidad21.Margin = new System.Windows.Forms.Padding(4);
+            this.lblcantidad21.MaxLength = 2;
+            this.lblcantidad21.Name = "lblcantidad21";
+            this.lblcantidad21.Size = new System.Drawing.Size(45, 25);
+            this.lblcantidad21.TabIndex = 78;
+            this.lblcantidad21.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.lblcantidad21.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.lvlvalor_KeyPress);
+            // 
+            // lvlvalor21
+            // 
+            this.lvlvalor21.BorderColorFocused = System.Drawing.Color.Blue;
+            this.lvlvalor21.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lvlvalor21.BorderColorMouseHover = System.Drawing.Color.Blue;
+            this.lvlvalor21.BorderThickness = 1;
+            this.lvlvalor21.characterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.lvlvalor21.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.lvlvalor21.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.lvlvalor21.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lvlvalor21.isPassword = false;
+            this.lvlvalor21.Location = new System.Drawing.Point(562, 557);
+            this.lvlvalor21.Margin = new System.Windows.Forms.Padding(4);
+            this.lvlvalor21.MaxLength = 7;
+            this.lvlvalor21.Name = "lvlvalor21";
+            this.lvlvalor21.Size = new System.Drawing.Size(114, 25);
+            this.lvlvalor21.TabIndex = 80;
+            this.lvlvalor21.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.lvlvalor21.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.lvlvalor_KeyPress);
+            this.lvlvalor21.KeyUp += new System.Windows.Forms.KeyEventHandler(this.calculate);
+            // 
+            // servicio_21
+            // 
+            this.servicio_21.BackColor = System.Drawing.Color.Transparent;
+            this.servicio_21.BorderRadius = 3;
+            this.servicio_21.DisabledColor = System.Drawing.Color.Gray;
+            this.servicio_21.Enabled = false;
+            this.servicio_21.ForeColor = System.Drawing.Color.White;
+            this.servicio_21.items = new string[0];
+            this.servicio_21.Location = new System.Drawing.Point(95, 557);
+            this.servicio_21.Name = "servicio_21";
+            this.servicio_21.NomalColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
+            this.servicio_21.onHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
+            this.servicio_21.selectedIndex = -1;
+            this.servicio_21.Size = new System.Drawing.Size(453, 26);
+            this.servicio_21.TabIndex = 79;
+            this.servicio_21.onItemSelected += new System.EventHandler(this.servicio_21_change);
+            // 
+            // lblcantidad22
+            // 
+            this.lblcantidad22.BorderColorFocused = System.Drawing.Color.Blue;
+            this.lblcantidad22.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lblcantidad22.BorderColorMouseHover = System.Drawing.Color.Blue;
+            this.lblcantidad22.BorderThickness = 1;
+            this.lblcantidad22.characterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.lblcantidad22.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.lblcantidad22.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.lblcantidad22.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lblcantidad22.isPassword = false;
+            this.lblcantidad22.Location = new System.Drawing.Point(34, 585);
+            this.lblcantidad22.Margin = new System.Windows.Forms.Padding(4);
+            this.lblcantidad22.MaxLength = 2;
+            this.lblcantidad22.Name = "lblcantidad22";
+            this.lblcantidad22.Size = new System.Drawing.Size(45, 25);
+            this.lblcantidad22.TabIndex = 81;
+            this.lblcantidad22.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.lblcantidad22.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.lvlvalor_KeyPress);
+            // 
+            // lvlvalor22
+            // 
+            this.lvlvalor22.BorderColorFocused = System.Drawing.Color.Blue;
+            this.lvlvalor22.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lvlvalor22.BorderColorMouseHover = System.Drawing.Color.Blue;
+            this.lvlvalor22.BorderThickness = 1;
+            this.lvlvalor22.characterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.lvlvalor22.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.lvlvalor22.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.lvlvalor22.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lvlvalor22.isPassword = false;
+            this.lvlvalor22.Location = new System.Drawing.Point(562, 585);
+            this.lvlvalor22.Margin = new System.Windows.Forms.Padding(4);
+            this.lvlvalor22.MaxLength = 7;
+            this.lvlvalor22.Name = "lvlvalor22";
+            this.lvlvalor22.Size = new System.Drawing.Size(114, 25);
+            this.lvlvalor22.TabIndex = 83;
+            this.lvlvalor22.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.lvlvalor22.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.lvlvalor_KeyPress);
+            this.lvlvalor22.KeyUp += new System.Windows.Forms.KeyEventHandler(this.calculate);
+            // 
+            // servicio_22
+            // 
+            this.servicio_22.BackColor = System.Drawing.Color.Transparent;
+            this.servicio_22.BorderRadius = 3;
+            this.servicio_22.DisabledColor = System.Drawing.Color.Gray;
+            this.servicio_22.Enabled = false;
+            this.servicio_22.ForeColor = System.Drawing.Color.White;
+            this.servicio_22.items = new string[0];
+            this.servicio_22.Location = new System.Drawing.Point(95, 585);
+            this.servicio_22.Name = "servicio_22";
+            this.servicio_22.NomalColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
+            this.servicio_22.onHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
+            this.servicio_22.selectedIndex = -1;
+            this.servicio_22.Size = new System.Drawing.Size(453, 26);
+            this.servicio_22.TabIndex = 82;
+            this.servicio_22.onItemSelected += new System.EventHandler(this.servicio_22_change);
+            // 
+            // lblcantidad23
+            // 
+            this.lblcantidad23.BorderColorFocused = System.Drawing.Color.Blue;
+            this.lblcantidad23.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lblcantidad23.BorderColorMouseHover = System.Drawing.Color.Blue;
+            this.lblcantidad23.BorderThickness = 1;
+            this.lblcantidad23.characterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.lblcantidad23.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.lblcantidad23.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.lblcantidad23.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lblcantidad23.isPassword = false;
+            this.lblcantidad23.Location = new System.Drawing.Point(34, 613);
+            this.lblcantidad23.Margin = new System.Windows.Forms.Padding(4);
+            this.lblcantidad23.MaxLength = 2;
+            this.lblcantidad23.Name = "lblcantidad23";
+            this.lblcantidad23.Size = new System.Drawing.Size(45, 25);
+            this.lblcantidad23.TabIndex = 84;
+            this.lblcantidad23.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.lblcantidad23.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.lvlvalor_KeyPress);
+            // 
+            // lvlvalor23
+            // 
+            this.lvlvalor23.BorderColorFocused = System.Drawing.Color.Blue;
+            this.lvlvalor23.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lvlvalor23.BorderColorMouseHover = System.Drawing.Color.Blue;
+            this.lvlvalor23.BorderThickness = 1;
+            this.lvlvalor23.characterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.lvlvalor23.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.lvlvalor23.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.lvlvalor23.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lvlvalor23.isPassword = false;
+            this.lvlvalor23.Location = new System.Drawing.Point(562, 613);
+            this.lvlvalor23.Margin = new System.Windows.Forms.Padding(4);
+            this.lvlvalor23.MaxLength = 7;
+            this.lvlvalor23.Name = "lvlvalor23";
+            this.lvlvalor23.Size = new System.Drawing.Size(114, 25);
+            this.lvlvalor23.TabIndex = 86;
+            this.lvlvalor23.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.lvlvalor23.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.lvlvalor_KeyPress);
+            this.lvlvalor23.KeyUp += new System.Windows.Forms.KeyEventHandler(this.calculate);
+            // 
+            // servicio_23
+            // 
+            this.servicio_23.BackColor = System.Drawing.Color.Transparent;
+            this.servicio_23.BorderRadius = 3;
+            this.servicio_23.DisabledColor = System.Drawing.Color.Gray;
+            this.servicio_23.Enabled = false;
+            this.servicio_23.ForeColor = System.Drawing.Color.White;
+            this.servicio_23.items = new string[0];
+            this.servicio_23.Location = new System.Drawing.Point(95, 613);
+            this.servicio_23.Name = "servicio_23";
+            this.servicio_23.NomalColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
+            this.servicio_23.onHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
+            this.servicio_23.selectedIndex = -1;
+            this.servicio_23.Size = new System.Drawing.Size(453, 26);
+            this.servicio_23.TabIndex = 85;
+            this.servicio_23.onItemSelected += new System.EventHandler(this.servicio_23_change);
+            // 
+            // lblcantidad24
+            // 
+            this.lblcantidad24.BorderColorFocused = System.Drawing.Color.Blue;
+            this.lblcantidad24.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lblcantidad24.BorderColorMouseHover = System.Drawing.Color.Blue;
+            this.lblcantidad24.BorderThickness = 1;
+            this.lblcantidad24.characterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.lblcantidad24.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.lblcantidad24.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.lblcantidad24.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lblcantidad24.isPassword = false;
+            this.lblcantidad24.Location = new System.Drawing.Point(34, 641);
+            this.lblcantidad24.Margin = new System.Windows.Forms.Padding(4);
+            this.lblcantidad24.MaxLength = 2;
+            this.lblcantidad24.Name = "lblcantidad24";
+            this.lblcantidad24.Size = new System.Drawing.Size(45, 25);
+            this.lblcantidad24.TabIndex = 87;
+            this.lblcantidad24.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.lblcantidad24.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.lvlvalor_KeyPress);
+            // 
+            // lvlvalor24
+            // 
+            this.lvlvalor24.BorderColorFocused = System.Drawing.Color.Blue;
+            this.lvlvalor24.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lvlvalor24.BorderColorMouseHover = System.Drawing.Color.Blue;
+            this.lvlvalor24.BorderThickness = 1;
+            this.lvlvalor24.characterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.lvlvalor24.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.lvlvalor24.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.lvlvalor24.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lvlvalor24.isPassword = false;
+            this.lvlvalor24.Location = new System.Drawing.Point(562, 641);
+            this.lvlvalor24.Margin = new System.Windows.Forms.Padding(4);
+            this.lvlvalor24.MaxLength = 7;
+            this.lvlvalor24.Name = "lvlvalor24";
+            this.lvlvalor24.Size = new System.Drawing.Size(114, 25);
+            this.lvlvalor24.TabIndex = 89;
+            this.lvlvalor24.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.lvlvalor24.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.lvlvalor_KeyPress);
+            this.lvlvalor24.KeyUp += new System.Windows.Forms.KeyEventHandler(this.calculate);
+            // 
+            // servicio_24
+            // 
+            this.servicio_24.BackColor = System.Drawing.Color.Transparent;
+            this.servicio_24.BorderRadius = 3;
+            this.servicio_24.DisabledColor = System.Drawing.Color.Gray;
+            this.servicio_24.ForeColor = System.Drawing.Color.White;
+            this.servicio_24.items = new string[0];
+            this.servicio_24.Location = new System.Drawing.Point(95, 641);
+            this.servicio_24.Name = "servicio_24";
+            this.servicio_24.NomalColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
+            this.servicio_24.onHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
+            this.servicio_24.selectedIndex = -1;
+            this.servicio_24.Size = new System.Drawing.Size(453, 26);
+            this.servicio_24.TabIndex = 88;
+            this.servicio_24.onItemSelected += new System.EventHandler(this.servicio_24_change);
+            // 
+            // lblcantidad25
+            // 
+            this.lblcantidad25.BorderColorFocused = System.Drawing.Color.Blue;
+            this.lblcantidad25.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lblcantidad25.BorderColorMouseHover = System.Drawing.Color.Blue;
+            this.lblcantidad25.BorderThickness = 1;
+            this.lblcantidad25.characterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.lblcantidad25.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.lblcantidad25.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.lblcantidad25.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lblcantidad25.isPassword = false;
+            this.lblcantidad25.Location = new System.Drawing.Point(34, 669);
+            this.lblcantidad25.Margin = new System.Windows.Forms.Padding(4);
+            this.lblcantidad25.MaxLength = 2;
+            this.lblcantidad25.Name = "lblcantidad25";
+            this.lblcantidad25.Size = new System.Drawing.Size(45, 25);
+            this.lblcantidad25.TabIndex = 90;
+            this.lblcantidad25.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.lblcantidad25.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.lvlvalor_KeyPress);
+            // 
+            // lvlvalor25
+            // 
+            this.lvlvalor25.BorderColorFocused = System.Drawing.Color.Blue;
+            this.lvlvalor25.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lvlvalor25.BorderColorMouseHover = System.Drawing.Color.Blue;
+            this.lvlvalor25.BorderThickness = 1;
+            this.lvlvalor25.characterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.lvlvalor25.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.lvlvalor25.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.lvlvalor25.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lvlvalor25.isPassword = false;
+            this.lvlvalor25.Location = new System.Drawing.Point(562, 669);
+            this.lvlvalor25.Margin = new System.Windows.Forms.Padding(4);
+            this.lvlvalor25.MaxLength = 7;
+            this.lvlvalor25.Name = "lvlvalor25";
+            this.lvlvalor25.Size = new System.Drawing.Size(114, 25);
+            this.lvlvalor25.TabIndex = 92;
+            this.lvlvalor25.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.lvlvalor25.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.lvlvalor_KeyPress);
+            this.lvlvalor25.KeyUp += new System.Windows.Forms.KeyEventHandler(this.calculate);
+            // 
+            // servicio_25
+            // 
+            this.servicio_25.BackColor = System.Drawing.Color.Transparent;
+            this.servicio_25.BorderRadius = 3;
+            this.servicio_25.DisabledColor = System.Drawing.Color.Gray;
+            this.servicio_25.Enabled = false;
+            this.servicio_25.ForeColor = System.Drawing.Color.White;
+            this.servicio_25.items = new string[0];
+            this.servicio_25.Location = new System.Drawing.Point(95, 669);
+            this.servicio_25.Name = "servicio_25";
+            this.servicio_25.NomalColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
+            this.servicio_25.onHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
+            this.servicio_25.selectedIndex = -1;
+            this.servicio_25.Size = new System.Drawing.Size(453, 26);
+            this.servicio_25.TabIndex = 91;
+            this.servicio_25.onItemSelected += new System.EventHandler(this.servicio_25_change);
+            // 
+            // lblcantidad26
+            // 
+            this.lblcantidad26.BorderColorFocused = System.Drawing.Color.Blue;
+            this.lblcantidad26.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lblcantidad26.BorderColorMouseHover = System.Drawing.Color.Blue;
+            this.lblcantidad26.BorderThickness = 1;
+            this.lblcantidad26.characterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.lblcantidad26.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.lblcantidad26.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.lblcantidad26.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lblcantidad26.isPassword = false;
+            this.lblcantidad26.Location = new System.Drawing.Point(34, 697);
+            this.lblcantidad26.Margin = new System.Windows.Forms.Padding(4);
+            this.lblcantidad26.MaxLength = 2;
+            this.lblcantidad26.Name = "lblcantidad26";
+            this.lblcantidad26.Size = new System.Drawing.Size(45, 25);
+            this.lblcantidad26.TabIndex = 93;
+            this.lblcantidad26.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.lblcantidad26.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.lvlvalor_KeyPress);
+            // 
+            // lvlvalor26
+            // 
+            this.lvlvalor26.BorderColorFocused = System.Drawing.Color.Blue;
+            this.lvlvalor26.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lvlvalor26.BorderColorMouseHover = System.Drawing.Color.Blue;
+            this.lvlvalor26.BorderThickness = 1;
+            this.lvlvalor26.characterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.lvlvalor26.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.lvlvalor26.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.lvlvalor26.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lvlvalor26.isPassword = false;
+            this.lvlvalor26.Location = new System.Drawing.Point(562, 697);
+            this.lvlvalor26.Margin = new System.Windows.Forms.Padding(4);
+            this.lvlvalor26.MaxLength = 7;
+            this.lvlvalor26.Name = "lvlvalor26";
+            this.lvlvalor26.Size = new System.Drawing.Size(114, 25);
+            this.lvlvalor26.TabIndex = 95;
+            this.lvlvalor26.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.lvlvalor26.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.lvlvalor_KeyPress);
+            this.lvlvalor26.KeyUp += new System.Windows.Forms.KeyEventHandler(this.calculate);
+            // 
+            // servicio_26
+            // 
+            this.servicio_26.BackColor = System.Drawing.Color.Transparent;
+            this.servicio_26.BorderRadius = 3;
+            this.servicio_26.DisabledColor = System.Drawing.Color.Gray;
+            this.servicio_26.Enabled = false;
+            this.servicio_26.ForeColor = System.Drawing.Color.White;
+            this.servicio_26.items = new string[0];
+            this.servicio_26.Location = new System.Drawing.Point(95, 697);
+            this.servicio_26.Name = "servicio_26";
+            this.servicio_26.NomalColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
+            this.servicio_26.onHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
+            this.servicio_26.selectedIndex = -1;
+            this.servicio_26.Size = new System.Drawing.Size(453, 26);
+            this.servicio_26.TabIndex = 94;
+            this.servicio_26.onItemSelected += new System.EventHandler(this.servicio_26_change);
+            // 
+            // lblcantidad27
+            // 
+            this.lblcantidad27.BorderColorFocused = System.Drawing.Color.Blue;
+            this.lblcantidad27.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lblcantidad27.BorderColorMouseHover = System.Drawing.Color.Blue;
+            this.lblcantidad27.BorderThickness = 1;
+            this.lblcantidad27.characterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.lblcantidad27.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.lblcantidad27.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.lblcantidad27.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lblcantidad27.isPassword = false;
+            this.lblcantidad27.Location = new System.Drawing.Point(34, 725);
+            this.lblcantidad27.Margin = new System.Windows.Forms.Padding(4);
+            this.lblcantidad27.MaxLength = 2;
+            this.lblcantidad27.Name = "lblcantidad27";
+            this.lblcantidad27.Size = new System.Drawing.Size(45, 25);
+            this.lblcantidad27.TabIndex = 96;
+            this.lblcantidad27.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.lblcantidad27.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.lvlvalor_KeyPress);
+            // 
+            // lvlvalor27
+            // 
+            this.lvlvalor27.BorderColorFocused = System.Drawing.Color.Blue;
+            this.lvlvalor27.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lvlvalor27.BorderColorMouseHover = System.Drawing.Color.Blue;
+            this.lvlvalor27.BorderThickness = 1;
+            this.lvlvalor27.characterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.lvlvalor27.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.lvlvalor27.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.lvlvalor27.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lvlvalor27.isPassword = false;
+            this.lvlvalor27.Location = new System.Drawing.Point(562, 725);
+            this.lvlvalor27.Margin = new System.Windows.Forms.Padding(4);
+            this.lvlvalor27.MaxLength = 7;
+            this.lvlvalor27.Name = "lvlvalor27";
+            this.lvlvalor27.Size = new System.Drawing.Size(114, 25);
+            this.lvlvalor27.TabIndex = 98;
+            this.lvlvalor27.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.lvlvalor27.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.lvlvalor_KeyPress);
+            this.lvlvalor27.KeyUp += new System.Windows.Forms.KeyEventHandler(this.calculate);
+            // 
+            // servicio_27
+            // 
+            this.servicio_27.BackColor = System.Drawing.Color.Transparent;
+            this.servicio_27.BorderRadius = 3;
+            this.servicio_27.DisabledColor = System.Drawing.Color.Gray;
+            this.servicio_27.Enabled = false;
+            this.servicio_27.ForeColor = System.Drawing.Color.White;
+            this.servicio_27.items = new string[0];
+            this.servicio_27.Location = new System.Drawing.Point(95, 725);
+            this.servicio_27.Name = "servicio_27";
+            this.servicio_27.NomalColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
+            this.servicio_27.onHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
+            this.servicio_27.selectedIndex = -1;
+            this.servicio_27.Size = new System.Drawing.Size(453, 26);
+            this.servicio_27.TabIndex = 97;
+            this.servicio_27.onItemSelected += new System.EventHandler(this.servicio_27_change);
+            // 
+            // lblcantidad28
+            // 
+            this.lblcantidad28.BorderColorFocused = System.Drawing.Color.Blue;
+            this.lblcantidad28.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lblcantidad28.BorderColorMouseHover = System.Drawing.Color.Blue;
+            this.lblcantidad28.BorderThickness = 1;
+            this.lblcantidad28.characterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.lblcantidad28.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.lblcantidad28.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.lblcantidad28.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lblcantidad28.isPassword = false;
+            this.lblcantidad28.Location = new System.Drawing.Point(34, 753);
+            this.lblcantidad28.Margin = new System.Windows.Forms.Padding(4);
+            this.lblcantidad28.MaxLength = 2;
+            this.lblcantidad28.Name = "lblcantidad28";
+            this.lblcantidad28.Size = new System.Drawing.Size(45, 25);
+            this.lblcantidad28.TabIndex = 99;
+            this.lblcantidad28.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.lblcantidad28.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.lvlvalor_KeyPress);
+            // 
+            // lvlvalor28
+            // 
+            this.lvlvalor28.BorderColorFocused = System.Drawing.Color.Blue;
+            this.lvlvalor28.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lvlvalor28.BorderColorMouseHover = System.Drawing.Color.Blue;
+            this.lvlvalor28.BorderThickness = 1;
+            this.lvlvalor28.characterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.lvlvalor28.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.lvlvalor28.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.lvlvalor28.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lvlvalor28.isPassword = false;
+            this.lvlvalor28.Location = new System.Drawing.Point(562, 753);
+            this.lvlvalor28.Margin = new System.Windows.Forms.Padding(4);
+            this.lvlvalor28.MaxLength = 7;
+            this.lvlvalor28.Name = "lvlvalor28";
+            this.lvlvalor28.Size = new System.Drawing.Size(114, 25);
+            this.lvlvalor28.TabIndex = 101;
+            this.lvlvalor28.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.lvlvalor28.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.lvlvalor_KeyPress);
+            this.lvlvalor28.KeyUp += new System.Windows.Forms.KeyEventHandler(this.calculate);
+            // 
+            // servicio_28
+            // 
+            this.servicio_28.BackColor = System.Drawing.Color.Transparent;
+            this.servicio_28.BorderRadius = 3;
+            this.servicio_28.DisabledColor = System.Drawing.Color.Gray;
+            this.servicio_28.Enabled = false;
+            this.servicio_28.ForeColor = System.Drawing.Color.White;
+            this.servicio_28.items = new string[0];
+            this.servicio_28.Location = new System.Drawing.Point(95, 753);
+            this.servicio_28.Name = "servicio_28";
+            this.servicio_28.NomalColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
+            this.servicio_28.onHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
+            this.servicio_28.selectedIndex = -1;
+            this.servicio_28.Size = new System.Drawing.Size(453, 26);
+            this.servicio_28.TabIndex = 100;
+            this.servicio_28.onItemSelected += new System.EventHandler(this.servicio_28_change);
+            // 
+            // lblcantidad29
+            // 
+            this.lblcantidad29.BorderColorFocused = System.Drawing.Color.Blue;
+            this.lblcantidad29.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lblcantidad29.BorderColorMouseHover = System.Drawing.Color.Blue;
+            this.lblcantidad29.BorderThickness = 1;
+            this.lblcantidad29.characterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.lblcantidad29.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.lblcantidad29.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.lblcantidad29.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lblcantidad29.isPassword = false;
+            this.lblcantidad29.Location = new System.Drawing.Point(34, 781);
+            this.lblcantidad29.Margin = new System.Windows.Forms.Padding(4);
+            this.lblcantidad29.MaxLength = 2;
+            this.lblcantidad29.Name = "lblcantidad29";
+            this.lblcantidad29.Size = new System.Drawing.Size(45, 25);
+            this.lblcantidad29.TabIndex = 102;
+            this.lblcantidad29.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.lblcantidad29.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.lvlvalor_KeyPress);
+            // 
+            // lvlvalor29
+            // 
+            this.lvlvalor29.BorderColorFocused = System.Drawing.Color.Blue;
+            this.lvlvalor29.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lvlvalor29.BorderColorMouseHover = System.Drawing.Color.Blue;
+            this.lvlvalor29.BorderThickness = 1;
+            this.lvlvalor29.characterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.lvlvalor29.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.lvlvalor29.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.lvlvalor29.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lvlvalor29.isPassword = false;
+            this.lvlvalor29.Location = new System.Drawing.Point(562, 781);
+            this.lvlvalor29.Margin = new System.Windows.Forms.Padding(4);
+            this.lvlvalor29.MaxLength = 7;
+            this.lvlvalor29.Name = "lvlvalor29";
+            this.lvlvalor29.Size = new System.Drawing.Size(114, 25);
+            this.lvlvalor29.TabIndex = 104;
+            this.lvlvalor29.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.lvlvalor29.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.lvlvalor_KeyPress);
+            this.lvlvalor29.KeyUp += new System.Windows.Forms.KeyEventHandler(this.calculate);
+            // 
+            // servicio_29
+            // 
+            this.servicio_29.BackColor = System.Drawing.Color.Transparent;
+            this.servicio_29.BorderRadius = 3;
+            this.servicio_29.DisabledColor = System.Drawing.Color.Gray;
+            this.servicio_29.Enabled = false;
+            this.servicio_29.ForeColor = System.Drawing.Color.White;
+            this.servicio_29.items = new string[0];
+            this.servicio_29.Location = new System.Drawing.Point(95, 781);
+            this.servicio_29.Name = "servicio_29";
+            this.servicio_29.NomalColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
+            this.servicio_29.onHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
+            this.servicio_29.selectedIndex = -1;
+            this.servicio_29.Size = new System.Drawing.Size(453, 26);
+            this.servicio_29.TabIndex = 103;
+            this.servicio_29.onItemSelected += new System.EventHandler(this.servicio_29_change);
+            // 
+            // bunifuCustomLabel22
+            // 
+            this.bunifuCustomLabel22.AutoSize = true;
+            this.bunifuCustomLabel22.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCustomLabel22.Location = new System.Drawing.Point(9, 9);
+            this.bunifuCustomLabel22.Name = "bunifuCustomLabel22";
+            this.bunifuCustomLabel22.Size = new System.Drawing.Size(16, 16);
+            this.bunifuCustomLabel22.TabIndex = 105;
+            this.bunifuCustomLabel22.Text = "1";
+            // 
+            // bunifuCustomLabel23
+            // 
+            this.bunifuCustomLabel23.AutoSize = true;
+            this.bunifuCustomLabel23.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCustomLabel23.Location = new System.Drawing.Point(9, 35);
+            this.bunifuCustomLabel23.Name = "bunifuCustomLabel23";
+            this.bunifuCustomLabel23.Size = new System.Drawing.Size(16, 16);
+            this.bunifuCustomLabel23.TabIndex = 106;
+            this.bunifuCustomLabel23.Text = "2";
+            // 
+            // bunifuCustomLabel24
+            // 
+            this.bunifuCustomLabel24.AutoSize = true;
+            this.bunifuCustomLabel24.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCustomLabel24.Location = new System.Drawing.Point(9, 63);
+            this.bunifuCustomLabel24.Name = "bunifuCustomLabel24";
+            this.bunifuCustomLabel24.Size = new System.Drawing.Size(16, 16);
+            this.bunifuCustomLabel24.TabIndex = 107;
+            this.bunifuCustomLabel24.Text = "3";
+            // 
+            // bunifuCustomLabel25
+            // 
+            this.bunifuCustomLabel25.AutoSize = true;
+            this.bunifuCustomLabel25.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCustomLabel25.Location = new System.Drawing.Point(9, 89);
+            this.bunifuCustomLabel25.Name = "bunifuCustomLabel25";
+            this.bunifuCustomLabel25.Size = new System.Drawing.Size(16, 16);
+            this.bunifuCustomLabel25.TabIndex = 108;
+            this.bunifuCustomLabel25.Text = "4";
+            // 
+            // bunifuCustomLabel26
+            // 
+            this.bunifuCustomLabel26.AutoSize = true;
+            this.bunifuCustomLabel26.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCustomLabel26.Location = new System.Drawing.Point(9, 118);
+            this.bunifuCustomLabel26.Name = "bunifuCustomLabel26";
+            this.bunifuCustomLabel26.Size = new System.Drawing.Size(16, 16);
+            this.bunifuCustomLabel26.TabIndex = 109;
+            this.bunifuCustomLabel26.Text = "5";
+            // 
+            // bunifuCustomLabel27
+            // 
+            this.bunifuCustomLabel27.AutoSize = true;
+            this.bunifuCustomLabel27.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCustomLabel27.Location = new System.Drawing.Point(9, 146);
+            this.bunifuCustomLabel27.Name = "bunifuCustomLabel27";
+            this.bunifuCustomLabel27.Size = new System.Drawing.Size(16, 16);
+            this.bunifuCustomLabel27.TabIndex = 110;
+            this.bunifuCustomLabel27.Text = "6";
+            // 
+            // bunifuCustomLabel28
+            // 
+            this.bunifuCustomLabel28.AutoSize = true;
+            this.bunifuCustomLabel28.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCustomLabel28.Location = new System.Drawing.Point(10, 171);
+            this.bunifuCustomLabel28.Name = "bunifuCustomLabel28";
+            this.bunifuCustomLabel28.Size = new System.Drawing.Size(16, 16);
+            this.bunifuCustomLabel28.TabIndex = 111;
+            this.bunifuCustomLabel28.Text = "7";
+            // 
+            // bunifuCustomLabel29
+            // 
+            this.bunifuCustomLabel29.AutoSize = true;
+            this.bunifuCustomLabel29.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCustomLabel29.Location = new System.Drawing.Point(9, 201);
+            this.bunifuCustomLabel29.Name = "bunifuCustomLabel29";
+            this.bunifuCustomLabel29.Size = new System.Drawing.Size(16, 16);
+            this.bunifuCustomLabel29.TabIndex = 112;
+            this.bunifuCustomLabel29.Text = "8";
+            // 
+            // bunifuCustomLabel30
+            // 
+            this.bunifuCustomLabel30.AutoSize = true;
+            this.bunifuCustomLabel30.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCustomLabel30.Location = new System.Drawing.Point(9, 227);
+            this.bunifuCustomLabel30.Name = "bunifuCustomLabel30";
+            this.bunifuCustomLabel30.Size = new System.Drawing.Size(16, 16);
+            this.bunifuCustomLabel30.TabIndex = 113;
+            this.bunifuCustomLabel30.Text = "9";
+            // 
+            // bunifuCustomLabel31
+            // 
+            this.bunifuCustomLabel31.AutoSize = true;
+            this.bunifuCustomLabel31.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCustomLabel31.Location = new System.Drawing.Point(5, 256);
+            this.bunifuCustomLabel31.Name = "bunifuCustomLabel31";
+            this.bunifuCustomLabel31.Size = new System.Drawing.Size(24, 16);
+            this.bunifuCustomLabel31.TabIndex = 114;
+            this.bunifuCustomLabel31.Text = "10";
+            // 
+            // bunifuCustomLabel32
+            // 
+            this.bunifuCustomLabel32.AutoSize = true;
+            this.bunifuCustomLabel32.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCustomLabel32.Location = new System.Drawing.Point(6, 285);
+            this.bunifuCustomLabel32.Name = "bunifuCustomLabel32";
+            this.bunifuCustomLabel32.Size = new System.Drawing.Size(24, 16);
+            this.bunifuCustomLabel32.TabIndex = 115;
+            this.bunifuCustomLabel32.Text = "11";
+            // 
+            // bunifuCustomLabel33
+            // 
+            this.bunifuCustomLabel33.AutoSize = true;
+            this.bunifuCustomLabel33.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCustomLabel33.Location = new System.Drawing.Point(6, 314);
+            this.bunifuCustomLabel33.Name = "bunifuCustomLabel33";
+            this.bunifuCustomLabel33.Size = new System.Drawing.Size(24, 16);
+            this.bunifuCustomLabel33.TabIndex = 116;
+            this.bunifuCustomLabel33.Text = "12";
+            // 
+            // bunifuCustomLabel34
+            // 
+            this.bunifuCustomLabel34.AutoSize = true;
+            this.bunifuCustomLabel34.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCustomLabel34.Location = new System.Drawing.Point(5, 341);
+            this.bunifuCustomLabel34.Name = "bunifuCustomLabel34";
+            this.bunifuCustomLabel34.Size = new System.Drawing.Size(24, 16);
+            this.bunifuCustomLabel34.TabIndex = 117;
+            this.bunifuCustomLabel34.Text = "13";
+            // 
+            // bunifuCustomLabel35
+            // 
+            this.bunifuCustomLabel35.AutoSize = true;
+            this.bunifuCustomLabel35.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCustomLabel35.Location = new System.Drawing.Point(5, 369);
+            this.bunifuCustomLabel35.Name = "bunifuCustomLabel35";
+            this.bunifuCustomLabel35.Size = new System.Drawing.Size(24, 16);
+            this.bunifuCustomLabel35.TabIndex = 118;
+            this.bunifuCustomLabel35.Text = "14";
+            // 
+            // bunifuCustomLabel36
+            // 
+            this.bunifuCustomLabel36.AutoSize = true;
+            this.bunifuCustomLabel36.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCustomLabel36.Location = new System.Drawing.Point(5, 396);
+            this.bunifuCustomLabel36.Name = "bunifuCustomLabel36";
+            this.bunifuCustomLabel36.Size = new System.Drawing.Size(24, 16);
+            this.bunifuCustomLabel36.TabIndex = 119;
+            this.bunifuCustomLabel36.Text = "15";
+            // 
+            // bunifuCustomLabel37
+            // 
+            this.bunifuCustomLabel37.AutoSize = true;
+            this.bunifuCustomLabel37.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCustomLabel37.Location = new System.Drawing.Point(5, 423);
+            this.bunifuCustomLabel37.Name = "bunifuCustomLabel37";
+            this.bunifuCustomLabel37.Size = new System.Drawing.Size(24, 16);
+            this.bunifuCustomLabel37.TabIndex = 120;
+            this.bunifuCustomLabel37.Text = "16";
+            // 
+            // bunifuCustomLabel38
+            // 
+            this.bunifuCustomLabel38.AutoSize = true;
+            this.bunifuCustomLabel38.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCustomLabel38.Location = new System.Drawing.Point(6, 452);
+            this.bunifuCustomLabel38.Name = "bunifuCustomLabel38";
+            this.bunifuCustomLabel38.Size = new System.Drawing.Size(24, 16);
+            this.bunifuCustomLabel38.TabIndex = 121;
+            this.bunifuCustomLabel38.Text = "17";
+            // 
+            // bunifuCustomLabel39
+            // 
+            this.bunifuCustomLabel39.AutoSize = true;
+            this.bunifuCustomLabel39.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCustomLabel39.Location = new System.Drawing.Point(6, 479);
+            this.bunifuCustomLabel39.Name = "bunifuCustomLabel39";
+            this.bunifuCustomLabel39.Size = new System.Drawing.Size(24, 16);
+            this.bunifuCustomLabel39.TabIndex = 122;
+            this.bunifuCustomLabel39.Text = "18";
+            // 
+            // bunifuCustomLabel40
+            // 
+            this.bunifuCustomLabel40.AutoSize = true;
+            this.bunifuCustomLabel40.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCustomLabel40.Location = new System.Drawing.Point(6, 506);
+            this.bunifuCustomLabel40.Name = "bunifuCustomLabel40";
+            this.bunifuCustomLabel40.Size = new System.Drawing.Size(24, 16);
+            this.bunifuCustomLabel40.TabIndex = 123;
+            this.bunifuCustomLabel40.Text = "19";
+            // 
+            // bunifuCustomLabel41
+            // 
+            this.bunifuCustomLabel41.AutoSize = true;
+            this.bunifuCustomLabel41.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCustomLabel41.Location = new System.Drawing.Point(7, 533);
+            this.bunifuCustomLabel41.Name = "bunifuCustomLabel41";
+            this.bunifuCustomLabel41.Size = new System.Drawing.Size(24, 16);
+            this.bunifuCustomLabel41.TabIndex = 124;
+            this.bunifuCustomLabel41.Text = "20";
+            // 
+            // bunifuCustomLabel42
+            // 
+            this.bunifuCustomLabel42.AutoSize = true;
+            this.bunifuCustomLabel42.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCustomLabel42.Location = new System.Drawing.Point(7, 561);
+            this.bunifuCustomLabel42.Name = "bunifuCustomLabel42";
+            this.bunifuCustomLabel42.Size = new System.Drawing.Size(24, 16);
+            this.bunifuCustomLabel42.TabIndex = 125;
+            this.bunifuCustomLabel42.Text = "21";
+            // 
+            // bunifuCustomLabel43
+            // 
+            this.bunifuCustomLabel43.AutoSize = true;
+            this.bunifuCustomLabel43.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCustomLabel43.Location = new System.Drawing.Point(7, 589);
+            this.bunifuCustomLabel43.Name = "bunifuCustomLabel43";
+            this.bunifuCustomLabel43.Size = new System.Drawing.Size(24, 16);
+            this.bunifuCustomLabel43.TabIndex = 126;
+            this.bunifuCustomLabel43.Text = "22";
+            // 
+            // bunifuCustomLabel44
+            // 
+            this.bunifuCustomLabel44.AutoSize = true;
+            this.bunifuCustomLabel44.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCustomLabel44.Location = new System.Drawing.Point(7, 618);
+            this.bunifuCustomLabel44.Name = "bunifuCustomLabel44";
+            this.bunifuCustomLabel44.Size = new System.Drawing.Size(24, 16);
+            this.bunifuCustomLabel44.TabIndex = 127;
+            this.bunifuCustomLabel44.Text = "23";
+            // 
+            // bunifuCustomLabel45
+            // 
+            this.bunifuCustomLabel45.AutoSize = true;
+            this.bunifuCustomLabel45.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCustomLabel45.Location = new System.Drawing.Point(7, 646);
+            this.bunifuCustomLabel45.Name = "bunifuCustomLabel45";
+            this.bunifuCustomLabel45.Size = new System.Drawing.Size(24, 16);
+            this.bunifuCustomLabel45.TabIndex = 128;
+            this.bunifuCustomLabel45.Text = "24";
+            // 
+            // bunifuCustomLabel46
+            // 
+            this.bunifuCustomLabel46.AutoSize = true;
+            this.bunifuCustomLabel46.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCustomLabel46.Location = new System.Drawing.Point(7, 673);
+            this.bunifuCustomLabel46.Name = "bunifuCustomLabel46";
+            this.bunifuCustomLabel46.Size = new System.Drawing.Size(24, 16);
+            this.bunifuCustomLabel46.TabIndex = 129;
+            this.bunifuCustomLabel46.Text = "25";
+            // 
+            // bunifuCustomLabel47
+            // 
+            this.bunifuCustomLabel47.AutoSize = true;
+            this.bunifuCustomLabel47.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCustomLabel47.Location = new System.Drawing.Point(7, 702);
+            this.bunifuCustomLabel47.Name = "bunifuCustomLabel47";
+            this.bunifuCustomLabel47.Size = new System.Drawing.Size(24, 16);
+            this.bunifuCustomLabel47.TabIndex = 130;
+            this.bunifuCustomLabel47.Text = "26";
+            // 
+            // bunifuCustomLabel48
+            // 
+            this.bunifuCustomLabel48.AutoSize = true;
+            this.bunifuCustomLabel48.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCustomLabel48.Location = new System.Drawing.Point(7, 730);
+            this.bunifuCustomLabel48.Name = "bunifuCustomLabel48";
+            this.bunifuCustomLabel48.Size = new System.Drawing.Size(24, 16);
+            this.bunifuCustomLabel48.TabIndex = 131;
+            this.bunifuCustomLabel48.Text = "27";
+            // 
+            // bunifuCustomLabel49
+            // 
+            this.bunifuCustomLabel49.AutoSize = true;
+            this.bunifuCustomLabel49.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCustomLabel49.Location = new System.Drawing.Point(7, 758);
+            this.bunifuCustomLabel49.Name = "bunifuCustomLabel49";
+            this.bunifuCustomLabel49.Size = new System.Drawing.Size(24, 16);
+            this.bunifuCustomLabel49.TabIndex = 132;
+            this.bunifuCustomLabel49.Text = "28";
+            // 
+            // bunifuCustomLabel50
+            // 
+            this.bunifuCustomLabel50.AutoSize = true;
+            this.bunifuCustomLabel50.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCustomLabel50.Location = new System.Drawing.Point(7, 785);
+            this.bunifuCustomLabel50.Name = "bunifuCustomLabel50";
+            this.bunifuCustomLabel50.Size = new System.Drawing.Size(24, 16);
+            this.bunifuCustomLabel50.TabIndex = 133;
+            this.bunifuCustomLabel50.Text = "29";
+            // 
+            // bunifuCustomLabel51
+            // 
+            this.bunifuCustomLabel51.AutoSize = true;
+            this.bunifuCustomLabel51.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCustomLabel51.Location = new System.Drawing.Point(7, 813);
+            this.bunifuCustomLabel51.Name = "bunifuCustomLabel51";
+            this.bunifuCustomLabel51.Size = new System.Drawing.Size(24, 16);
+            this.bunifuCustomLabel51.TabIndex = 134;
+            this.bunifuCustomLabel51.Text = "30";
             // 
             // Facturation
             // 
