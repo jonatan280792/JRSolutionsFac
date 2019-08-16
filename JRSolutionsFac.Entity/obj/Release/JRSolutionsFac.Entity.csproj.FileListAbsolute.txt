@@ -1,0 +1,6 @@
+D:\GitHub\JRSolutionsFac\JRSolutionsFac.Entity\bin\Release\JRSolutionsFac.Entity.dll
+D:\GitHub\JRSolutionsFac\JRSolutionsFac.Entity\bin\Release\JRSolutionsFac.Entity.pdb
+D:\GitHub\JRSolutionsFac\JRSolutionsFac.Entity\obj\Release\JRSolutionsFac.Entity.csprojAssemblyReference.cache
+D:\GitHub\JRSolutionsFac\JRSolutionsFac.Entity\obj\Release\JRSolutionsFac.Entity.csproj.CoreCompileInputs.cache
+D:\GitHub\JRSolutionsFac\JRSolutionsFac.Entity\obj\Release\JRSolutionsFac.Entity.dll
+D:\GitHub\JRSolutionsFac\JRSolutionsFac.Entity\obj\Release\JRSolutionsFac.Entity.pdb

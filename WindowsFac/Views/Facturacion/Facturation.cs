@@ -29,36 +29,41 @@ namespace WindowsFac.Views.Facturacion
         public Facturation()
         {
             InitializeComponent();
-            date_one.BackColor = ColorTranslator.FromHtml("#2196F3");
-
-            date_two.BackColor = ColorTranslator.FromHtml("#2196F3");
-
-            dropdowntipo_fac.NomalColor = ColorTranslator.FromHtml("#2196F3");
-            dropdowntipo_fac.onHoverColor = ColorTranslator.FromHtml("#42A5F5");
-
-            dropdownMarca.NomalColor = ColorTranslator.FromHtml("#2196F3");
-            dropdownMarca.onHoverColor = ColorTranslator.FromHtml("#42A5F5");
-
-            dropdwonCaja.NomalColor = ColorTranslator.FromHtml("#2196F3");
-            dropdwonCaja.onHoverColor = ColorTranslator.FromHtml("#42A5F5");
-
-            dropdowntipo_fac.NomalColor = ColorTranslator.FromHtml("#2196F3");
-            dropdowntipo_fac.onHoverColor = ColorTranslator.FromHtml("#42A5F5");
-
-            dropdownTipoDoc.NomalColor = ColorTranslator.FromHtml("#2196F3");
-            dropdownTipoDoc.onHoverColor = ColorTranslator.FromHtml("#42A5F5");
-
-            servicio_1.NomalColor = ColorTranslator.FromHtml("#2196F3");
-            servicio_1.onHoverColor = ColorTranslator.FromHtml("#42A5F5");
             
-            servicio_2.NomalColor = ColorTranslator.FromHtml("#2196F3");
-            servicio_2.onHoverColor = ColorTranslator.FromHtml("#42A5F5");
-            servicio_3.NomalColor = ColorTranslator.FromHtml("#2196F3");
-            servicio_3.onHoverColor = ColorTranslator.FromHtml("#42A5F5");
-            servicio_4.NomalColor = ColorTranslator.FromHtml("#2196F3");
-            servicio_4.onHoverColor = ColorTranslator.FromHtml("#42A5F5");
-            servicio_5.NomalColor = ColorTranslator.FromHtml("#2196F3");
-            servicio_5.onHoverColor = ColorTranslator.FromHtml("#42A5F5");
+
+            //servicio_1.Color = ColorTranslator.FromHtml("#42A5F5");
+            //servicio_1.ItemHighLightColor = ColorTranslator.FromHtml("#2196F3");
+
+            //date_onee.BackColor = ColorTranslator.FromHtml("#2196F3");
+
+            //date_two.BackColor = ColorTranslator.FromHtml("#2196F3");
+
+            //dropdowntipo_fac.NomalColor = ColorTranslator.FromHtml("#2196F3");
+            //dropdowntipo_fac.onHoverColor = ColorTranslator.FromHtml("#42A5F5");
+
+            //dropdownMarca.NomalColor = ColorTranslator.FromHtml("#2196F3");
+            //dropdownMarca.onHoverColor = ColorTranslator.FromHtml("#42A5F5");
+
+            //dropdwonCaja.NomalColor = ColorTranslator.FromHtml("#2196F3");
+            //dropdwonCaja.onHoverColor = ColorTranslator.FromHtml("#42A5F5");
+
+            //dropdowntipo_fac.NomalColor = ColorTranslator.FromHtml("#2196F3");
+            //dropdowntipo_fac.onHoverColor = ColorTranslator.FromHtml("#42A5F5");
+
+            //dropdownTipoDoc.NomalColor = ColorTranslator.FromHtml("#2196F3");
+            //dropdownTipoDoc.onHoverColor = ColorTranslator.FromHtml("#42A5F5");
+
+            //servicio_1333.NomalColor = ColorTranslator.FromHtml("#2196F3");
+            //servicio_1333.onHoverColor = ColorTranslator.FromHtml("#42A5F5");
+
+            //servicio_222.NomalColor = ColorTranslator.FromHtml("#2196F3");
+            //servicio_222.onHoverColor = ColorTranslator.FromHtml("#42A5F5");
+            //servicio_3.NomalColor = ColorTranslator.FromHtml("#2196F3");
+            //servicio_3.onHoverColor = ColorTranslator.FromHtml("#42A5F5");
+            //servicio_4.NomalColor = ColorTranslator.FromHtml("#2196F3");
+            //servicio_4.onHoverColor = ColorTranslator.FromHtml("#42A5F5");
+            //servicio_5.NomalColor = ColorTranslator.FromHtml("#2196F3");
+            //servicio_5.onHoverColor = ColorTranslator.FromHtml("#42A5F5");
             servicio_6.NomalColor = ColorTranslator.FromHtml("#2196F3");
             servicio_6.onHoverColor = ColorTranslator.FromHtml("#42A5F5");
             servicio_7.NomalColor = ColorTranslator.FromHtml("#2196F3");
@@ -128,14 +133,35 @@ namespace WindowsFac.Views.Facturacion
             // Show or load the main form.
             
             marcas = _serviceMarcas.GetAll();
-            foreach (var item in marcas)
-            {
-                dropdownMarca.Items.Add(item.Marca);
-            }
+            dropdownMarca.DataSource = marcas;
+            dropdownMarca.SelectedIndex = -1;
+            //foreach (var item in marcas)
+            //{
+            //    dropdownMarca.Items.Add(item.Marca);
+            //}
 
             result = _productservice.Find();
+
+            var results = _productservice.Find();
+            var result3 = _productservice.Find();
+            var result4 = _productservice.Find();
+            var result5 = _productservice.Find();
+            var result6 = _productservice.Find();
+            var result7 = _productservice.Find();
+            var result8 = _productservice.Find();
+            var result9 = _productservice.Find();
+            var result10 = _productservice.Find();
+            var result11 = _productservice.Find();
+            var result12 = _productservice.Find();
+            var result13 = _productservice.Find();
+            var result14 = _productservice.Find();
+            var result15 = _productservice.Find();
+
+
+
+
             LoadCabecera();
-            LoadCombos(result);
+            LoadCombos(result, results, result3, result4, result5, result6, result7, result8, result9, result10, result11, result12);
 
             //fac.ShowDialog();
             //dialog.Close();
@@ -171,9 +197,10 @@ namespace WindowsFac.Views.Facturacion
             //Marcas de carros            
 
 
-            dropdowntipo_fac.selectedIndex = 0;
-            dropdownTipoDoc.selectedIndex = 0;
-            dropdwonCaja.selectedIndex = 0;
+            dropdowntipo_fac.SelectedIndex = 0;
+            dropdowntipo_fac.SelectedValue = "FACTURA";
+            dropdownTipoDoc.SelectedIndex = 0;
+            dropdwonCaja.SelectedIndex = 0;
             lvlplaca.Text = "";
             lblDocumento.Text = "";
             lvlCliente.Text = "";
@@ -199,21 +226,44 @@ namespace WindowsFac.Views.Facturacion
             return result;
         }
 
-        public void LoadCombos(List<ListadoProductosDto> result)
+        public void LoadCombos(List<ListadoProductosDto> result, List<ListadoProductosDto> results, List<ListadoProductosDto> result3,
+            List<ListadoProductosDto> result4, List<ListadoProductosDto> result5, List<ListadoProductosDto> result6, List<ListadoProductosDto> result7, List<ListadoProductosDto> result8,
+            List<ListadoProductosDto> result9, List<ListadoProductosDto> result10, List<ListadoProductosDto> result11, List<ListadoProductosDto> result12)
         {
-           // IEnumerable<object> dasdsad = test();
-            
-           // ObjectCo
-            
-           //// dasdsad = result.AsEnumerable();
-           // servicio_1.Items = dasdsad;
+
+            servicio_1.DataSource = result;
+            servicio_1.SelectedIndex = -1;
+
+            servicio_2.DataSource = results;
+            servicio_2.SelectedIndex = -1;
+
+            servicio_3.DataSource = result3;
+            servicio_3.SelectedIndex = -1;
+
+            servicio_4.DataSource = result4;
+            servicio_4.SelectedIndex = -1;
+
+            servicio_5.DataSource = result5;
+            servicio_5.SelectedIndex = -1;
+
+            //servicio_6.DataSource = result4;
+            //servicio_6.SelectedIndex = -1;
+
+            //servicio_7.DataSource = result4;
+            //servicio_7.SelectedIndex = -1;
+            // IEnumerable<object> dasdsad = test();
+
+            // ObjectCo
+
+            //// dasdsad = result.AsEnumerable();
+            // servicio_1.Items = dasdsad;
             foreach (var item in result)
             {
-                servicio_1.Items.Add(item.producto);
-                servicio_2.Items.Add(item.producto);
-                servicio_3.Items.Add(item.producto);
-                servicio_4.Items.Add(item.producto);
-                servicio_5.Items.Add(item.producto);
+                //servicio_1333.Items.Add(item.producto);
+                //servicio_2.Items.Add(item.producto);
+                //servicio_3.Items.Add(item.producto);
+                //servicio_4.Items.Add(item.producto);
+                //servicio_5.Items.Add(item.producto);
                 servicio_6.Items.Add(item.producto);
                 servicio_7.Items.Add(item.producto);
                 servicio_8.Items.Add(item.producto);
@@ -271,7 +321,7 @@ namespace WindowsFac.Views.Facturacion
             servicio_29.Enabled = false;
             servicio_30.Enabled = false;
         }
-        public int validador_precio(string servicio)
+        public int validador_precio(object servicio)
         {
             var filter = result.Where(x => x.producto == servicio).Select(x => x.valor);
 
@@ -297,7 +347,7 @@ namespace WindowsFac.Views.Facturacion
         private void servicio_4_change(object sender, EventArgs e)
         {
             lblcantidad4.Text = "1";
-            lvlvalor4.Text = validador_precio(servicio_4.selectedValue).ToString();
+            lvlvalor4.Text = servicio_4.SelectedValue.ToString();
             total_factura();
             servicio_5.Enabled = true;
         }
@@ -305,7 +355,8 @@ namespace WindowsFac.Views.Facturacion
         private void servicio_1_change(object sender, EventArgs e)
         {
             lblcantidad1.Text = "1";
-            lvlvalor1.Text = validador_precio(servicio_1.selectedValue).ToString();
+            lvlvalor1.Text = servicio_1.SelectedValue.ToString();
+            //lvlvalor1.Text = validador_precio(servicio_1.SelectedValue).ToString();
             total_factura();
             servicio_2.Enabled = true;
 
@@ -313,7 +364,7 @@ namespace WindowsFac.Views.Facturacion
         private void servicio_2_change(object sender, EventArgs e)
         {
             lblcantidad2.Text = "1";
-            lvlvalor2.Text = validador_precio(servicio_2.selectedValue).ToString();
+            lvlvalor2.Text = servicio_2.SelectedValue.ToString();
             total_factura();
             servicio_3.Enabled = true;
         }
@@ -359,7 +410,7 @@ namespace WindowsFac.Views.Facturacion
         private void servicio_3_change(object sender, EventArgs e)
         {
             lblcantidad3.Text = "1";
-            lvlvalor3.Text = validador_precio(servicio_3.selectedValue).ToString();
+            lvlvalor3.Text = servicio_3.SelectedValue.ToString();
             total_factura();
             servicio_4.Enabled = true;
         }
@@ -367,7 +418,7 @@ namespace WindowsFac.Views.Facturacion
         private void servicio_5_change(object sender, EventArgs e)
         {
             lblcantidad5.Text = "1";
-            lvlvalor5.Text = validador_precio(servicio_5.selectedValue).ToString();
+            lvlvalor5.Text = servicio_5.SelectedValue.ToString();
             total_factura();
             servicio_6.Enabled = true;
         }
@@ -428,7 +479,7 @@ namespace WindowsFac.Views.Facturacion
             RegistroFacturaDto model = new RegistroFacturaDto();
             PrintPDF print = new PrintPDF();
             
-            if (servicio_1.selectedIndex == -1)
+            if (servicio_1.SelectedIndex == -1)
             {
                 MessageBox.Show("No se puede guardar una factura sin ningun servicio, por facor verifique.");
             }
@@ -437,7 +488,7 @@ namespace WindowsFac.Views.Facturacion
                 MessageBox.Show("Por favor agregue el el dinero recibido.");
 
             }
-            else if ((lvlplaca.Text == "") || (lblTipo.Text == "") || (dropdownMarca.selectedIndex == -1))
+            else if ((lvlplaca.Text == "") || (lblTipo.Text == "") || (dropdownMarca.SelectedIndex == -1))
             {
                 MessageBox.Show("Para guardar la factura debe diligencia minimo la Placa, El Tipo y la Marca.");
             }
@@ -445,13 +496,15 @@ namespace WindowsFac.Views.Facturacion
             {
                 model.nit = lblnit.Text;
                 model.numfac = Convert.ToInt32(lblFactura.Text);
-                model.detalle = dropdowntipo_fac.selectedValue;
-                model.cajero = dropdwonCaja.selectedValue;
+                //model.detalle = dropdowntipo_fac.SelectedValue.ToString();
+                model.detalle = dropdowntipo_fac.SelectedItem.ToString();
+                model.cajero = dropdwonCaja.SelectedItem.ToString();
                 model.placa = lvlplaca.Text;
-                model.marca = dropdownMarca.selectedValue;
-                model.tipo_doc = dropdownTipoDoc.selectedValue;
+                model.marca = dropdownMarca.SelectedValue.ToString();
+                model.tipo_doc = dropdownTipoDoc.SelectedItem.ToString();
                 if (lblDocumento.Text == "") { model.numero_doc = "N/A";} else { model.numero_doc = lblDocumento.Text; }
-                model.nom_client = lvlCliente.Text.Trim();
+                if (lvlCliente.Text == "") { model.nom_client = "N/A"; } else { model.nom_client = lvlCliente.Text.Trim(); }
+                //model.nom_client = lvlCliente.Text.Trim();
                 if (lblModelo.Text == "") { model.modelo = 0; } else { model.modelo = Convert.ToInt32(lblModelo.Text); }
                 model.tipo = lblTipo.Text.Trim();
 
@@ -476,22 +529,26 @@ namespace WindowsFac.Views.Facturacion
                     MessageBox.Show("Factura Grabada exitosamente.");
                     _factura.ShowDialog();
                     //print.ShowDialog();
-                    btnImprimir.Enabled = true;
+                    //btnImprimir.Enabled = true;
                     //LoadCabecera();
                     //if (servicio_1.items.Length == 0)
                     //{
                     //    LoadCombos(result);
                     //}                    
-                    dropdownMarca.Clear();
+                    //dropdownMarca.Clear();
                     DisabledControls();
 
                     //Facturation_Load(sender, e);
 
-                    servicio_2.selectedIndex = 0;
+                    servicio_1.SelectedIndex = -1;
+                    servicio_1.Text = "";
+
+                    servicio_2.SelectedIndex = -1;
+                    
                     //servicio_2.SelectedItem = "";
-                    servicio_3.selectedIndex = -1;
-                    servicio_4.selectedIndex = -1;
-                    servicio_5.selectedIndex = -1;
+                    servicio_3.SelectedIndex = -1;
+                    servicio_4.SelectedIndex = -1;
+                    servicio_5.SelectedIndex = -1;
                     servicio_6.selectedIndex = -1;
                     servicio_7.selectedIndex = -1;
                     servicio_8.selectedIndex = -1;
@@ -530,52 +587,52 @@ namespace WindowsFac.Views.Facturacion
         public List<RegistroFacturaDetalleDto> llenarServicios(List<RegistroFacturaDetalleDto> servicios)
         {
             
-            if (servicio_1.selectedIndex != -1)
+            if (servicio_1.Text != "")
             {
                 servicios.Add(new RegistroFacturaDetalleDto()
                 {
                     NumFac = Convert.ToInt32(lblFactura.Text),
-                    Producto = servicio_1.selectedValue,
+                    Producto = servicio_1.Text.ToString(),
                     Cantidad = Convert.ToInt32(lblcantidad1.Text),
                     Valor = Convert.ToInt32(lvlvalor1.Text)
                 });
             }
-            if (servicio_2.selectedIndex != -1)
+            if (servicio_2.SelectedIndex != -1)
             {
                 servicios.Add(new RegistroFacturaDetalleDto()
                 {
                     NumFac = Convert.ToInt32(lblFactura.Text),
-                    Producto = servicio_2.selectedValue,
+                    Producto = servicio_2.Text.ToString(),
                     Cantidad = Convert.ToInt32(lblcantidad2.Text),
                     Valor = Convert.ToInt32(lvlvalor2.Text)
                 });
             }
-            if (servicio_3.selectedIndex != -1)
+            if (servicio_3.SelectedIndex != -1)
             {
                 servicios.Add(new RegistroFacturaDetalleDto()
                 {
                     NumFac = Convert.ToInt32(lblFactura.Text),
-                    Producto = servicio_3.selectedValue,
+                    Producto = servicio_3.Text.ToString(),
                     Cantidad = Convert.ToInt32(lblcantidad3.Text),
                     Valor = Convert.ToInt32(lvlvalor3.Text)
                 });
             }
-            if (servicio_4.selectedIndex != -1)
+            if (servicio_4.SelectedIndex != -1)
             {
                 servicios.Add(new RegistroFacturaDetalleDto()
                 {
                     NumFac = Convert.ToInt32(lblFactura.Text),
-                    Producto = servicio_4.selectedValue,
+                    Producto = servicio_4.Text.ToString(),
                     Cantidad = Convert.ToInt32(lblcantidad4.Text),
                     Valor = Convert.ToInt32(lvlvalor4.Text)
                 });
             }
-            if (servicio_5.selectedIndex != -1)
+            if (servicio_5.SelectedIndex != -1)
             {
                 servicios.Add(new RegistroFacturaDetalleDto()
                 {
                     NumFac = Convert.ToInt32(lblFactura.Text),
-                    Producto = servicio_5.selectedValue,
+                    Producto = servicio_5.Text.ToString(),
                     Cantidad = Convert.ToInt32(lblcantidad5.Text),
                     Valor = Convert.ToInt32(lvlvalor5.Text)
                 });
@@ -1032,6 +1089,16 @@ namespace WindowsFac.Views.Facturacion
             lblcantidad30.Text = "1";
             lvlvalor30.Text = validador_precio(servicio_30.selectedValue).ToString();
             total_factura();
+        }
+
+        private void servicio_2_cchange(object sender, EventArgs e)
+        {
+
+        }
+
+        private void LvlCambio_OnValueChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

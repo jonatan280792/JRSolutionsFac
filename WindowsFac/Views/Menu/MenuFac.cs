@@ -15,16 +15,16 @@ namespace WindowsFac.Views.Menu
             InitializeComponent();
             //MenuFac menu = new MenuFac();
 
-            panellateral.BackColor = ColorTranslator.FromHtml("#42A5F5");
-            panelsuperior.BackColor = ColorTranslator.FromHtml("#2196F3");
-            parameters.BackColor = ColorTranslator.FromHtml("#42A5F5");
-            clientsnew.BackColor = ColorTranslator.FromHtml("#42A5F5");
-            services.BackColor = ColorTranslator.FromHtml("#42A5F5");
+            panellateral.BackColor = ColorTranslator.FromHtml("#A243A2");
+            panelsuperior.BackColor = ColorTranslator.FromHtml("#880088");
+            parameters.BackColor = ColorTranslator.FromHtml("#A243A2");
+            clientsnew.BackColor = ColorTranslator.FromHtml("#A243A2");
+            services.BackColor = ColorTranslator.FromHtml("#A243A2");
             
-            factura.BackColor = ColorTranslator.FromHtml("#42A5F5");
+            factura.BackColor = ColorTranslator.FromHtml("#A243A2");
             
-            historic.BackColor = ColorTranslator.FromHtml("#42A5F5");
-            users.BackColor = ColorTranslator.FromHtml("#42A5F5");
+            historic.BackColor = ColorTranslator.FromHtml("#A243A2");
+            users.BackColor = ColorTranslator.FromHtml("#A243A2");
         }
 
         private void Panellateral_Paint(object sender, PaintEventArgs e)
@@ -61,18 +61,17 @@ namespace WindowsFac.Views.Menu
 
         private void Factura_Click(object sender, System.EventArgs e)
         {
-            parameters.BackColor = ColorTranslator.FromHtml("#42A5F5");
-            clientsnew.BackColor = ColorTranslator.FromHtml("#42A5F5");
-            services.BackColor = ColorTranslator.FromHtml("#42A5F5");
-            historic.BackColor = ColorTranslator.FromHtml("#42A5F5");
-            users.BackColor = ColorTranslator.FromHtml("#42A5F5");
+            parameters.BackColor = ColorTranslator.FromHtml("#A243A2");
+            clientsnew.BackColor = ColorTranslator.FromHtml("#A243A2");
+            services.BackColor = ColorTranslator.FromHtml("#A243A2");
+            historic.BackColor = ColorTranslator.FromHtml("#A243A2");
+            users.BackColor = ColorTranslator.FromHtml("#A243A2");
 
-            factura.BackColor = ColorTranslator.FromHtml("#2196F3");
-            Success dialog = new Success();
-            dialog.Show();
+            factura.BackColor = ColorTranslator.FromHtml("#880088");
+            
             AbrirFormInPanel(new Facturation());
             //dialog.Hide();
-            dialog.Close();
+           
         }
 
         private void historico_click(object sender, System.EventArgs e)

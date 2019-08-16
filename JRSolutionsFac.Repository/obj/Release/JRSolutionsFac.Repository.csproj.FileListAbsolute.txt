@@ -1,0 +1,9 @@
+D:\GitHub\JRSolutionsFac\JRSolutionsFac.Repository\bin\Release\JRSolutionsFac.Repository.dll
+D:\GitHub\JRSolutionsFac\JRSolutionsFac.Repository\bin\Release\JRSolutionsFac.Repository.pdb
+D:\GitHub\JRSolutionsFac\JRSolutionsFac.Repository\bin\Release\JRSolutionsFac.Entity.dll
+D:\GitHub\JRSolutionsFac\JRSolutionsFac.Repository\bin\Release\JRSolutionsFac.Entity.pdb
+D:\GitHub\JRSolutionsFac\JRSolutionsFac.Repository\obj\Release\JRSolutionsFac.Repository.csprojAssemblyReference.cache
+D:\GitHub\JRSolutionsFac\JRSolutionsFac.Repository\obj\Release\JRSolutionsFac.Repository.csproj.CoreCompileInputs.cache
+D:\GitHub\JRSolutionsFac\JRSolutionsFac.Repository\obj\Release\JRSolutionsFac.Repository.csproj.CopyComplete
+D:\GitHub\JRSolutionsFac\JRSolutionsFac.Repository\obj\Release\JRSolutionsFac.Repository.dll
+D:\GitHub\JRSolutionsFac\JRSolutionsFac.Repository\obj\Release\JRSolutionsFac.Repository.pdb

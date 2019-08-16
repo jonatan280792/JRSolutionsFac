@@ -114,7 +114,6 @@
             this.lblPassWord.Size = new System.Drawing.Size(261, 33);
             this.lblPassWord.TabIndex = 5;
             this.lblPassWord.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.lblPassWord.Enter += new System.EventHandler(this.enter_Login);
             // 
             // bunifuImageButton1
             // 
@@ -194,7 +193,6 @@
             this.Name = "Login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "JRSolutions Facturacion";
-            this.Load += new System.EventHandler(this.Login_Load);
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton3)).EndInit();

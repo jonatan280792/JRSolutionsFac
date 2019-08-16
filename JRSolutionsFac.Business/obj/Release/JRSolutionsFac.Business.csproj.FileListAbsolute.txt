@@ -1,0 +1,11 @@
+D:\GitHub\JRSolutionsFac\JRSolutionsFac.Business\bin\Release\JRSolutionsFac.Business.dll
+D:\GitHub\JRSolutionsFac\JRSolutionsFac.Business\bin\Release\JRSolutionsFac.Business.pdb
+D:\GitHub\JRSolutionsFac\JRSolutionsFac.Business\bin\Release\JRSolutionsFac.Entity.dll
+D:\GitHub\JRSolutionsFac\JRSolutionsFac.Business\bin\Release\JRSolutionsFac.Repository.dll
+D:\GitHub\JRSolutionsFac\JRSolutionsFac.Business\bin\Release\JRSolutionsFac.Entity.pdb
+D:\GitHub\JRSolutionsFac\JRSolutionsFac.Business\bin\Release\JRSolutionsFac.Repository.pdb
+D:\GitHub\JRSolutionsFac\JRSolutionsFac.Business\obj\Release\JRSolutionsFac.Business.csprojAssemblyReference.cache
+D:\GitHub\JRSolutionsFac\JRSolutionsFac.Business\obj\Release\JRSolutionsFac.Business.csproj.CoreCompileInputs.cache
+D:\GitHub\JRSolutionsFac\JRSolutionsFac.Business\obj\Release\JRSolutionsFac.Business.csproj.CopyComplete
+D:\GitHub\JRSolutionsFac\JRSolutionsFac.Business\obj\Release\JRSolutionsFac.Business.dll
+D:\GitHub\JRSolutionsFac\JRSolutionsFac.Business\obj\Release\JRSolutionsFac.Business.pdb
