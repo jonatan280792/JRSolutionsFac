@@ -42,8 +42,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Dtos\ListadoFacturasDto.cs" />
+    <Compile Include="Dtos\ListadoHistoricoDto.cs" />
     <Compile Include="Dtos\ListadoMarcasDto.cs" />
     <Compile Include="Dtos\ListadoProductosDto.cs" />
+    <Compile Include="Dtos\ListadoServiciosDto.cs" />
     <Compile Include="Dtos\LoginDto.cs" />
     <Compile Include="Dtos\RegistroFacturaDetalleDto.cs" />
     <Compile Include="Dtos\RegistroFacturaDto.cs" />
@@ -51,6 +53,7 @@
     <Compile Include="Dtos\ReportFacturaEncabezadoDto.cs" />
     <Compile Include="Dtos\ResultDto.cs" />
     <Compile Include="Mappers\ListadoFacturasMapper.cs" />
+    <Compile Include="Mappers\ListadoHistoricoMapper.cs" />
     <Compile Include="Mappers\ListadoMarcasMapper.cs" />
     <Compile Include="Mappers\ListadoProductosMapper.cs" />
     <Compile Include="Mappers\LoginMapper.cs" />

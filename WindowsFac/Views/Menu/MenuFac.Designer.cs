@@ -42,12 +42,11 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.factura = new System.Windows.Forms.Button();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.panellateral.SuspendLayout();
             this.panelsuperior.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.close)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // users
@@ -139,6 +138,7 @@
             // panellateral
             // 
             this.panellateral.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.panellateral.Controls.Add(this.pictureBox3);
             this.panellateral.Dock = System.Windows.Forms.DockStyle.Left;
             this.panellateral.Location = new System.Drawing.Point(0, 0);
             this.panellateral.Name = "panellateral";
@@ -205,7 +205,8 @@
             // 
             // pictureBox3
             // 
-            this.pictureBox3.Location = new System.Drawing.Point(47, 3);
+            this.pictureBox3.Image = global::WindowsFac.Properties.Resources.boss_man_128;
+            this.pictureBox3.Location = new System.Drawing.Point(49, 39);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(105, 99);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -215,15 +216,16 @@
             // factura
             // 
             this.factura.BackgroundImage = global::WindowsFac.Properties.Resources.facturacion;
-            this.factura.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.factura.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.factura.CausesValidation = false;
             this.factura.Cursor = System.Windows.Forms.Cursors.Hand;
             this.factura.FlatAppearance.BorderSize = 0;
             this.factura.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
             this.factura.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.factura.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F);
             this.factura.ForeColor = System.Drawing.Color.White;
-            this.factura.Image = global::WindowsFac.Properties.Resources.facturacion;
             this.factura.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.factura.ImageIndex = 1;
             this.factura.Location = new System.Drawing.Point(0, 298);
             this.factura.Name = "factura";
             this.factura.Size = new System.Drawing.Size(206, 40);
@@ -231,14 +233,6 @@
             this.factura.Text = "Factura";
             this.factura.UseVisualStyleBackColor = true;
             this.factura.Click += new System.EventHandler(this.Factura_Click);
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Location = new System.Drawing.Point(8, 4);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(189, 92);
-            this.pictureBox2.TabIndex = 8;
-            this.pictureBox2.TabStop = false;
             // 
             // MenuFac
             // 
@@ -251,22 +245,20 @@
             this.Controls.Add(this.users);
             this.Controls.Add(this.historic);
             this.Controls.Add(this.services);
-            this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.factura);
             this.Controls.Add(this.clientsnew);
-            this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.parameters);
             this.Controls.Add(this.panellateral);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "MenuFac";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Menu";
+            this.panellateral.ResumeLayout(false);
             this.panelsuperior.ResumeLayout(false);
             this.panelsuperior.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.close)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -279,7 +271,6 @@
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.Button factura;
         private System.Windows.Forms.Button clientsnew;
-        private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Button parameters;
         private System.Windows.Forms.Panel panellateral;
         private System.Windows.Forms.Panel panelsuperior;

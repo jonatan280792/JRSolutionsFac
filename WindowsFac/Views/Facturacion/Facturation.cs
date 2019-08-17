@@ -15,7 +15,7 @@ namespace WindowsFac.Views.Facturacion
     public partial class Facturation : Form
     {
         #region DECLARACIONES GLOBALES
-        //Success dialog = new Success();
+        Dialog dialog = new Dialog();
 
 
         List<ListadoProductosDto> result;
@@ -29,7 +29,7 @@ namespace WindowsFac.Views.Facturacion
         public Facturation()
         {
             InitializeComponent();
-            
+
 
             //servicio_1.Color = ColorTranslator.FromHtml("#42A5F5");
             //servicio_1.ItemHighLightColor = ColorTranslator.FromHtml("#2196F3");
@@ -64,16 +64,16 @@ namespace WindowsFac.Views.Facturacion
             //servicio_4.onHoverColor = ColorTranslator.FromHtml("#42A5F5");
             //servicio_5.NomalColor = ColorTranslator.FromHtml("#2196F3");
             //servicio_5.onHoverColor = ColorTranslator.FromHtml("#42A5F5");
-            servicio_6.NomalColor = ColorTranslator.FromHtml("#2196F3");
-            servicio_6.onHoverColor = ColorTranslator.FromHtml("#42A5F5");
-            servicio_7.NomalColor = ColorTranslator.FromHtml("#2196F3");
-            servicio_7.onHoverColor = ColorTranslator.FromHtml("#42A5F5");
-            servicio_8.NomalColor = ColorTranslator.FromHtml("#2196F3");
-            servicio_8.onHoverColor = ColorTranslator.FromHtml("#42A5F5");
-            servicio_9.NomalColor = ColorTranslator.FromHtml("#2196F3");
-            servicio_9.onHoverColor = ColorTranslator.FromHtml("#42A5F5");
-            servicio_10.NomalColor = ColorTranslator.FromHtml("#2196F3");
-            servicio_10.onHoverColor = ColorTranslator.FromHtml("#42A5F5");
+            //servicio_6.NomalColor = ColorTranslator.FromHtml("#2196F3");
+            //servicio_6.onHoverColor = ColorTranslator.FromHtml("#42A5F5");
+            //servicio_7.NomalColor = ColorTranslator.FromHtml("#2196F3");
+            //servicio_7.onHoverColor = ColorTranslator.FromHtml("#42A5F5");
+            //servicio_8.NomalColor = ColorTranslator.FromHtml("#2196F3");
+            //servicio_8.onHoverColor = ColorTranslator.FromHtml("#42A5F5");
+            //servicio_9.NomalColor = ColorTranslator.FromHtml("#2196F3");
+            //servicio_9.onHoverColor = ColorTranslator.FromHtml("#42A5F5");
+            //servicio_10.NomalColor = ColorTranslator.FromHtml("#2196F3");
+            //servicio_10.onHoverColor = ColorTranslator.FromHtml("#42A5F5");
             servicio_11.NomalColor = ColorTranslator.FromHtml("#2196F3");
             servicio_11.onHoverColor = ColorTranslator.FromHtml("#42A5F5");
             servicio_12.NomalColor = ColorTranslator.FromHtml("#2196F3");
@@ -170,7 +170,7 @@ namespace WindowsFac.Views.Facturacion
 
         protected override void OnLoad(EventArgs args)
         {
-            //dialog.Show();
+            dialog.Show();
             base.OnLoad(args);
 
             Application.Idle += new EventHandler(OnLoaded);
@@ -178,10 +178,10 @@ namespace WindowsFac.Views.Facturacion
         }
         private void OnLoaded(object sender, EventArgs args)
         {
-            
+            dialog.Close();
             Application.Idle -= new EventHandler(OnLoaded);
             //dialog.Hide();
-            //dialog.Close();
+            
 
             // TODO: add relevant code here
 
@@ -206,6 +206,8 @@ namespace WindowsFac.Views.Facturacion
             lvlCliente.Text = "";
             lblTipo.Text = "";
             lvlMecanica.Text = "";
+            lvlLatoneria.Text = "";
+            lblPintura.Text = "";
             lblModelo.Text = "";
             //Resetea valores TextBox
             lvlvalor1.Text = "0"; lvlvalor2.Text = "0"; lvlvalor3.Text = "0"; lvlvalor4.Text = "0"; lvlvalor5.Text = "0"; lvlvalor6.Text = "0"; lvlvalor7.Text = "0";
@@ -246,30 +248,39 @@ namespace WindowsFac.Views.Facturacion
             servicio_5.DataSource = result5;
             servicio_5.SelectedIndex = -1;
 
-            //servicio_6.DataSource = result4;
-            //servicio_6.SelectedIndex = -1;
+            servicio_6.DataSource = result6;
+            servicio_6.SelectedIndex = -1;
 
-            //servicio_7.DataSource = result4;
-            //servicio_7.SelectedIndex = -1;
+            servicio_7.DataSource = result7;
+            servicio_7.SelectedIndex = -1;
+
+            servicio_8.DataSource = result8;
+            servicio_8.SelectedIndex = -1;
+
+            servicio_9.DataSource = result9;
+            servicio_9.SelectedIndex = -1;
+
+            servicio_10.DataSource = result10;
+            servicio_10.SelectedIndex = -1;
             // IEnumerable<object> dasdsad = test();
 
             // ObjectCo
 
             //// dasdsad = result.AsEnumerable();
             // servicio_1.Items = dasdsad;
-            foreach (var item in result)
-            {
-                //servicio_1333.Items.Add(item.producto);
-                //servicio_2.Items.Add(item.producto);
-                //servicio_3.Items.Add(item.producto);
-                //servicio_4.Items.Add(item.producto);
-                //servicio_5.Items.Add(item.producto);
-                servicio_6.Items.Add(item.producto);
-                servicio_7.Items.Add(item.producto);
-                servicio_8.Items.Add(item.producto);
-                servicio_9.Items.Add(item.producto);
-                servicio_10.Items.Add(item.producto);                
-            }            
+            //foreach (var item in result)
+            //{
+            //    //servicio_1333.Items.Add(item.producto);
+            //    //servicio_2.Items.Add(item.producto);
+            //    //servicio_3.Items.Add(item.producto);
+            //    //servicio_4.Items.Add(item.producto);
+            //    //servicio_5.Items.Add(item.producto);
+            //    //servicio_6.Items.Add(item.producto);
+            //    //servicio_7.Items.Add(item.producto);
+            //    //servicio_8.Items.Add(item.producto);
+            //    //servicio_9.Items.Add(item.producto);
+            //    //servicio_10.Items.Add(item.producto);                
+            //}            
         }
 
         public void LoadCombos2()
@@ -426,7 +437,7 @@ namespace WindowsFac.Views.Facturacion
         private void servicio_6_change(object sender, EventArgs e)
         {
             lblcantidad6.Text = "1";
-            lvlvalor6.Text = validador_precio(servicio_6.selectedValue).ToString();
+            lvlvalor6.Text = servicio_6.SelectedValue.ToString();
             total_factura();
             servicio_7.Enabled = true;
         }
@@ -434,7 +445,7 @@ namespace WindowsFac.Views.Facturacion
         private void servicio_7_change(object sender, EventArgs e)
         {
             lblcantidad7.Text = "1";
-            lvlvalor7.Text = validador_precio(servicio_7.selectedValue).ToString();
+            lvlvalor7.Text = servicio_7.SelectedValue.ToString();
             total_factura();
             servicio_8.Enabled = true;
         }
@@ -442,7 +453,7 @@ namespace WindowsFac.Views.Facturacion
         private void servicio_8_change(object sender, EventArgs e)
         {
             lblcantidad8.Text = "1";
-            lvlvalor8.Text = validador_precio(servicio_8.selectedValue).ToString();
+            lvlvalor8.Text = servicio_8.SelectedValue.ToString();
             total_factura();
             servicio_9.Enabled = true;
         }
@@ -450,7 +461,7 @@ namespace WindowsFac.Views.Facturacion
         private void servicio_9_change(object sender, EventArgs e)
         {
             lblcantidad9.Text = "1";
-            lvlvalor9.Text = validador_precio(servicio_9.selectedValue).ToString();
+            lvlvalor9.Text = servicio_9.SelectedValue.ToString();
             total_factura();
             servicio_10.Enabled = true;
         }
@@ -458,7 +469,7 @@ namespace WindowsFac.Views.Facturacion
         private void servicio_10_change(object sender, EventArgs e)
         {
             lblcantidad10.Text = "1";
-            lvlvalor10.Text = validador_precio(servicio_10.selectedValue).ToString();
+            lvlvalor10.Text = servicio_10.SelectedValue.ToString();
             total_factura();
             if (servicio_11.items.Length == 0)
             {
@@ -530,7 +541,7 @@ namespace WindowsFac.Views.Facturacion
                     _factura.ShowDialog();
                     //print.ShowDialog();
                     //btnImprimir.Enabled = true;
-                    //LoadCabecera();
+                    LoadCabecera();
                     //if (servicio_1.items.Length == 0)
                     //{
                     //    LoadCombos(result);
@@ -549,11 +560,11 @@ namespace WindowsFac.Views.Facturacion
                     servicio_3.SelectedIndex = -1;
                     servicio_4.SelectedIndex = -1;
                     servicio_5.SelectedIndex = -1;
-                    servicio_6.selectedIndex = -1;
-                    servicio_7.selectedIndex = -1;
-                    servicio_8.selectedIndex = -1;
-                    servicio_9.selectedIndex = -1;
-                    servicio_10.selectedIndex = -1;
+                    servicio_6.SelectedIndex = -1;
+                    servicio_7.SelectedIndex = -1;
+                    servicio_8.SelectedIndex = -1;
+                    servicio_9.SelectedIndex = -1;
+                    servicio_10.SelectedIndex = -1;
                     servicio_11.selectedIndex = -1;
                     servicio_12.selectedIndex = -1;
                     servicio_13.selectedIndex = -1;
@@ -637,52 +648,52 @@ namespace WindowsFac.Views.Facturacion
                     Valor = Convert.ToInt32(lvlvalor5.Text)
                 });
             }
-            if (servicio_6.selectedIndex != -1)
+            if (servicio_6.SelectedIndex != -1)
             {
                 servicios.Add(new RegistroFacturaDetalleDto()
                 {
                     NumFac = Convert.ToInt32(lblFactura.Text),
-                    Producto = servicio_6.selectedValue,
+                    Producto = servicio_6.Text.ToString(),
                     Cantidad = Convert.ToInt32(lblcantidad6.Text),
                     Valor = Convert.ToInt32(lvlvalor6.Text)
                 });
             }
-            if (servicio_7.selectedIndex != -1)
+            if (servicio_7.SelectedIndex != -1)
             {
                 servicios.Add(new RegistroFacturaDetalleDto()
                 {
                     NumFac = Convert.ToInt32(lblFactura.Text),
-                    Producto = servicio_7.selectedValue,
+                    Producto = servicio_7.Text.ToString(),
                     Cantidad = Convert.ToInt32(lblcantidad7.Text),
                     Valor = Convert.ToInt32(lvlvalor7.Text)
                 });
             }
-            if (servicio_8.selectedIndex != -1)
+            if (servicio_8.SelectedIndex != -1)
             {
                 servicios.Add(new RegistroFacturaDetalleDto()
                 {
                     NumFac = Convert.ToInt32(lblFactura.Text),
-                    Producto = servicio_8.selectedValue,
+                    Producto = servicio_8.Text.ToString(),
                     Cantidad = Convert.ToInt32(lblcantidad8.Text),
                     Valor = Convert.ToInt32(lvlvalor8.Text)
                 });
             }
-            if (servicio_9.selectedIndex != -1)
+            if (servicio_9.SelectedIndex != -1)
             {
                 servicios.Add(new RegistroFacturaDetalleDto()
                 {
                     NumFac = Convert.ToInt32(lblFactura.Text),
-                    Producto = servicio_9.selectedValue,
+                    Producto = servicio_9.Text.ToString(),
                     Cantidad = Convert.ToInt32(lblcantidad9.Text),
                     Valor = Convert.ToInt32(lvlvalor9.Text)
                 });
             }
-            if (servicio_10.selectedIndex != -1)
+            if (servicio_10.SelectedIndex != -1)
             {
                 servicios.Add(new RegistroFacturaDetalleDto()
                 {
                     NumFac = Convert.ToInt32(lblFactura.Text),
-                    Producto = servicio_10.selectedValue,
+                    Producto = servicio_10.Text.ToString(),
                     Cantidad = Convert.ToInt32(lblcantidad10.Text),
                     Valor = Convert.ToInt32(lvlvalor10.Text)
                 });

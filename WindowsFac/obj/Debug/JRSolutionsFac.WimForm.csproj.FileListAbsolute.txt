@@ -25,6 +25,7 @@ D:\GitHub\JRSolutionsFac\WindowsFac\bin\Debug\WindowsFac.exe.manifest
 D:\GitHub\JRSolutionsFac\WindowsFac\bin\Debug\WindowsFac.application
 D:\GitHub\JRSolutionsFac\WindowsFac\bin\Debug\WindowsFac.exe
 D:\GitHub\JRSolutionsFac\WindowsFac\bin\Debug\WindowsFac.pdb
+D:\GitHub\JRSolutionsFac\WindowsFac\bin\Debug\Bunifu.UI.WinForms.BunifuButton.dll
 D:\GitHub\JRSolutionsFac\WindowsFac\bin\Debug\Bunifu.UI.WinForms.BunifuDatePicker.dll
 D:\GitHub\JRSolutionsFac\WindowsFac\bin\Debug\Bunifu.UI.WinForms.BunifuDropdown.dll
 D:\GitHub\JRSolutionsFac\WindowsFac\bin\Debug\Bunifu_UI_v1.5.3.dll
@@ -78,6 +79,8 @@ D:\GitHub\JRSolutionsFac\WindowsFac\obj\Debug\WindowsFac.Views.Parametros.Parame
 D:\GitHub\JRSolutionsFac\WindowsFac\obj\Debug\WindowsFac.Views.Report.Historic.resources
 D:\GitHub\JRSolutionsFac\WindowsFac\obj\Debug\WindowsFac.Views.Report.ReportViewer.resources
 D:\GitHub\JRSolutionsFac\WindowsFac\obj\Debug\WindowsFac.Views.Servicios.Services.resources
+D:\GitHub\JRSolutionsFac\WindowsFac\obj\Debug\WindowsFac.Views.ShowsAlerts.Dialog.resources
+D:\GitHub\JRSolutionsFac\WindowsFac\obj\Debug\WindowsFac.Views.ShowsAlerts.Loading.resources
 D:\GitHub\JRSolutionsFac\WindowsFac\obj\Debug\WindowsFac.Views.ShowsAlerts.Success.resources
 D:\GitHub\JRSolutionsFac\WindowsFac\obj\Debug\JRSolutionsFac.WimForm.csproj.GenerateResource.cache
 D:\GitHub\JRSolutionsFac\WindowsFac\obj\Debug\JRSolutionsFac.WimForm.csproj.CoreCompileInputs.cache
