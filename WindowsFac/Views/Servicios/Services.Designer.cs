@@ -32,20 +32,20 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
             this.bunifuCards1 = new Bunifu.Framework.UI.BunifuCards();
             this.bunifuCustomLabel2 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuMetroTextbox1 = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.lblValor = new Bunifu.Framework.UI.BunifuMetroTextbox();
             this.bunifuCustomLabel1 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.btnGuardarFactura = new MaterialSkin.Controls.MaterialRaisedButton();
-            this.lblModelo = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.lblServicio = new Bunifu.Framework.UI.BunifuMetroTextbox();
             this.bunifuCustomLabel16 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCards2 = new Bunifu.Framework.UI.BunifuCards();
-            this.gridHistorico = new Bunifu.Framework.UI.BunifuCustomDataGrid();
+            this.gridServicios = new Bunifu.Framework.UI.BunifuCustomDataGrid();
             this.bunifuCustomLabel5 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuMetroTextbox2 = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.lblFiltro = new Bunifu.Framework.UI.BunifuMetroTextbox();
             this.bunifuCustomLabel3 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.materialRaisedButton1 = new MaterialSkin.Controls.MaterialRaisedButton();
             this.bunifuCards1.SuspendLayout();
             this.bunifuCards2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.gridHistorico)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridServicios)).BeginInit();
             this.SuspendLayout();
             // 
             // bunifuCards1
@@ -56,10 +56,10 @@
             this.bunifuCards1.BottomSahddow = true;
             this.bunifuCards1.color = System.Drawing.Color.DarkViolet;
             this.bunifuCards1.Controls.Add(this.bunifuCustomLabel2);
-            this.bunifuCards1.Controls.Add(this.bunifuMetroTextbox1);
+            this.bunifuCards1.Controls.Add(this.lblValor);
             this.bunifuCards1.Controls.Add(this.bunifuCustomLabel1);
             this.bunifuCards1.Controls.Add(this.btnGuardarFactura);
-            this.bunifuCards1.Controls.Add(this.lblModelo);
+            this.bunifuCards1.Controls.Add(this.lblServicio);
             this.bunifuCards1.Controls.Add(this.bunifuCustomLabel16);
             this.bunifuCards1.LeftSahddow = false;
             this.bunifuCards1.Location = new System.Drawing.Point(39, 19);
@@ -79,24 +79,24 @@
             this.bunifuCustomLabel2.TabIndex = 406;
             this.bunifuCustomLabel2.Text = "Edicion de servicios";
             // 
-            // bunifuMetroTextbox1
+            // lblValor
             // 
-            this.bunifuMetroTextbox1.BorderColorFocused = System.Drawing.Color.Violet;
-            this.bunifuMetroTextbox1.BorderColorIdle = System.Drawing.Color.Purple;
-            this.bunifuMetroTextbox1.BorderColorMouseHover = System.Drawing.Color.Violet;
-            this.bunifuMetroTextbox1.BorderThickness = 2;
-            this.bunifuMetroTextbox1.characterCasing = System.Windows.Forms.CharacterCasing.Upper;
-            this.bunifuMetroTextbox1.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.bunifuMetroTextbox1.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-            this.bunifuMetroTextbox1.ForeColor = System.Drawing.Color.LightSteelBlue;
-            this.bunifuMetroTextbox1.isPassword = false;
-            this.bunifuMetroTextbox1.Location = new System.Drawing.Point(425, 64);
-            this.bunifuMetroTextbox1.Margin = new System.Windows.Forms.Padding(4);
-            this.bunifuMetroTextbox1.MaxLength = 4;
-            this.bunifuMetroTextbox1.Name = "bunifuMetroTextbox1";
-            this.bunifuMetroTextbox1.Size = new System.Drawing.Size(208, 33);
-            this.bunifuMetroTextbox1.TabIndex = 405;
-            this.bunifuMetroTextbox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.lblValor.BorderColorFocused = System.Drawing.Color.Violet;
+            this.lblValor.BorderColorIdle = System.Drawing.Color.Purple;
+            this.lblValor.BorderColorMouseHover = System.Drawing.Color.Violet;
+            this.lblValor.BorderThickness = 2;
+            this.lblValor.characterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.lblValor.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.lblValor.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.lblValor.ForeColor = System.Drawing.Color.Black;
+            this.lblValor.isPassword = false;
+            this.lblValor.Location = new System.Drawing.Point(425, 64);
+            this.lblValor.Margin = new System.Windows.Forms.Padding(4);
+            this.lblValor.MaxLength = 4;
+            this.lblValor.Name = "lblValor";
+            this.lblValor.Size = new System.Drawing.Size(208, 33);
+            this.lblValor.TabIndex = 405;
+            this.lblValor.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
             // bunifuCustomLabel1
             // 
@@ -120,24 +120,24 @@
             this.btnGuardarFactura.Text = "Guardar";
             this.btnGuardarFactura.UseVisualStyleBackColor = true;
             // 
-            // lblModelo
+            // lblServicio
             // 
-            this.lblModelo.BorderColorFocused = System.Drawing.Color.Violet;
-            this.lblModelo.BorderColorIdle = System.Drawing.Color.Purple;
-            this.lblModelo.BorderColorMouseHover = System.Drawing.Color.Violet;
-            this.lblModelo.BorderThickness = 2;
-            this.lblModelo.characterCasing = System.Windows.Forms.CharacterCasing.Upper;
-            this.lblModelo.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.lblModelo.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-            this.lblModelo.ForeColor = System.Drawing.Color.LightSteelBlue;
-            this.lblModelo.isPassword = false;
-            this.lblModelo.Location = new System.Drawing.Point(54, 64);
-            this.lblModelo.Margin = new System.Windows.Forms.Padding(4);
-            this.lblModelo.MaxLength = 4;
-            this.lblModelo.Name = "lblModelo";
-            this.lblModelo.Size = new System.Drawing.Size(348, 33);
-            this.lblModelo.TabIndex = 402;
-            this.lblModelo.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.lblServicio.BorderColorFocused = System.Drawing.Color.Violet;
+            this.lblServicio.BorderColorIdle = System.Drawing.Color.Purple;
+            this.lblServicio.BorderColorMouseHover = System.Drawing.Color.Violet;
+            this.lblServicio.BorderThickness = 2;
+            this.lblServicio.characterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.lblServicio.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.lblServicio.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.lblServicio.ForeColor = System.Drawing.Color.Black;
+            this.lblServicio.isPassword = false;
+            this.lblServicio.Location = new System.Drawing.Point(54, 64);
+            this.lblServicio.Margin = new System.Windows.Forms.Padding(4);
+            this.lblServicio.MaxLength = 4;
+            this.lblServicio.Name = "lblServicio";
+            this.lblServicio.Size = new System.Drawing.Size(348, 33);
+            this.lblServicio.TabIndex = 402;
+            this.lblServicio.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
             // bunifuCustomLabel16
             // 
@@ -156,9 +156,9 @@
             this.bunifuCards2.BottomSahddow = true;
             this.bunifuCards2.color = System.Drawing.Color.DarkViolet;
             this.bunifuCards2.Controls.Add(this.materialRaisedButton1);
-            this.bunifuCards2.Controls.Add(this.bunifuMetroTextbox2);
+            this.bunifuCards2.Controls.Add(this.lblFiltro);
             this.bunifuCards2.Controls.Add(this.bunifuCustomLabel3);
-            this.bunifuCards2.Controls.Add(this.gridHistorico);
+            this.bunifuCards2.Controls.Add(this.gridServicios);
             this.bunifuCards2.Controls.Add(this.bunifuCustomLabel5);
             this.bunifuCards2.LeftSahddow = false;
             this.bunifuCards2.Location = new System.Drawing.Point(39, 198);
@@ -168,18 +168,18 @@
             this.bunifuCards2.Size = new System.Drawing.Size(711, 324);
             this.bunifuCards2.TabIndex = 3;
             // 
-            // gridHistorico
+            // gridServicios
             // 
-            this.gridHistorico.AllowUserToAddRows = false;
-            this.gridHistorico.AllowUserToDeleteRows = false;
+            this.gridServicios.AllowUserToAddRows = false;
+            this.gridServicios.AllowUserToDeleteRows = false;
             dataGridViewCellStyle7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.gridHistorico.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle7;
-            this.gridHistorico.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.gridServicios.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle7;
+            this.gridServicios.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.gridHistorico.BackgroundColor = System.Drawing.Color.Gainsboro;
-            this.gridHistorico.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.gridHistorico.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            this.gridServicios.BackgroundColor = System.Drawing.Color.Gainsboro;
+            this.gridServicios.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.gridServicios.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle8.BackColor = System.Drawing.Color.SeaGreen;
             dataGridViewCellStyle8.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -187,20 +187,22 @@
             dataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.gridHistorico.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle8;
-            this.gridHistorico.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.gridHistorico.DoubleBuffered = true;
-            this.gridHistorico.EnableHeadersVisualStyles = false;
-            this.gridHistorico.HeaderBgColor = System.Drawing.Color.SeaGreen;
-            this.gridHistorico.HeaderForeColor = System.Drawing.Color.Honeydew;
-            this.gridHistorico.Location = new System.Drawing.Point(40, 78);
-            this.gridHistorico.MultiSelect = false;
-            this.gridHistorico.Name = "gridHistorico";
-            this.gridHistorico.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            this.gridHistorico.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.gridHistorico.Size = new System.Drawing.Size(634, 225);
-            this.gridHistorico.StandardTab = true;
-            this.gridHistorico.TabIndex = 407;
+            this.gridServicios.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle8;
+            this.gridServicios.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.gridServicios.DoubleBuffered = true;
+            this.gridServicios.EnableHeadersVisualStyles = false;
+            this.gridServicios.HeaderBgColor = System.Drawing.Color.SeaGreen;
+            this.gridServicios.HeaderForeColor = System.Drawing.Color.Honeydew;
+            this.gridServicios.Location = new System.Drawing.Point(40, 78);
+            this.gridServicios.MultiSelect = false;
+            this.gridServicios.Name = "gridServicios";
+            this.gridServicios.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            this.gridServicios.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.gridServicios.Size = new System.Drawing.Size(634, 225);
+            this.gridServicios.StandardTab = true;
+            this.gridServicios.TabIndex = 407;
+            this.gridServicios.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.GridHistorico_CellContentClick);
+            this.gridServicios.CellMouseDoubleClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.Edicion);
             // 
             // bunifuCustomLabel5
             // 
@@ -212,24 +214,24 @@
             this.bunifuCustomLabel5.TabIndex = 406;
             this.bunifuCustomLabel5.Text = "Listado de servicios";
             // 
-            // bunifuMetroTextbox2
+            // lblFiltro
             // 
-            this.bunifuMetroTextbox2.BorderColorFocused = System.Drawing.Color.Violet;
-            this.bunifuMetroTextbox2.BorderColorIdle = System.Drawing.Color.Purple;
-            this.bunifuMetroTextbox2.BorderColorMouseHover = System.Drawing.Color.Violet;
-            this.bunifuMetroTextbox2.BorderThickness = 2;
-            this.bunifuMetroTextbox2.characterCasing = System.Windows.Forms.CharacterCasing.Upper;
-            this.bunifuMetroTextbox2.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.bunifuMetroTextbox2.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-            this.bunifuMetroTextbox2.ForeColor = System.Drawing.Color.LightSteelBlue;
-            this.bunifuMetroTextbox2.isPassword = false;
-            this.bunifuMetroTextbox2.Location = new System.Drawing.Point(117, 38);
-            this.bunifuMetroTextbox2.Margin = new System.Windows.Forms.Padding(4);
-            this.bunifuMetroTextbox2.MaxLength = 4;
-            this.bunifuMetroTextbox2.Name = "bunifuMetroTextbox2";
-            this.bunifuMetroTextbox2.Size = new System.Drawing.Size(348, 33);
-            this.bunifuMetroTextbox2.TabIndex = 408;
-            this.bunifuMetroTextbox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.lblFiltro.BorderColorFocused = System.Drawing.Color.Violet;
+            this.lblFiltro.BorderColorIdle = System.Drawing.Color.Purple;
+            this.lblFiltro.BorderColorMouseHover = System.Drawing.Color.Violet;
+            this.lblFiltro.BorderThickness = 2;
+            this.lblFiltro.characterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.lblFiltro.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.lblFiltro.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.lblFiltro.ForeColor = System.Drawing.Color.Black;
+            this.lblFiltro.isPassword = false;
+            this.lblFiltro.Location = new System.Drawing.Point(117, 38);
+            this.lblFiltro.Margin = new System.Windows.Forms.Padding(4);
+            this.lblFiltro.MaxLength = 50;
+            this.lblFiltro.Name = "lblFiltro";
+            this.lblFiltro.Size = new System.Drawing.Size(348, 33);
+            this.lblFiltro.TabIndex = 408;
+            this.lblFiltro.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
             // bunifuCustomLabel3
             // 
@@ -252,6 +254,7 @@
             this.materialRaisedButton1.TabIndex = 407;
             this.materialRaisedButton1.Text = "buscar";
             this.materialRaisedButton1.UseVisualStyleBackColor = true;
+            this.materialRaisedButton1.Click += new System.EventHandler(this.busqueda_Click);
             // 
             // Services
             // 
@@ -268,7 +271,7 @@
             this.bunifuCards1.PerformLayout();
             this.bunifuCards2.ResumeLayout(false);
             this.bunifuCards2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.gridHistorico)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridServicios)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -276,17 +279,17 @@
         #endregion
 
         private Bunifu.Framework.UI.BunifuCards bunifuCards1;
-        private Bunifu.Framework.UI.BunifuMetroTextbox lblModelo;
+        private Bunifu.Framework.UI.BunifuMetroTextbox lblServicio;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel16;
-        private Bunifu.Framework.UI.BunifuMetroTextbox bunifuMetroTextbox1;
+        private Bunifu.Framework.UI.BunifuMetroTextbox lblValor;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel1;
         private MaterialSkin.Controls.MaterialRaisedButton btnGuardarFactura;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel2;
         private Bunifu.Framework.UI.BunifuCards bunifuCards2;
-        private Bunifu.Framework.UI.BunifuCustomDataGrid gridHistorico;
+        private Bunifu.Framework.UI.BunifuCustomDataGrid gridServicios;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel5;
         private MaterialSkin.Controls.MaterialRaisedButton materialRaisedButton1;
-        private Bunifu.Framework.UI.BunifuMetroTextbox bunifuMetroTextbox2;
+        private Bunifu.Framework.UI.BunifuMetroTextbox lblFiltro;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel3;
     }
 }

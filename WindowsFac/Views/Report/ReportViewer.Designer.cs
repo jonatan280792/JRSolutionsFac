@@ -62,7 +62,7 @@
         #endregion
 
         private CrystalDecisions.Windows.Forms.CrystalReportViewer crystalReportViewer1;
-        private WindowsFac.ReportAutolife ReportAutolife1;
         private WindowsFac.ReportAutolife ReportAutolife2;
+        public WindowsFac.ReportAutolife ReportAutolife1;
     }
 }

@@ -13,6 +13,7 @@ namespace WindowsFac.Views.Report
         public Historic()
         {
             InitializeComponent();
+            gridHistorico.HeaderBgColor = ColorTranslator.FromHtml("#880088");
         }
 
         private void btnBusqueda_Click(object sender, EventArgs e)
@@ -47,7 +48,7 @@ namespace WindowsFac.Views.Report
             DataTable table = new DataTable();
             table = _sevice.FindTable("-1");            
 
-            gridHistorico.HeaderBgColor = ColorTranslator.FromHtml("#880088");
+            
             gridHistorico.DataSource = table;
         }
 

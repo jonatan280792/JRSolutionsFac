@@ -17,6 +17,7 @@ namespace WindowsFac.Views.Servicios
         public Services()
         {
             InitializeComponent();
+            gridServicios.HeaderBgColor = ColorTranslator.FromHtml("#880088");
         }
 
         private void Services_Load(object sender, EventArgs e)
@@ -24,7 +25,34 @@ namespace WindowsFac.Views.Servicios
             DataTable table = new DataTable();
 
             table = _service.FindTable("-1");
-            gridHistorico.DataSource = table;
+            gridServicios.DataSource = table;
+        }
+
+        private void busqueda_Click(object sender, EventArgs e)
+        {
+            if (lblFiltro.Text == "")
+            {
+                MessageBox.Show("No a escrito nada aun.");
+            }
+            else
+            {
+                DataTable table = new DataTable();
+
+                table = _service.FindTable(lblFiltro.Text.Trim());
+                gridServicios.DataSource = table;
+            }
+            
+        }
+
+        private void GridHistorico_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void Edicion(object sender, DataGridViewCellMouseEventArgs e)
+        {
+            lblServicio.Text = gridServicios.SelectedCells[0].Value.ToString();
+            lblValor.Text = gridServicios.SelectedCells[1].Value.ToString();
         }
     }
 }
