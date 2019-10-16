@@ -1,0 +1,7 @@
+<?xml version="1.0" standalone="yes"?>
+<DocumentElement>
+  <ConfigFile>
+    <SQL>Data Source=ASW4237;Initial Catalog=Motor_ALW2;User ID=sa;Password=Ingsistem2018.;timeout = 180</SQL>
+	<AUTOLIFE>Data Source=ASW4237;Initial Catalog=AUTOLIFE;User ID=sa;Password=Ingsistem2018.;timeout = 120</AUTOLIFE>    
+  </ConfigFile>
+</DocumentElement>
